@@ -102,8 +102,8 @@ np.std()
 ```python
 from  matplotlib  import  pyplot  as  plt  
 # This plots a histogram  
-plt.hist(data) # bins are set auto if bins is not defined
-plt.hist(data, bins = range(2,20)) 
+plt.hist(data) # bins and range are set auto if not defined 
+plt.hist(data, bins =5, range(2,20)) 
 # This displays the histogram  
 plt.show()
 ```
@@ -111,7 +111,8 @@ plt.show()
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTUzNjU2NSw4NjMyMjU2MTUsMTkxMj
+eyJoaXN0b3J5IjpbMTI4ODc1OTUwMiw4NjMyMjU2MTUsMTkxMj
 k4NTk5NywtMTI3MTA2Nzg1MCwzMTMxMzkxODBdfQ==
 -->
