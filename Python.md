@@ -92,16 +92,24 @@ np.percentile()
 ```python
 np.std()	
 >>>>  nums  =  np.array([65,  36,  52,  91,  63,  79])  
->>>>  np.std(nums)  17.716909687891082``
-```
+>>>>  np.std(nums)  17.716909687891082
+>```
+
+## Matplotlib```
 ### Histograms
 
-
+```python
+from  matplotlib  import  pyplot  as  plt  
+# This plots a histogram  
+plt.hist(data)  
+# This displays the histogram  
+plt.show()
+```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzMjI1NjE1LDE5MTI5ODU5OTcsLTEyNz
-EwNjc4NTAsMzEzMTM5MTgwXX0=
+eyJoaXN0b3J5IjpbMTA2NTE5NTIzMiw4NjMyMjU2MTUsMTkxMj
+k4NTk5NywtMTI3MTA2Nzg1MCwzMTMxMzkxODBdfQ==
 -->
