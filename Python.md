@@ -70,7 +70,7 @@ np.mean (axis = num)  #Defulat is 0 by rows, 1 by colunms
 
 >>>  np.mean(survey_array  >  8)  0.2
 ```
-Calculate the percentage of given dataset
+### Calculate the percentage of given dataset
 ```python
 percentage = np.mean(dataset > x)
 ```
@@ -101,5 +101,6 @@ np.std()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzEwNjc4NTAsMzEzMTM5MTgwXX0=
+eyJoaXN0b3J5IjpbMTMwMDIwOTc5LC0xMjcxMDY3ODUwLDMxMz
+EzOTE4MF19
 -->
