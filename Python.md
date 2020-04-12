@@ -94,13 +94,13 @@ np.std()
 >>>>  nums  =  np.array([65,  36,  52,  91,  63,  79])  
 >>>>  np.std(nums)  17.716909687891082``
 ```
-
+# Histograms
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjk4NTk5NywtMTI3MTA2Nzg1MCwzMT
-MxMzkxODBdfQ==
+eyJoaXN0b3J5IjpbMTU4MzIwMjQ5NywxOTEyOTg1OTk3LC0xMj
+cxMDY3ODUwLDMxMzEzOTE4MF19
 -->
