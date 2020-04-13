@@ -106,8 +106,6 @@ It takes the following arguments:
 -   **P**: The probability of success
 -   **size**: The number of experiments
 ```python
-a  =  np.random.normal(0,  1,  size=100000)
-
 # Let's generate 10,000 "experiments"  # N = 10 shots  
 # P = 0.30 (30% he'll get a free throw)  
 a  =  np.random.binomial(10,  0.30,  size=10000)
@@ -138,8 +136,8 @@ helpful rules for normal distributions:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODAyMTc0OCwxNjQ2MTc1MjY0LDIwMj
-k4NzQ3MTMsLTE3MzY3MDY1NjgsMTMwMzM2MjAwNywxMjg4NzU5
-NTAyLDg2MzIyNTYxNSwxOTEyOTg1OTk3LC0xMjcxMDY3ODUwLD
-MxMzEzOTE4MF19
+eyJoaXN0b3J5IjpbNDM4MjYwMDY1LDE1MTgwMjE3NDgsMTY0Nj
+E3NTI2NCwyMDI5ODc0NzEzLC0xNzM2NzA2NTY4LDEzMDMzNjIw
+MDcsMTI4ODc1OTUwMiw4NjMyMjU2MTUsMTkxMjk4NTk5NywtMT
+I3MTA2Nzg1MCwzMTMxMzkxODBdfQ==
 -->
