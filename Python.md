@@ -154,13 +154,19 @@ Each key is a column name and each value is a list of column values. The columns
  ```python
  df1 = pd.DataFrame(['xxx,1].['yyyy',2], columns = ['string','num'
  ```
+ ### Read/write CSV
+ ```python
+pd.read_csv('my-csv-file.csv')
+df.to_csv('new-csv-file.csv')
+ ```
  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzM5NzExMCwtNjA4MzY0MjU4LDE4OD
-I3ODMyMTcsOTUzMzI0MjcwLDQzODI2MDA2NSwxNTE4MDIxNzQ4
-LDE2NDYxNzUyNjQsMjAyOTg3NDcxMywtMTczNjcwNjU2OCwxMz
-AzMzYyMDA3LDEyODg3NTk1MDIsODYzMjI1NjE1LDE5MTI5ODU5
-OTcsLTEyNzEwNjc4NTAsMzEzMTM5MTgwXX0=
+eyJoaXN0b3J5IjpbMTc5NTQ2ODA2NiwtMjE3Mzk3MTEwLC02MD
+gzNjQyNTgsMTg4Mjc4MzIxNyw5NTMzMjQyNzAsNDM4MjYwMDY1
+LDE1MTgwMjE3NDgsMTY0NjE3NTI2NCwyMDI5ODc0NzEzLC0xNz
+M2NzA2NTY4LDEzMDMzNjIwMDcsMTI4ODc1OTUwMiw4NjMyMjU2
+MTUsMTkxMjk4NTk5NywtMTI3MTA2Nzg1MCwzMTMxMzkxODBdfQ
+==
 -->
