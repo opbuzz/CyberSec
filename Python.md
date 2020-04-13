@@ -99,18 +99,6 @@ np.std()
 >>>>  np.std(nums)  17.716909687891082
 ```
 
-## Matplotlib
-
-### Histograms
-
-```python
-from  matplotlib  import  pyplot  as  plt  
-# This plots a histogram  
-plt.hist(data) # bins and range are set auto if not defined 
-plt.hist(data, bins =5, range(2,20)) 
-# This displays the histogram  
-plt.show()
-```
 ### Random
 It takes the following arguments:
 
@@ -125,7 +113,19 @@ a  =  np.random.normal(0,  1,  size=100000)
 a  =  np.random.binomial(10,  0.30,  size=10000)
 ``` 
 
-### Math rules
+## Matplotlib
+
+### Histograms
+
+```python
+from  matplotlib  import  pyplot  as  plt  
+# This plots a histogram  
+plt.hist(data) # bins and range are set auto if not defined 
+plt.hist(data, bins =5, range(2,20)) 
+# This displays the histogram  
+plt.show()
+```
+## Math rules
 
 helpful rules for normal distributions:
 
@@ -135,7 +135,8 @@ helpful rules for normal distributions:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyOTg3NDcxMywtMTczNjcwNjU2OCwxMz
-AzMzYyMDA3LDEyODg3NTk1MDIsODYzMjI1NjE1LDE5MTI5ODU5
-OTcsLTEyNzEwNjc4NTAsMzEzMTM5MTgwXX0=
+eyJoaXN0b3J5IjpbMTY0NjE3NTI2NCwyMDI5ODc0NzEzLC0xNz
+M2NzA2NTY4LDEzMDMzNjIwMDcsMTI4ODc1OTUwMiw4NjMyMjU2
+MTUsMTkxMjk4NTk5NywtMTI3MTA2Nzg1MCwzMTMxMzkxODBdfQ
+==
 -->
