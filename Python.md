@@ -152,12 +152,13 @@ Each key is a column name and each value is a list of column values. The columns
 ```
 ##### Using Lists
  ```python
- df1 = pd.DataFrame(['xxx,1].['yyyy',2], columns = ['string',
+ df1 = pd.DataFrame(['xxx,1].['yyyy',2], columns = ['string','num'
  ```
+ 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDk5NjUyNCwtNjA4MzY0MjU4LDE4OD
+eyJoaXN0b3J5IjpbLTIxNzM5NzExMCwtNjA4MzY0MjU4LDE4OD
 I3ODMyMTcsOTUzMzI0MjcwLDQzODI2MDA2NSwxNTE4MDIxNzQ4
 LDE2NDYxNzUyNjQsMjAyOTg3NDcxMywtMTczNjcwNjU2OCwxMz
 AzMzYyMDA3LDEyODg3NTk1MDIsODYzMjI1NjE1LDE5MTI5ODU5
