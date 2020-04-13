@@ -113,12 +113,9 @@ a  =  np.random.normal(0,  1,  size=100000)
 a  =  np.random.binomial(10,  0.30,  size=10000)
 ``` 
 #### To generate random numbers from a normal distribution
-
-np.random.normal(
-    loc=desired_mean,
-    scale=desired_std,
-    size=num_samples)
-
+```python
+np.random.normal(loc=desired_mean,scale=desired_std,size=num_samples)
+```
 ## Matplotlib
 
 ### Histograms
@@ -141,8 +138,8 @@ helpful rules for normal distributions:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYwNjUzMDg4LDE2NDYxNzUyNjQsMjAyOT
-g3NDcxMywtMTczNjcwNjU2OCwxMzAzMzYyMDA3LDEyODg3NTk1
-MDIsODYzMjI1NjE1LDE5MTI5ODU5OTcsLTEyNzEwNjc4NTAsMz
-EzMTM5MTgwXX0=
+eyJoaXN0b3J5IjpbMTUxODAyMTc0OCwxNjQ2MTc1MjY0LDIwMj
+k4NzQ3MTMsLTE3MzY3MDY1NjgsMTMwMzM2MjAwNywxMjg4NzU5
+NTAyLDg2MzIyNTYxNSwxOTEyOTg1OTk3LC0xMjcxMDY3ODUwLD
+MxMzEzOTE4MF19
 -->
