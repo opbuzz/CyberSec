@@ -74,7 +74,7 @@ np.mean (axis = num)  #Defulat is 0 by rows, 1 by colunms
 ```python
 percentage = np.mean(dataset > x)
 ```
-#### Calculate the probability 
+#### Calculate the probability of a given number in a dataset
 ```python
 percentage = np.mean(dataset == num)
 ```
@@ -135,7 +135,7 @@ helpful rules for normal distributions:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQzNTc2ODEsLTE3MzY3MDY1NjgsMT
-MwMzM2MjAwNywxMjg4NzU5NTAyLDg2MzIyNTYxNSwxOTEyOTg1
-OTk3LC0xMjcxMDY3ODUwLDMxMzEzOTE4MF19
+eyJoaXN0b3J5IjpbMjAyOTg3NDcxMywtMTczNjcwNjU2OCwxMz
+AzMzYyMDA3LDEyODg3NTk1MDIsODYzMjI1NjE1LDE5MTI5ODU5
+OTcsLTEyNzEwNjc4NTAsMzEzMTM5MTgwXX0=
 -->
