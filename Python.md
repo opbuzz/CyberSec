@@ -180,16 +180,22 @@ select_mul = df.iloc[num:num2]
 ```
 #### Select Rows with Logic
 ```python
-df[df.colName == 'some String' | df.colName2 != 4)
+df[(df.colName == 'some String') | (df.colName2 != 4)]
+
+# Using .isin
+df.ColName.isin('
+
 ```
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzEzNTUyNCw1NTU4Mzc1MDcsMjQ5Mj
-IxODc2LC0xNDYzNzM5MTE3LC0yMTczOTcxMTAsLTYwODM2NDI1
-OCwxODgyNzgzMjE3LDk1MzMyNDI3MCw0MzgyNjAwNjUsMTUxOD
-AyMTc0OCwxNjQ2MTc1MjY0LDIwMjk4NzQ3MTMsLTE3MzY3MDY1
-NjgsMTMwMzM2MjAwNywxMjg4NzU5NTAyLDg2MzIyNTYxNSwxOT
-EyOTg1OTk3LC0xMjcxMDY3ODUwLDMxMzEzOTE4MF19
+eyJoaXN0b3J5IjpbMTc5MzYwMzU4NSwtNzkzMTM1NTI0LDU1NT
+gzNzUwNywyNDkyMjE4NzYsLTE0NjM3MzkxMTcsLTIxNzM5NzEx
+MCwtNjA4MzY0MjU4LDE4ODI3ODMyMTcsOTUzMzI0MjcwLDQzOD
+I2MDA2NSwxNTE4MDIxNzQ4LDE2NDYxNzUyNjQsMjAyOTg3NDcx
+MywtMTczNjcwNjU2OCwxMzAzMzYyMDA3LDEyODg3NTk1MDIsOD
+YzMjI1NjE1LDE5MTI5ODU5OTcsLTEyNzEwNjc4NTAsMzEzMTM5
+MTgwXX0=
 -->
