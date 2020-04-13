@@ -191,6 +191,14 @@ df.ColName.isin(['str1','st2'])
 
 rest_index(drop, inplace):
 
+ - drop : 
+	 - True/False = Drop/Keep old index
+ - inplace :
+ 
+
+ 
+
+
 
 
 
@@ -203,11 +211,11 @@ df.reset_index(drop = True, inplace =True)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQyMjUyOTMsLTE0Mzc1ODYxMjYsLT
-c5MzEzNTUyNCw1NTU4Mzc1MDcsMjQ5MjIxODc2LC0xNDYzNzM5
-MTE3LC0yMTczOTcxMTAsLTYwODM2NDI1OCwxODgyNzgzMjE3LD
-k1MzMyNDI3MCw0MzgyNjAwNjUsMTUxODAyMTc0OCwxNjQ2MTc1
-MjY0LDIwMjk4NzQ3MTMsLTE3MzY3MDY1NjgsMTMwMzM2MjAwNy
-wxMjg4NzU5NTAyLDg2MzIyNTYxNSwxOTEyOTg1OTk3LC0xMjcx
-MDY3ODUwXX0=
+eyJoaXN0b3J5IjpbMzYxODUxMzQwLC0xNDM3NTg2MTI2LC03OT
+MxMzU1MjQsNTU1ODM3NTA3LDI0OTIyMTg3NiwtMTQ2MzczOTEx
+NywtMjE3Mzk3MTEwLC02MDgzNjQyNTgsMTg4Mjc4MzIxNyw5NT
+MzMjQyNzAsNDM4MjYwMDY1LDE1MTgwMjE3NDgsMTY0NjE3NTI2
+NCwyMDI5ODc0NzEzLC0xNzM2NzA2NTY4LDEzMDMzNjIwMDcsMT
+I4ODc1OTUwMiw4NjMyMjU2MTUsMTkxMjk4NTk5NywtMTI3MTA2
+Nzg1MF19
 -->
