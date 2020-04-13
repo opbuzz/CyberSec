@@ -112,6 +112,12 @@ a  =  np.random.normal(0,  1,  size=100000)
 # P = 0.30 (30% he'll get a free throw)  
 a  =  np.random.binomial(10,  0.30,  size=10000)
 ``` 
+#### To generate random numbers from a normal distribution
+
+np.random.normal(
+    loc=desired_mean,
+    scale=desired_std,
+    size=num_samples)
 
 ## Matplotlib
 
@@ -135,8 +141,8 @@ helpful rules for normal distributions:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjE3NTI2NCwyMDI5ODc0NzEzLC0xNz
-M2NzA2NTY4LDEzMDMzNjIwMDcsMTI4ODc1OTUwMiw4NjMyMjU2
-MTUsMTkxMjk4NTk5NywtMTI3MTA2Nzg1MCwzMTMxMzkxODBdfQ
-==
+eyJoaXN0b3J5IjpbNDYwNjUzMDg4LDE2NDYxNzUyNjQsMjAyOT
+g3NDcxMywtMTczNjcwNjU2OCwxMzAzMzYyMDA3LDEyODg3NTk1
+MDIsODYzMjI1NjE1LDE5MTI5ODU5OTcsLTEyNzEwNjc4NTAsMz
+EzMTM5MTgwXX0=
 -->
