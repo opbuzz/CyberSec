@@ -138,11 +138,16 @@ helpful rules for normal distributions:
 -   **95%**  of our samples will fall between +/- 2 standard deviations of the mean
 -   **99.7%**  of our samples will fall between +/- 3 standard deviations of the mean
 
+### Pandas
+
+ [   import panda as panda
+   
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Mjc4MzIxNyw5NTMzMjQyNzAsNDM4Mj
-YwMDY1LDE1MTgwMjE3NDgsMTY0NjE3NTI2NCwyMDI5ODc0NzEz
-LC0xNzM2NzA2NTY4LDEzMDMzNjIwMDcsMTI4ODc1OTUwMiw4Nj
-MyMjU2MTUsMTkxMjk4NTk5NywtMTI3MTA2Nzg1MCwzMTMxMzkx
-ODBdfQ==
+eyJoaXN0b3J5IjpbLTU4NTgzMzkwMSwxODgyNzgzMjE3LDk1Mz
+MyNDI3MCw0MzgyNjAwNjUsMTUxODAyMTc0OCwxNjQ2MTc1MjY0
+LDIwMjk4NzQ3MTMsLTE3MzY3MDY1NjgsMTMwMzM2MjAwNywxMj
+g4NzU5NTAyLDg2MzIyNTYxNSwxOTEyOTg1OTk3LC0xMjcxMDY3
+ODUwLDMxMzEzOTE4MF19
 -->
