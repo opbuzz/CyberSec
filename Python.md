@@ -193,13 +193,14 @@ df.ColName.isin(['str1','st2'])
 
 ```python
 
-df.reset_index(drop = True)
-# drop detrmined if a new in
+df.reset_index(drop = True, inplace =True)
+# drop : True/False = Drop/Keep old index
+# inpla
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwNDIzNDgyLC0xNDM3NTg2MTI2LC03OT
+eyJoaXN0b3J5IjpbNDM2NzM2MzE0LC0xNDM3NTg2MTI2LC03OT
 MxMzU1MjQsNTU1ODM3NTA3LDI0OTIyMTg3NiwtMTQ2MzczOTEx
 NywtMjE3Mzk3MTEwLC02MDgzNjQyNTgsMTg4Mjc4MzIxNyw5NT
 MzMjQyNzAsNDM4MjYwMDY1LDE1MTgwMjE3NDgsMTY0NjE3NTI2
