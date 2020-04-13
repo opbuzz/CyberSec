@@ -174,17 +174,19 @@ select_mul_col = df[ ['col1','col2'] ]
 ```
 #### Select by number
 ```python
-s
+select_one = df.iloc[num]
+select_mul = df.iloc[num:num2]
+
 ```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDIwNDI3MSwtMTQ2MzczOTExNywtMj
-E3Mzk3MTEwLC02MDgzNjQyNTgsMTg4Mjc4MzIxNyw5NTMzMjQy
-NzAsNDM4MjYwMDY1LDE1MTgwMjE3NDgsMTY0NjE3NTI2NCwyMD
-I5ODc0NzEzLC0xNzM2NzA2NTY4LDEzMDMzNjIwMDcsMTI4ODc1
-OTUwMiw4NjMyMjU2MTUsMTkxMjk4NTk5NywtMTI3MTA2Nzg1MC
-wzMTMxMzkxODBdfQ==
+eyJoaXN0b3J5IjpbMjQ5MjIxODc2LC0xNDYzNzM5MTE3LC0yMT
+czOTcxMTAsLTYwODM2NDI1OCwxODgyNzgzMjE3LDk1MzMyNDI3
+MCw0MzgyNjAwNjUsMTUxODAyMTc0OCwxNjQ2MTc1MjY0LDIwMj
+k4NzQ3MTMsLTE3MzY3MDY1NjgsMTMwMzM2MjAwNywxMjg4NzU5
+NTAyLDg2MzIyNTYxNSwxOTEyOTg1OTk3LC0xMjcxMDY3ODUwLD
+MxMzEzOTE4MF19
 -->
