@@ -194,24 +194,17 @@ rest_index(drop, inplace):
  - drop : 
 	 - True/False = Drop/Keep old index
  - inplace :
+ 	 - True = Make changes on current df
+ 	 - False = return a new df
  
-
- 
-
-
-
-
-
 ```python
 
 df.reset_index(drop = True, inplace =True)
-# drop : True/False = Drop/Keep old index
-# inplace: True/False = Change current/ return a new df
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxODUxMzQwLC0xNDM3NTg2MTI2LC03OT
+eyJoaXN0b3J5IjpbMjEyOTUxMTY1LC0xNDM3NTg2MTI2LC03OT
 MxMzU1MjQsNTU1ODM3NTA3LDI0OTIyMTg3NiwtMTQ2MzczOTEx
 NywtMjE3Mzk3MTEwLC02MDgzNjQyNTgsMTg4Mjc4MzIxNyw5NT
 MzMjQyNzAsNDM4MjYwMDY1LDE1MTgwMjE3NDgsMTY0NjE3NTI2
