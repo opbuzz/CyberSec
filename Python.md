@@ -145,21 +145,19 @@ Uses DataFrames which are like spreadsheets
 import panda as panda
 ```
  You can pass in a dictionary to `pd.DataFrame()`. 
- Each key is a column name and each value is a list of column values. The columns must all be the same length or you will get an error
+Each key is a column name and each value is a list of column values. The columns must all be the same length or you will get an error
 ```python
- df1  =  pd.DataFrame({'name':['xxx',  'yyy',  
- 'Joe Schmo'],
- 'address':  ['123 Main St.', '456 Maple Ave.',  '789 Broadway'],  
-  'num':  [1,  2,  3]  })
+ df1  =  pd.DataFrame({'string':['xxx',  'yyy'],
+'num':[1,  2,  3]})
  
 ```
   
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4NTQyMTc5LC02MDgzNjQyNTgsMTg4Mj
-c4MzIxNyw5NTMzMjQyNzAsNDM4MjYwMDY1LDE1MTgwMjE3NDgs
-MTY0NjE3NTI2NCwyMDI5ODc0NzEzLC0xNzM2NzA2NTY4LDEzMD
-MzNjIwMDcsMTI4ODc1OTUwMiw4NjMyMjU2MTUsMTkxMjk4NTk5
-NywtMTI3MTA2Nzg1MCwzMTMxMzkxODBdfQ==
+eyJoaXN0b3J5IjpbLTE5Nzg2OTM0NDQsLTYwODM2NDI1OCwxOD
+gyNzgzMjE3LDk1MzMyNDI3MCw0MzgyNjAwNjUsMTUxODAyMTc0
+OCwxNjQ2MTc1MjY0LDIwMjk4NzQ3MTMsLTE3MzY3MDY1NjgsMT
+MwMzM2MjAwNywxMjg4NzU5NTAyLDg2MzIyNTYxNSwxOTEyOTg1
+OTk3LC0xMjcxMDY3ODUwLDMxMzEzOTE4MF19
 -->
