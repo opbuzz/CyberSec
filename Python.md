@@ -110,13 +110,19 @@ plt.show()
 ### Random
 ```python
 a  =  np.random.normal(0,  1,  size=100000)
-```
+``` 
 
+### Math rules
 
+helpful rules for normal distributions:
+
+-   **68%**  of our samples will fall between +/- 1 standard deviation of the mean
+-   **95%**  of our samples will fall between +/- 2 standard deviations of the mean
+-   **99.7%**  of our samples will fall between +/- 3 standard deviations of the mean
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzM2MjAwNywxMjg4NzU5NTAyLDg2Mz
-IyNTYxNSwxOTEyOTg1OTk3LC0xMjcxMDY3ODUwLDMxMzEzOTE4
-MF19
+eyJoaXN0b3J5IjpbMTUzNTAxNjQ2NywxMzAzMzYyMDA3LDEyOD
+g3NTk1MDIsODYzMjI1NjE1LDE5MTI5ODU5OTcsLTEyNzEwNjc4
+NTAsMzEzMTM5MTgwXX0=
 -->
