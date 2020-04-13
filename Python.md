@@ -160,16 +160,21 @@ pd.read_csv('my-csv-file.csv')
 df.to_csv('new-csv-file.csv')
  ```
  ### Inspect DataFrame
+#### # first 5 rows Default
+
  ```python
+
+  df.head()
+  
 
  ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTE5MjkxODYsLTIxNzM5NzExMCwtNj
-A4MzY0MjU4LDE4ODI3ODMyMTcsOTUzMzI0MjcwLDQzODI2MDA2
-NSwxNTE4MDIxNzQ4LDE2NDYxNzUyNjQsMjAyOTg3NDcxMywtMT
-czNjcwNjU2OCwxMzAzMzYyMDA3LDEyODg3NTk1MDIsODYzMjI1
-NjE1LDE5MTI5ODU5OTcsLTEyNzEwNjc4NTAsMzEzMTM5MTgwXX
-0=
+eyJoaXN0b3J5IjpbLTY2MTE1NDUxMSwtMjE3Mzk3MTEwLC02MD
+gzNjQyNTgsMTg4Mjc4MzIxNyw5NTMzMjQyNzAsNDM4MjYwMDY1
+LDE1MTgwMjE3NDgsMTY0NjE3NTI2NCwyMDI5ODc0NzEzLC0xNz
+M2NzA2NTY4LDEzMDMzNjIwMDcsMTI4ODc1OTUwMiw4NjMyMjU2
+MTUsMTkxMjk4NTk5NywtMTI3MTA2Nzg1MCwzMTMxMzkxODBdfQ
+==
 -->
