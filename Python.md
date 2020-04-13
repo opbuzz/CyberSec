@@ -13,7 +13,11 @@ first_x, first_y   = first_coord
 second_x, second_y = second_coord
 ```
 
-
+## Lists
+### Sum all values in a list that are equal to x
+```python
+total  =  sum([1  for  n  in  list  if  n  ==  foo])
+```
 
 
 ## NumPy
@@ -136,8 +140,8 @@ helpful rules for normal distributions:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4MjYwMDY1LDE1MTgwMjE3NDgsMTY0Nj
-E3NTI2NCwyMDI5ODc0NzEzLC0xNzM2NzA2NTY4LDEzMDMzNjIw
-MDcsMTI4ODc1OTUwMiw4NjMyMjU2MTUsMTkxMjk4NTk5NywtMT
-I3MTA2Nzg1MCwzMTMxMzkxODBdfQ==
+eyJoaXN0b3J5IjpbOTUzMzI0MjcwLDQzODI2MDA2NSwxNTE4MD
+IxNzQ4LDE2NDYxNzUyNjQsMjAyOTg3NDcxMywtMTczNjcwNjU2
+OCwxMzAzMzYyMDA3LDEyODg3NTk1MDIsODYzMjI1NjE1LDE5MT
+I5ODU5OTcsLTEyNzEwNjc4NTAsMzEzMTM5MTgwXX0=
 -->
