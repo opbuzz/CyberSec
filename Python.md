@@ -33,7 +33,7 @@ for i in fdfd:
 csv_array = np.genfromtxt('sample.csv',delimiter=',')
 ```
 > NumPy Arrays are generally more efficient then lists
-#### Select a range
+#### Select a range using array
 
 ```python
 arr = np.array[1,2,3]
@@ -140,8 +140,9 @@ helpful rules for normal distributions:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzMzI0MjcwLDQzODI2MDA2NSwxNTE4MD
-IxNzQ4LDE2NDYxNzUyNjQsMjAyOTg3NDcxMywtMTczNjcwNjU2
-OCwxMzAzMzYyMDA3LDEyODg3NTk1MDIsODYzMjI1NjE1LDE5MT
-I5ODU5OTcsLTEyNzEwNjc4NTAsMzEzMTM5MTgwXX0=
+eyJoaXN0b3J5IjpbMTg4Mjc4MzIxNyw5NTMzMjQyNzAsNDM4Mj
+YwMDY1LDE1MTgwMjE3NDgsMTY0NjE3NTI2NCwyMDI5ODc0NzEz
+LC0xNzM2NzA2NTY4LDEzMDMzNjIwMDcsMTI4ODc1OTUwMiw4Nj
+MyMjU2MTUsMTkxMjk4NTk5NywtMTI3MTA2Nzg1MCwzMTMxMzkx
+ODBdfQ==
 -->
