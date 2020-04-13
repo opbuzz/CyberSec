@@ -139,19 +139,18 @@ helpful rules for normal distributions:
 -   **99.7%**  of our samples will fall between +/- 3 standard deviations of the mean
 
 ### Pandas
-Uses data frames
+Uses DataFrames which are like spreadsheets
 
 ```python
 import panda as panda
 ```
-
-   
+  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjIzMzk2NjgsMTg4Mjc4MzIxNyw5NT
-MzMjQyNzAsNDM4MjYwMDY1LDE1MTgwMjE3NDgsMTY0NjE3NTI2
-NCwyMDI5ODc0NzEzLC0xNzM2NzA2NTY4LDEzMDMzNjIwMDcsMT
-I4ODc1OTUwMiw4NjMyMjU2MTUsMTkxMjk4NTk5NywtMTI3MTA2
-Nzg1MCwzMTMxMzkxODBdfQ==
+eyJoaXN0b3J5IjpbLTIxODgzOTI1MSwxODgyNzgzMjE3LDk1Mz
+MyNDI3MCw0MzgyNjAwNjUsMTUxODAyMTc0OCwxNjQ2MTc1MjY0
+LDIwMjk4NzQ3MTMsLTE3MzY3MDY1NjgsMTMwMzM2MjAwNywxMj
+g4NzU5NTAyLDg2MzIyNTYxNSwxOTEyOTg1OTk3LC0xMjcxMDY3
+ODUwLDMxMzEzOTE4MF19
 -->
