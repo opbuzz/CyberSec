@@ -108,11 +108,12 @@ plt.hist(data, bins =5, range(2,20))
 plt.show()
 ```
 
-
+a  =  np.random.normal(0,  1,  size=100000)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODc1OTUwMiw4NjMyMjU2MTUsMTkxMj
-k4NTk5NywtMTI3MTA2Nzg1MCwzMTMxMzkxODBdfQ==
+eyJoaXN0b3J5IjpbLTE5NzIzNDUyMzMsMTI4ODc1OTUwMiw4Nj
+MyMjU2MTUsMTkxMjk4NTk5NywtMTI3MTA2Nzg1MCwzMTMxMzkx
+ODBdfQ==
 -->
