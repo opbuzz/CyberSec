@@ -183,7 +183,7 @@ select_mul = df.iloc[num:num2]
 df[(df.colName == 'some String') | (df.colName2 != 4)]
 
 # Using .isin
-df.ColName.isin(['str1','st2'])
+df[df.ColName.isin(['str1','st2'])]
 
 ```
 
@@ -204,11 +204,11 @@ df.reset_index(drop = True, inplace =True)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTUxMTY1LC0xNDM3NTg2MTI2LC03OT
-MxMzU1MjQsNTU1ODM3NTA3LDI0OTIyMTg3NiwtMTQ2MzczOTEx
-NywtMjE3Mzk3MTEwLC02MDgzNjQyNTgsMTg4Mjc4MzIxNyw5NT
-MzMjQyNzAsNDM4MjYwMDY1LDE1MTgwMjE3NDgsMTY0NjE3NTI2
-NCwyMDI5ODc0NzEzLC0xNzM2NzA2NTY4LDEzMDMzNjIwMDcsMT
-I4ODc1OTUwMiw4NjMyMjU2MTUsMTkxMjk4NTk5NywtMTI3MTA2
-Nzg1MF19
+eyJoaXN0b3J5IjpbMTM3NTE0OTkyMywyMTI5NTExNjUsLTE0Mz
+c1ODYxMjYsLTc5MzEzNTUyNCw1NTU4Mzc1MDcsMjQ5MjIxODc2
+LC0xNDYzNzM5MTE3LC0yMTczOTcxMTAsLTYwODM2NDI1OCwxOD
+gyNzgzMjE3LDk1MzMyNDI3MCw0MzgyNjAwNjUsMTUxODAyMTc0
+OCwxNjQ2MTc1MjY0LDIwMjk4NzQ3MTMsLTE3MzY3MDY1NjgsMT
+MwMzM2MjAwNywxMjg4NzU5NTAyLDg2MzIyNTYxNSwxOTEyOTg1
+OTk3XX0=
 -->
