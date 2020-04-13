@@ -139,25 +139,27 @@ helpful rules for normal distributions:
 -   **99.7%**  of our samples will fall between +/- 3 standard deviations of the mean
 
 ### Pandas
-Uses DataFrames which are like spreadsheets
+#### Uses DataFrames which are like spreadsheets
 
 ```python
 import panda as panda
 ```
- You can pass in a dictionary to `pd.DataFrame()`. 
+##### Using dictionary 
 Each key is a column name and each value is a list of column values. The columns must all be the same length or you will get an error
 ```python
  df1  =  pd.DataFrame({'string':['xxx',  'yyy'],
 'num':[1,  2,  3]})
- 
 ```
-  
+##### Using Lists
+ ```python
+ df1 = pd.DataFrame([\
+ ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg2OTM0NDQsLTYwODM2NDI1OCwxOD
-gyNzgzMjE3LDk1MzMyNDI3MCw0MzgyNjAwNjUsMTUxODAyMTc0
-OCwxNjQ2MTc1MjY0LDIwMjk4NzQ3MTMsLTE3MzY3MDY1NjgsMT
-MwMzM2MjAwNywxMjg4NzU5NTAyLDg2MzIyNTYxNSwxOTEyOTg1
-OTk3LC0xMjcxMDY3ODUwLDMxMzEzOTE4MF19
+eyJoaXN0b3J5IjpbNzAzNjA4OTY0LC02MDgzNjQyNTgsMTg4Mj
+c4MzIxNyw5NTMzMjQyNzAsNDM4MjYwMDY1LDE1MTgwMjE3NDgs
+MTY0NjE3NTI2NCwyMDI5ODc0NzEzLC0xNzM2NzA2NTY4LDEzMD
+MzNjIwMDcsMTI4ODc1OTUwMiw4NjMyMjU2MTUsMTkxMjk4NTk5
+NywtMTI3MTA2Nzg1MCwzMTMxMzkxODBdfQ==
 -->
