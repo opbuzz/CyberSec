@@ -110,6 +110,10 @@ plt.show()
 ### Random
 ```python
 a  =  np.random.normal(0,  1,  size=100000)
+
+# Let's generate 10,000 "experiments"  # N = 10 shots  
+# P = 0.30 (30% he'll get a free throw)  
+a  =  np.random.binomial(10,  0.30,  size=10000)
 ``` 
 
 ### Math rules
@@ -122,7 +126,7 @@ helpful rules for normal distributions:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTAxNjQ2NywxMzAzMzYyMDA3LDEyOD
+eyJoaXN0b3J5IjpbLTg3MjM4NTYzNCwxMzAzMzYyMDA3LDEyOD
 g3NTk1MDIsODYzMjI1NjE1LDE5MTI5ODU5OTcsLTEyNzEwNjc4
 NTAsMzEzMTM5MTgwXX0=
 -->
