@@ -108,6 +108,11 @@ plt.hist(data, bins =5, range(2,20))
 plt.show()
 ```
 ### Random
+It takes the following arguments:
+
+-   **N**: The number of samples or trials
+-   **P**: The probability of success
+-   **size**: The number of experiments
 ```python
 a  =  np.random.normal(0,  1,  size=100000)
 
@@ -126,7 +131,7 @@ helpful rules for normal distributions:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjM4NTYzNCwxMzAzMzYyMDA3LDEyOD
-g3NTk1MDIsODYzMjI1NjE1LDE5MTI5ODU5OTcsLTEyNzEwNjc4
-NTAsMzEzMTM5MTgwXX0=
+eyJoaXN0b3J5IjpbLTE3MzY3MDY1NjgsMTMwMzM2MjAwNywxMj
+g4NzU5NTAyLDg2MzIyNTYxNSwxOTEyOTg1OTk3LC0xMjcxMDY3
+ODUwLDMxMzEzOTE4MF19
 -->
