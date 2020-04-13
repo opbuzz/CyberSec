@@ -168,12 +168,13 @@ df.to_csv('new-csv-file.csv')
  ```
  ### Selecting columns
  ```python
-selected_df  = df['col1']
-selected_df2 = df['col1'
+select_one_cpl  = df['col1']
+select_mul_col = df[ ['col1','col2'] ]
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODEwMTA3OCwtMTQ2MzczOTExNywtMj
+eyJoaXN0b3J5IjpbLTk4OTgyNjcyNCwtMTQ2MzczOTExNywtMj
 E3Mzk3MTEwLC02MDgzNjQyNTgsMTg4Mjc4MzIxNyw5NTMzMjQy
 NzAsNDM4MjYwMDY1LDE1MTgwMjE3NDgsMTY0NjE3NTI2NCwyMD
 I5ODc0NzEzLC0xNzM2NzA2NTY4LDEzMDMzNjIwMDcsMTI4ODc1
