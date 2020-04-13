@@ -107,13 +107,16 @@ plt.hist(data, bins =5, range(2,20))
 # This displays the histogram  
 plt.show()
 ```
-
+### Random
+```python
 a  =  np.random.normal(0,  1,  size=100000)
+```
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzIzNDUyMzMsMTI4ODc1OTUwMiw4Nj
-MyMjU2MTUsMTkxMjk4NTk5NywtMTI3MTA2Nzg1MCwzMTMxMzkx
-ODBdfQ==
+eyJoaXN0b3J5IjpbMTMwMzM2MjAwNywxMjg4NzU5NTAyLDg2Mz
+IyNTYxNSwxOTEyOTg1OTk3LC0xMjcxMDY3ODUwLDMxMzEzOTE4
+MF19
 -->
