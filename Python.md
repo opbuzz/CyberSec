@@ -165,17 +165,18 @@ df.to_csv('new-csv-file.csv')
   df.head()
   # Some stat
   df.info()
-
-  
-
  ```
-
+ ### Selecting columns
+ ```python
+selected_df  = df['col1']
+selected_df2 = df['col1'
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjM3MzkxMTcsLTIxNzM5NzExMCwtNj
-A4MzY0MjU4LDE4ODI3ODMyMTcsOTUzMzI0MjcwLDQzODI2MDA2
-NSwxNTE4MDIxNzQ4LDE2NDYxNzUyNjQsMjAyOTg3NDcxMywtMT
-czNjcwNjU2OCwxMzAzMzYyMDA3LDEyODg3NTk1MDIsODYzMjI1
-NjE1LDE5MTI5ODU5OTcsLTEyNzEwNjc4NTAsMzEzMTM5MTgwXX
-0=
+eyJoaXN0b3J5IjpbMTY2ODEwMTA3OCwtMTQ2MzczOTExNywtMj
+E3Mzk3MTEwLC02MDgzNjQyNTgsMTg4Mjc4MzIxNyw5NTMzMjQy
+NzAsNDM4MjYwMDY1LDE1MTgwMjE3NDgsMTY0NjE3NTI2NCwyMD
+I5ODc0NzEzLC0xNzM2NzA2NTY4LDEzMDMzNjIwMDcsMTI4ODc1
+OTUwMiw4NjMyMjU2MTUsMTkxMjk4NTk5NywtMTI3MTA2Nzg1MC
+wzMTMxMzkxODBdfQ==
 -->
