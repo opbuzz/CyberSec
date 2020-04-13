@@ -144,11 +144,13 @@ Uses DataFrames which are like spreadsheets
 ```python
 import panda as panda
 ```
+ You can pass in a dictionary to `pd.DataFrame()`. Each key is a column name and each value is a list of column values. The columns must all be the same length or you will get an error
+ 
   
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODgzOTI1MSwxODgyNzgzMjE3LDk1Mz
+eyJoaXN0b3J5IjpbLTYwODM2NDI1OCwxODgyNzgzMjE3LDk1Mz
 MyNDI3MCw0MzgyNjAwNjUsMTUxODAyMTc0OCwxNjQ2MTc1MjY0
 LDIwMjk4NzQ3MTMsLTE3MzY3MDY1NjgsMTMwMzM2MjAwNywxMj
 g4NzU5NTAyLDg2MzIyNTYxNSwxOTEyOTg1OTk3LC0xMjcxMDY3
