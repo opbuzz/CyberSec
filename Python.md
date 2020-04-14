@@ -229,14 +229,18 @@ df[col_name] = df.col_name.apply(upper)
 
 ```
 
+### lamda on column 
+```py
+df['Email Service Provider']  = df.Email.apply(  lambda  x:  x.split('@')[-1] )
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTAxMDEwMiw5ODQ3MTMzOTcsNTYxNj
-gxNjY5LDkzODIyODg3MywxMzc1MTQ5OTIzLDIxMjk1MTE2NSwt
-MTQzNzU4NjEyNiwtNzkzMTM1NTI0LDU1NTgzNzUwNywyNDkyMj
-E4NzYsLTE0NjM3MzkxMTcsLTIxNzM5NzExMCwtNjA4MzY0MjU4
-LDE4ODI3ODMyMTcsOTUzMzI0MjcwLDQzODI2MDA2NSwxNTE4MD
-IxNzQ4LDE2NDYxNzUyNjQsMjAyOTg3NDcxMywtMTczNjcwNjU2
-OF19
+eyJoaXN0b3J5IjpbLTIyNzcxODIsOTg0NzEzMzk3LDU2MTY4MT
+Y2OSw5MzgyMjg4NzMsMTM3NTE0OTkyMywyMTI5NTExNjUsLTE0
+Mzc1ODYxMjYsLTc5MzEzNTUyNCw1NTU4Mzc1MDcsMjQ5MjIxOD
+c2LC0xNDYzNzM5MTE3LC0yMTczOTcxMTAsLTYwODM2NDI1OCwx
+ODgyNzgzMjE3LDk1MzMyNDI3MCw0MzgyNjAwNjUsMTUxODAyMT
+c0OCwxNjQ2MTc1MjY0LDIwMjk4NzQ3MTMsLTE3MzY3MDY1Njhd
+fQ==
 -->
