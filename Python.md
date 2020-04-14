@@ -204,17 +204,20 @@ df.reset_index(drop = True, inplace =True)
 ```
 ### Add new data to df
 ```python
-# To set all data in col to a singl
+# To set all data in col to a single value
 df[col_name] = newData  
+# To set data in col to diffrent values
+df(col_name) = [val1,val2,val3]
+
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTcwODA5MCwxMzc1MTQ5OTIzLDIxMj
-k1MTE2NSwtMTQzNzU4NjEyNiwtNzkzMTM1NTI0LDU1NTgzNzUw
-NywyNDkyMjE4NzYsLTE0NjM3MzkxMTcsLTIxNzM5NzExMCwtNj
-A4MzY0MjU4LDE4ODI3ODMyMTcsOTUzMzI0MjcwLDQzODI2MDA2
-NSwxNTE4MDIxNzQ4LDE2NDYxNzUyNjQsMjAyOTg3NDcxMywtMT
-czNjcwNjU2OCwxMzAzMzYyMDA3LDEyODg3NTk1MDIsODYzMjI1
-NjE1XX0=
+eyJoaXN0b3J5IjpbOTM4MjI4ODczLDEzNzUxNDk5MjMsMjEyOT
+UxMTY1LC0xNDM3NTg2MTI2LC03OTMxMzU1MjQsNTU1ODM3NTA3
+LDI0OTIyMTg3NiwtMTQ2MzczOTExNywtMjE3Mzk3MTEwLC02MD
+gzNjQyNTgsMTg4Mjc4MzIxNyw5NTMzMjQyNzAsNDM4MjYwMDY1
+LDE1MTgwMjE3NDgsMTY0NjE3NTI2NCwyMDI5ODc0NzEzLC0xNz
+M2NzA2NTY4LDEzMDMzNjIwMDcsMTI4ODc1OTUwMiw4NjMyMjU2
+MTVdfQ==
 -->
