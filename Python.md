@@ -1,4 +1,11 @@
-##
+## Lambda
+```py
+x = lambda x: x+1
+>>> x+
+
+```
+
+
 
 ## Tuples
 
@@ -222,7 +229,7 @@ df[col_name] = df.col_name.apply(upper)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzgwNjE1NSw1NjE2ODE2NjksOTM4Mj
+eyJoaXN0b3J5IjpbMTMxOTU3OTk2MCw1NjE2ODE2NjksOTM4Mj
 I4ODczLDEzNzUxNDk5MjMsMjEyOTUxMTY1LC0xNDM3NTg2MTI2
 LC03OTMxMzU1MjQsNTU1ODM3NTA3LDI0OTIyMTg3NiwtMTQ2Mz
 czOTExNywtMjE3Mzk3MTEwLC02MDgzNjQyNTgsMTg4Mjc4MzIx
