@@ -1,4 +1,4 @@
-
+##
 
 ## Tuples
 
@@ -222,7 +222,7 @@ df[col_name] = df.col_name.apply(upper)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MzcyNzM4MSw1NjE2ODE2NjksOTM4Mj
+eyJoaXN0b3J5IjpbMTA3NzgwNjE1NSw1NjE2ODE2NjksOTM4Mj
 I4ODczLDEzNzUxNDk5MjMsMjEyOTUxMTY1LC0xNDM3NTg2MTI2
 LC03OTMxMzU1MjQsNTU1ODM3NTA3LDI0OTIyMTg3NiwtMTQ2Mz
 czOTExNywtMjE3Mzk3MTEwLC02MDgzNjQyNTgsMTg4Mjc4MzIx
