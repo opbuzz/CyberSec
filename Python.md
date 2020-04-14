@@ -243,17 +243,21 @@ df['Price with Tax'] = df.apply(lambda  row:  row['Price'] * 1.075 if row['Is ta
 ```
 ### Renaming columns  with ( .columns ) and (.rename)
 ```py
-#Overwrites existing names
+# Overwrites existing names
 df.columns = ['New name', 'New name2']
+#.rename
+df.rename(columns={  'name':  'First Name',  'age':  'Age'},  inplace=True)
+
+
 
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTU0MjMxNDQsLTk1MDQ1MzgxMywtMz
-I1MjQ0ODcsLTExNTA1MjU2OTQsMTEwNDUwNDcwOSwtMjI3NzE4
-Miw5ODQ3MTMzOTcsNTYxNjgxNjY5LDkzODIyODg3MywxMzc1MT
-Q5OTIzLDIxMjk1MTE2NSwtMTQzNzU4NjEyNiwtNzkzMTM1NTI0
-LDU1NTgzNzUwNywyNDkyMjE4NzYsLTE0NjM3MzkxMTcsLTIxNz
-M5NzExMCwtNjA4MzY0MjU4LDE4ODI3ODMyMTcsOTUzMzI0Mjcw
-XX0=
+eyJoaXN0b3J5IjpbMTIxMjQxOTE4NSwtOTUwNDUzODEzLC0zMj
+UyNDQ4NywtMTE1MDUyNTY5NCwxMTA0NTA0NzA5LC0yMjc3MTgy
+LDk4NDcxMzM5Nyw1NjE2ODE2NjksOTM4MjI4ODczLDEzNzUxND
+k5MjMsMjEyOTUxMTY1LC0xNDM3NTg2MTI2LC03OTMxMzU1MjQs
+NTU1ODM3NTA3LDI0OTIyMTg3NiwtMTQ2MzczOTExNywtMjE3Mz
+k3MTEwLC02MDgzNjQyNTgsMTg4Mjc4MzIxNyw5NTMzMjQyNzBd
+fQ==
 -->
