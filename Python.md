@@ -1,10 +1,10 @@
 ## Lambda
 ```py
-x = lambda x: x+1
->>> x(5)
+func = lambda x: x+1
+>>> func(5)
 > 6
 # if statements
-lambda  x:  [OUTCOME  IF  TRUE]  if  [CONDITIONAL]  else  [OUTCOME  IF  FALSE]
+func = lambda  x:  [OUTCOME  IF  TRUE]  if  [CONDITIONAL]  else  [OUTCOME  IF  FALSE]
 
 ```
 
@@ -232,11 +232,11 @@ df[col_name] = df.col_name.apply(upper)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0NzEzMzk3LDU2MTY4MTY2OSw5MzgyMj
-g4NzMsMTM3NTE0OTkyMywyMTI5NTExNjUsLTE0Mzc1ODYxMjYs
-LTc5MzEzNTUyNCw1NTU4Mzc1MDcsMjQ5MjIxODc2LC0xNDYzNz
-M5MTE3LC0yMTczOTcxMTAsLTYwODM2NDI1OCwxODgyNzgzMjE3
-LDk1MzMyNDI3MCw0MzgyNjAwNjUsMTUxODAyMTc0OCwxNjQ2MT
-c1MjY0LDIwMjk4NzQ3MTMsLTE3MzY3MDY1NjgsMTMwMzM2MjAw
-N119
+eyJoaXN0b3J5IjpbMTQ0OTAxMDEwMiw5ODQ3MTMzOTcsNTYxNj
+gxNjY5LDkzODIyODg3MywxMzc1MTQ5OTIzLDIxMjk1MTE2NSwt
+MTQzNzU4NjEyNiwtNzkzMTM1NTI0LDU1NTgzNzUwNywyNDkyMj
+E4NzYsLTE0NjM3MzkxMTcsLTIxNzM5NzExMCwtNjA4MzY0MjU4
+LDE4ODI3ODMyMTcsOTUzMzI0MjcwLDQzODI2MDA2NSwxNTE4MD
+IxNzQ4LDE2NDYxNzUyNjQsMjAyOTg3NDcxMywtMTczNjcwNjU2
+OF19
 -->
