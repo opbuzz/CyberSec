@@ -208,16 +208,18 @@ df.reset_index(drop = True, inplace =True)
 df[col_name] = newData  
 # To set data in col to diffrent values
 df(col_name) = [val1,val2,val3]
+# Using math to create a enw col
+df(col_name) = df[col_name_other] * 2
 
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4MjI4ODczLDEzNzUxNDk5MjMsMjEyOT
-UxMTY1LC0xNDM3NTg2MTI2LC03OTMxMzU1MjQsNTU1ODM3NTA3
-LDI0OTIyMTg3NiwtMTQ2MzczOTExNywtMjE3Mzk3MTEwLC02MD
-gzNjQyNTgsMTg4Mjc4MzIxNyw5NTMzMjQyNzAsNDM4MjYwMDY1
-LDE1MTgwMjE3NDgsMTY0NjE3NTI2NCwyMDI5ODc0NzEzLC0xNz
-M2NzA2NTY4LDEzMDMzNjIwMDcsMTI4ODc1OTUwMiw4NjMyMjU2
-MTVdfQ==
+eyJoaXN0b3J5IjpbNTYxNjgxNjY5LDkzODIyODg3MywxMzc1MT
+Q5OTIzLDIxMjk1MTE2NSwtMTQzNzU4NjEyNiwtNzkzMTM1NTI0
+LDU1NTgzNzUwNywyNDkyMjE4NzYsLTE0NjM3MzkxMTcsLTIxNz
+M5NzExMCwtNjA4MzY0MjU4LDE4ODI3ODMyMTcsOTUzMzI0Mjcw
+LDQzODI2MDA2NSwxNTE4MDIxNzQ4LDE2NDYxNzUyNjQsMjAyOT
+g3NDcxMywtMTczNjcwNjU2OCwxMzAzMzYyMDA3LDEyODg3NTk1
+MDJdfQ==
 -->
