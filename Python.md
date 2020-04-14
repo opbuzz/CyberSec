@@ -213,19 +213,20 @@ df(col_name) = df[col_name_other] * 2
 
 ```
 
-### Using Functions on a column
+### Using Functions on a column with .apply
 ```python
-df[col_name] = df.col_name(upper)  
+df[col_name] = df.col_name.apply(upper)  
 
 ```
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDkwNjk0MzcsNTYxNjgxNjY5LDkzOD
-IyODg3MywxMzc1MTQ5OTIzLDIxMjk1MTE2NSwtMTQzNzU4NjEy
-NiwtNzkzMTM1NTI0LDU1NTgzNzUwNywyNDkyMjE4NzYsLTE0Nj
-M3MzkxMTcsLTIxNzM5NzExMCwtNjA4MzY0MjU4LDE4ODI3ODMy
-MTcsOTUzMzI0MjcwLDQzODI2MDA2NSwxNTE4MDIxNzQ4LDE2ND
-YxNzUyNjQsMjAyOTg3NDcxMywtMTczNjcwNjU2OCwxMzAzMzYy
-MDA3XX0=
+eyJoaXN0b3J5IjpbLTM3MzcyNzM4MSw1NjE2ODE2NjksOTM4Mj
+I4ODczLDEzNzUxNDk5MjMsMjEyOTUxMTY1LC0xNDM3NTg2MTI2
+LC03OTMxMzU1MjQsNTU1ODM3NTA3LDI0OTIyMTg3NiwtMTQ2Mz
+czOTExNywtMjE3Mzk3MTEwLC02MDgzNjQyNTgsMTg4Mjc4MzIx
+Nyw5NTMzMjQyNzAsNDM4MjYwMDY1LDE1MTgwMjE3NDgsMTY0Nj
+E3NTI2NCwyMDI5ODc0NzEzLC0xNzM2NzA2NTY4LDEzMDMzNjIw
+MDddfQ==
 -->
