@@ -223,12 +223,12 @@ df(col_name) = df[col_name_other] * 2
 
 ```
 
-### Using Functions on a column with .apply
+### Using Functions on a column with ( .apply )
 ```python
 df[col_name] = df.col_name.apply(upper)  
 ```
 
-### lamda on column 
+### Lambda use on column 
 ```py
 df['Email Service Provider']  = df.Email.apply(  lambda  x:  x.split('@')[-1] )
 # OR
@@ -236,19 +236,21 @@ get_email_sp = lambda name:  name.split(' ')[-1]
 df['Email Service Provider'] = df.Email.apply(get_email_sp)
 ```
 
-### lamda on a row
+### Lambda use on a row
 ```py
 df['Price with Tax'] = df.apply(lambda  row:  row['Price'] * 1.075 if row['Is taxed?'] == 'Yes'  else  row['Price'],  axis=1 )
 
 ```
+### Renaming columns  with ( .columns )
+```py
 
-### Renaming Columns 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2NDIwNjMwLC0zMjUyNDQ4NywtMTE1MD
-UyNTY5NCwxMTA0NTA0NzA5LC0yMjc3MTgyLDk4NDcxMzM5Nyw1
-NjE2ODE2NjksOTM4MjI4ODczLDEzNzUxNDk5MjMsMjEyOTUxMT
-Y1LC0xNDM3NTg2MTI2LC03OTMxMzU1MjQsNTU1ODM3NTA3LDI0
-OTIyMTg3NiwtMTQ2MzczOTExNywtMjE3Mzk3MTEwLC02MDgzNj
-QyNTgsMTg4Mjc4MzIxNyw5NTMzMjQyNzAsNDM4MjYwMDY1XX0=
-
+eyJoaXN0b3J5IjpbLTExODYzNzA1MTQsLTMyNTI0NDg3LC0xMT
+UwNTI1Njk0LDExMDQ1MDQ3MDksLTIyNzcxODIsOTg0NzEzMzk3
+LDU2MTY4MTY2OSw5MzgyMjg4NzMsMTM3NTE0OTkyMywyMTI5NT
+ExNjUsLTE0Mzc1ODYxMjYsLTc5MzEzNTUyNCw1NTU4Mzc1MDcs
+MjQ5MjIxODc2LC0xNDYzNzM5MTE3LC0yMTczOTcxMTAsLTYwOD
+M2NDI1OCwxODgyNzgzMjE3LDk1MzMyNDI3MCw0MzgyNjAwNjVd
+fQ==
 -->
