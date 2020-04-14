@@ -215,17 +215,17 @@ df(col_name) = df[col_name_other] * 2
 
 ### Using Functions on a column
 ```python
-df[col_name] = df.col_name  
+df[col_name] = df.col_name(upper)  
 
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzNjE1NDI0LDU2MTY4MTY2OSw5MzgyMj
-g4NzMsMTM3NTE0OTkyMywyMTI5NTExNjUsLTE0Mzc1ODYxMjYs
-LTc5MzEzNTUyNCw1NTU4Mzc1MDcsMjQ5MjIxODc2LC0xNDYzNz
-M5MTE3LC0yMTczOTcxMTAsLTYwODM2NDI1OCwxODgyNzgzMjE3
-LDk1MzMyNDI3MCw0MzgyNjAwNjUsMTUxODAyMTc0OCwxNjQ2MT
-c1MjY0LDIwMjk4NzQ3MTMsLTE3MzY3MDY1NjgsMTMwMzM2MjAw
-N119
+eyJoaXN0b3J5IjpbLTIxMDkwNjk0MzcsNTYxNjgxNjY5LDkzOD
+IyODg3MywxMzc1MTQ5OTIzLDIxMjk1MTE2NSwtMTQzNzU4NjEy
+NiwtNzkzMTM1NTI0LDU1NTgzNzUwNywyNDkyMjE4NzYsLTE0Nj
+M3MzkxMTcsLTIxNzM5NzExMCwtNjA4MzY0MjU4LDE4ODI3ODMy
+MTcsOTUzMzI0MjcwLDQzODI2MDA2NSwxNTE4MDIxNzQ4LDE2ND
+YxNzUyNjQsMjAyOTg3NDcxMywtMTczNjcwNjU2OCwxMzAzMzYy
+MDA3XX0=
 -->
