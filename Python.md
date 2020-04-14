@@ -239,14 +239,15 @@ df['Email Service Provider'] = df.Email.apply(get_email_sp)
 
 ### lamda on a row
 ```py
-df['Email Service Provider']  = df.Email.apply( lambda  x:  x.split('@')[-1] ,axis[1])
+df['Price with Tax']  =  df.apply(lambda  row:  row['Price']  *  1.075  if  row['Is taxed?']  ==  'Yes'  else  row['Price'],  axis=1  )
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA1MjU2OTQsMTEwNDUwNDcwOSwtMj
-I3NzE4Miw5ODQ3MTMzOTcsNTYxNjgxNjY5LDkzODIyODg3Mywx
-Mzc1MTQ5OTIzLDIxMjk1MTE2NSwtMTQzNzU4NjEyNiwtNzkzMT
-M1NTI0LDU1NTgzNzUwNywyNDkyMjE4NzYsLTE0NjM3MzkxMTcs
-LTIxNzM5NzExMCwtNjA4MzY0MjU4LDE4ODI3ODMyMTcsOTUzMz
-I0MjcwLDQzODI2MDA2NSwxNTE4MDIxNzQ4LDE2NDYxNzUyNjRd
-fQ==
+eyJoaXN0b3J5IjpbLTMyNTI0NDg3LC0xMTUwNTI1Njk0LDExMD
+Q1MDQ3MDksLTIyNzcxODIsOTg0NzEzMzk3LDU2MTY4MTY2OSw5
+MzgyMjg4NzMsMTM3NTE0OTkyMywyMTI5NTExNjUsLTE0Mzc1OD
+YxMjYsLTc5MzEzNTUyNCw1NTU4Mzc1MDcsMjQ5MjIxODc2LC0x
+NDYzNzM5MTE3LC0yMTczOTcxMTAsLTYwODM2NDI1OCwxODgyNz
+gzMjE3LDk1MzMyNDI3MCw0MzgyNjAwNjUsMTUxODAyMTc0OF19
+
 -->
