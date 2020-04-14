@@ -249,16 +249,14 @@ df.columns = ['New name', 'New name2']
 #.rename
 df.rename(columns={  'name':  'First Name',  'age':  'Age'},  inplace=True)
 # Misspelling one of the original column names, won't produce an error. It just won’t change anything
-
-
-
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3MzcyMTU2LC05NTA0NTM4MTMsLTMyNT
-I0NDg3LC0xMTUwNTI1Njk0LDExMDQ1MDQ3MDksLTIyNzcxODIs
-OTg0NzEzMzk3LDU2MTY4MTY2OSw5MzgyMjg4NzMsMTM3NTE0OT
-kyMywyMTI5NTExNjUsLTE0Mzc1ODYxMjYsLTc5MzEzNTUyNCw1
-NTU4Mzc1MDcsMjQ5MjIxODc2LC0xNDYzNzM5MTE3LC0yMTczOT
-cxMTAsLTYwODM2NDI1OCwxODgyNzgzMjE3LDk1MzMyNDI3MF19
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE3MTEzNDg0OTIsLTk1MDQ1MzgxMywtMz
+I1MjQ0ODcsLTExNTA1MjU2OTQsMTEwNDUwNDcwOSwtMjI3NzE4
+Miw5ODQ3MTMzOTcsNTYxNjgxNjY5LDkzODIyODg3MywxMzc1MT
+Q5OTIzLDIxMjk1MTE2NSwtMTQzNzU4NjEyNiwtNzkzMTM1NTI0
+LDU1NTgzNzUwNywyNDkyMjE4NzYsLTE0NjM3MzkxMTcsLTIxNz
+M5NzExMCwtNjA4MzY0MjU4LDE4ODI3ODMyMTcsOTUzMzI0Mjcw
+XX0=
 -->
