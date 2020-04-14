@@ -245,15 +245,16 @@ df['Price with Tax'] = df.apply(lambda  row:  row['Price'] * 1.075 if row['Is ta
 ```py
 # Overwrites existing names
 df.columns = ['New name', 'New name2']
+
 #.rename
 df.rename(columns={  'name':  'First Name',  'age':  'Age'},  inplace=True)
-
+# Misspelling one of the original column names, won't produce an error. It just won’t change anything
 
 
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjQxOTE4NSwtOTUwNDUzODEzLC0zMj
+eyJoaXN0b3J5IjpbLTU3Njc5ODk1NCwtOTUwNDUzODEzLC0zMj
 UyNDQ4NywtMTE1MDUyNTY5NCwxMTA0NTA0NzA5LC0yMjc3MTgy
 LDk4NDcxMzM5Nyw1NjE2ODE2NjksOTM4MjI4ODczLDEzNzUxND
 k5MjMsMjEyOTUxMTY1LC0xNDM3NTg2MTI2LC03OTMxMzU1MjQs
