@@ -247,16 +247,17 @@ df['Price with Tax'] = df.apply(lambda  row:  row['Price'] * 1.075 if row['Is ta
 df.columns = ['New name', 'New name2']
 
 #.rename
-df.rename(columns={  'name':  'First Name',  'age':  'Age'},  inplace=True)
+df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 # Misspelling one of the original column names, won't produce an error. It just won’t change anything
+# Uses a dict Object so use {}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTEzNDg0OTIsLTk1MDQ1MzgxMywtMz
-I1MjQ0ODcsLTExNTA1MjU2OTQsMTEwNDUwNDcwOSwtMjI3NzE4
-Miw5ODQ3MTMzOTcsNTYxNjgxNjY5LDkzODIyODg3MywxMzc1MT
-Q5OTIzLDIxMjk1MTE2NSwtMTQzNzU4NjEyNiwtNzkzMTM1NTI0
-LDU1NTgzNzUwNywyNDkyMjE4NzYsLTE0NjM3MzkxMTcsLTIxNz
-M5NzExMCwtNjA4MzY0MjU4LDE4ODI3ODMyMTcsOTUzMzI0Mjcw
-XX0=
+eyJoaXN0b3J5IjpbLTYwNzU0NzAzNiwtMTcxMTM0ODQ5MiwtOT
+UwNDUzODEzLC0zMjUyNDQ4NywtMTE1MDUyNTY5NCwxMTA0NTA0
+NzA5LC0yMjc3MTgyLDk4NDcxMzM5Nyw1NjE2ODE2NjksOTM4Mj
+I4ODczLDEzNzUxNDk5MjMsMjEyOTUxMTY1LC0xNDM3NTg2MTI2
+LC03OTMxMzU1MjQsNTU1ODM3NTA3LDI0OTIyMTg3NiwtMTQ2Mz
+czOTExNywtMjE3Mzk3MTEwLC02MDgzNjQyNTgsMTg4Mjc4MzIx
+N119
 -->
