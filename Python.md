@@ -226,7 +226,6 @@ df(col_name) = df[col_name_other] * 2
 ### Using Functions on a column with .apply
 ```python
 df[col_name] = df.col_name.apply(upper)  
-
 ```
 
 ### lamda on column 
@@ -239,15 +238,17 @@ df['Email Service Provider'] = df.Email.apply(get_email_sp)
 
 ### lamda on a row
 ```py
-df['Price with Tax']  =  df.apply(lambda  row:  row['Price']  *  1.075  if  row['Is taxed?']  ==  'Yes'  else  row['Price'],  axis=1  )
+df['Price with Tax'] = df.apply(lambda  row:  row['Price'] * 1.075 if row['Is taxed?'] == 'Yes'  else  row['Price'],  axis=1 )
 
 ```
+
+### Renaming Columns 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTI0NDg3LC0xMTUwNTI1Njk0LDExMD
-Q1MDQ3MDksLTIyNzcxODIsOTg0NzEzMzk3LDU2MTY4MTY2OSw5
-MzgyMjg4NzMsMTM3NTE0OTkyMywyMTI5NTExNjUsLTE0Mzc1OD
-YxMjYsLTc5MzEzNTUyNCw1NTU4Mzc1MDcsMjQ5MjIxODc2LC0x
-NDYzNzM5MTE3LC0yMTczOTcxMTAsLTYwODM2NDI1OCwxODgyNz
-gzMjE3LDk1MzMyNDI3MCw0MzgyNjAwNjUsMTUxODAyMTc0OF19
+eyJoaXN0b3J5IjpbOTE2NDIwNjMwLC0zMjUyNDQ4NywtMTE1MD
+UyNTY5NCwxMTA0NTA0NzA5LC0yMjc3MTgyLDk4NDcxMzM5Nyw1
+NjE2ODE2NjksOTM4MjI4ODczLDEzNzUxNDk5MjMsMjEyOTUxMT
+Y1LC0xNDM3NTg2MTI2LC03OTMxMzU1MjQsNTU1ODM3NTA3LDI0
+OTIyMTg3NiwtMTQ2MzczOTExNywtMjE3Mzk3MTEwLC02MDgzNj
+QyNTgsMTg4Mjc4MzIxNyw5NTMzMjQyNzAsNDM4MjYwMDY1XX0=
 
 -->
