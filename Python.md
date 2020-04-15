@@ -164,6 +164,10 @@ pd.read_csv('my-csv-file.csv')
 df.to_csv('new-csv-file.csv')
  ```
  ### Inspect DataFrame
+```py
+
+```
+
  ```py
   # first 5 rows Default
   df.head()
@@ -174,13 +178,12 @@ df.to_csv('new-csv-file.csv')
 #### Select by name
  ```py
 select_one_cpl  = df['col1']
-select_mul_col = df[ ['col1','col2'] ]
+select_mul_col = df[ ['col1','col2'] ] 
 ```
 #### Select by number
 ```python
 select_one = df.iloc[num]
 select_mul = df.iloc[num:num2]
-
 ```
 #### Select Rows with Logic
 ```python
@@ -277,11 +280,11 @@ df.pivot(columns='ColumnToPivot',index='ColumnToBeRows',  values='ColumnToBeValu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzMzUyNzAxLC0xMTMyODc1MjYyLC0xOT
-Y5ODgyNDYxLDEzMzYxNjYyMjQsMTY5OTg0MDQ0NiwtMTE4NTgx
-NTgwNiwtMTk0NjM0NTk3OSw1MjI3ODM4MDYsMTEwMDcyNjczMC
-wtNTQ4MDUxMDE1LDIxMzM4OTY5MzUsMTI2ODMwODY4NSwyMTQw
-NzM4OTg1LC02MDc1NDcwMzYsLTE3MTEzNDg0OTIsLTk1MDQ1Mz
-gxMywtMzI1MjQ0ODcsLTExNTA1MjU2OTQsMTEwNDUwNDcwOSwt
-MjI3NzE4Ml19
+eyJoaXN0b3J5IjpbLTI5NzI0Njc1MiwtMTEzMjg3NTI2MiwtMT
+k2OTg4MjQ2MSwxMzM2MTY2MjI0LDE2OTk4NDA0NDYsLTExODU4
+MTU4MDYsLTE5NDYzNDU5NzksNTIyNzgzODA2LDExMDA3MjY3Mz
+AsLTU0ODA1MTAxNSwyMTMzODk2OTM1LDEyNjgzMDg2ODUsMjE0
+MDczODk4NSwtNjA3NTQ3MDM2LC0xNzExMzQ4NDkyLC05NTA0NT
+M4MTMsLTMyNTI0NDg3LC0xMTUwNTI1Njk0LDExMDQ1MDQ3MDks
+LTIyNzcxODJdfQ==
 -->
