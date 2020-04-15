@@ -250,7 +250,7 @@ df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 ### Calculating Column Statistics
 
 ```py
-
+df.column_name.command()
 ```
 
 |Command | Description|
@@ -268,13 +268,12 @@ df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 
 
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTIwMTA3NCwxMTAwNzI2NzMwLC01ND
-gwNTEwMTUsMjEzMzg5NjkzNSwxMjY4MzA4Njg1LDIxNDA3Mzg5
-ODUsLTYwNzU0NzAzNiwtMTcxMTM0ODQ5MiwtOTUwNDUzODEzLC
-0zMjUyNDQ4NywtMTE1MDUyNTY5NCwxMTA0NTA0NzA5LC0yMjc3
-MTgyLDk4NDcxMzM5Nyw1NjE2ODE2NjksOTM4MjI4ODczLDEzNz
-UxNDk5MjMsMjEyOTUxMTY1LC0xNDM3NTg2MTI2LC03OTMxMzU1
-MjRdfQ==
+eyJoaXN0b3J5IjpbNTIyNzgzODA2LDExMDA3MjY3MzAsLTU0OD
+A1MTAxNSwyMTMzODk2OTM1LDEyNjgzMDg2ODUsMjE0MDczODk4
+NSwtNjA3NTQ3MDM2LC0xNzExMzQ4NDkyLC05NTA0NTM4MTMsLT
+MyNTI0NDg3LC0xMTUwNTI1Njk0LDExMDQ1MDQ3MDksLTIyNzcx
+ODIsOTg0NzEzMzk3LDU2MTY4MTY2OSw5MzgyMjg4NzMsMTM3NT
+E0OTkyMywyMTI5NTExNjUsLTE0Mzc1ODYxMjYsLTc5MzEzNTUy
+NF19
 -->
