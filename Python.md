@@ -249,10 +249,14 @@ df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 ```
 ### Calculating Column Statistics
 
-|Command|Description|
+```py
+
+```
+
+|Command | Description|
 |-|:-|
-|`mean`		|Average of all values in column|
-|`std`		|Standard deviation|
+|`mean`	|Average of all values in column|
+|`std`|Standard deviation|
 |`median`|Median
 |`max`|Maximum value in column
 |`min`|Minimum value in column
@@ -261,12 +265,16 @@ df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 |`unique`|List of unique values in column
 
 
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzg0NDUsMTEwMDcyNjczMCwtNTQ4MD
-UxMDE1LDIxMzM4OTY5MzUsMTI2ODMwODY4NSwyMTQwNzM4OTg1
-LC02MDc1NDcwMzYsLTE3MTEzNDg0OTIsLTk1MDQ1MzgxMywtMz
-I1MjQ0ODcsLTExNTA1MjU2OTQsMTEwNDUwNDcwOSwtMjI3NzE4
-Miw5ODQ3MTMzOTcsNTYxNjgxNjY5LDkzODIyODg3MywxMzc1MT
-Q5OTIzLDIxMjk1MTE2NSwtMTQzNzU4NjEyNiwtNzkzMTM1NTI0
-XX0=
+eyJoaXN0b3J5IjpbMjEyOTIwMTA3NCwxMTAwNzI2NzMwLC01ND
+gwNTEwMTUsMjEzMzg5NjkzNSwxMjY4MzA4Njg1LDIxNDA3Mzg5
+ODUsLTYwNzU0NzAzNiwtMTcxMTM0ODQ5MiwtOTUwNDUzODEzLC
+0zMjUyNDQ4NywtMTE1MDUyNTY5NCwxMTA0NTA0NzA5LC0yMjc3
+MTgyLDk4NDcxMzM5Nyw1NjE2ODE2NjksOTM4MjI4ODczLDEzNz
+UxNDk5MjMsMjEyOTUxMTY1LC0xNDM3NTg2MTI2LC03OTMxMzU1
+MjRdfQ==
 -->
