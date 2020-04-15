@@ -186,7 +186,7 @@ select_mul_col = df[ ['col1','col2'] ]
 select_one = df.iloc[num]
 select_mul = df.iloc[num:num2]
 ```
-#### Select Rows with Logic
+### Select Rows with Logic
 ```python
 df[(df.colName == 'some String') | (df.colName2 != 4)]
 
@@ -252,15 +252,15 @@ df.column_name.command()
 
 |Command | Description|
 |-|:-|
-|`mean`	|Average of all values in column|
-|`std`|Standard deviation|
+|`mean`	|Average of all values in column
+|`std`|Standard deviation
 |`median`|Median
 |`max`|Maximum value in column
 |`min`|Minimum value in column
 |`count`|Number of values in column
 |`nunique`|Number of unique values in column
 |`unique`|List of unique values in column
-|isnull| checks 
+|isnull| checks if value is null
 
 
 ### Calculating aggregate functions (.gorupby)
@@ -282,7 +282,7 @@ df.pivot(columns='ColumnToPivot',index='ColumnToBeRows',  values='ColumnToBeValu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE1NzE0MywxNTAyNTI3MzQ3LC0xMT
+eyJoaXN0b3J5IjpbLTk1NjYyOTAzMywxNTAyNTI3MzQ3LC0xMT
 MyODc1MjYyLC0xOTY5ODgyNDYxLDEzMzYxNjYyMjQsMTY5OTg0
 MDQ0NiwtMTE4NTgxNTgwNiwtMTk0NjM0NTk3OSw1MjI3ODM4MD
 YsMTEwMDcyNjczMCwtNTQ4MDUxMDE1LDIxMzM4OTY5MzUsMTI2
