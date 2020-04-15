@@ -248,13 +248,14 @@ df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 # Misspelling one of the original column names, won't produce an error. It just won’t change anything
 # Uses a dict Object so use {}
 ```
+### Calculating Column Statistics
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODMwODY4NSwyMTQwNzM4OTg1LC02MD
-c1NDcwMzYsLTE3MTEzNDg0OTIsLTk1MDQ1MzgxMywtMzI1MjQ0
-ODcsLTExNTA1MjU2OTQsMTEwNDUwNDcwOSwtMjI3NzE4Miw5OD
-Q3MTMzOTcsNTYxNjgxNjY5LDkzODIyODg3MywxMzc1MTQ5OTIz
-LDIxMjk1MTE2NSwtMTQzNzU4NjEyNiwtNzkzMTM1NTI0LDU1NT
-gzNzUwNywyNDkyMjE4NzYsLTE0NjM3MzkxMTcsLTIxNzM5NzEx
-MF19
+eyJoaXN0b3J5IjpbLTExNDI2ODg3NjYsMTI2ODMwODY4NSwyMT
+QwNzM4OTg1LC02MDc1NDcwMzYsLTE3MTEzNDg0OTIsLTk1MDQ1
+MzgxMywtMzI1MjQ0ODcsLTExNTA1MjU2OTQsMTEwNDUwNDcwOS
+wtMjI3NzE4Miw5ODQ3MTMzOTcsNTYxNjgxNjY5LDkzODIyODg3
+MywxMzc1MTQ5OTIzLDIxMjk1MTE2NSwtMTQzNzU4NjEyNiwtNz
+kzMTM1NTI0LDU1NTgzNzUwNywyNDkyMjE4NzYsLTE0NjM3Mzkx
+MTddfQ==
 -->
