@@ -249,8 +249,8 @@ df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 ```
 ### Calculating Column Statistics
 
-| Command|   Description |
-|-- |---|
+|Command|Description |
+|-|:-|
 |mean	|Average of all values in column|
 |std	|Standard deviation|
 |median	|Median
@@ -262,11 +262,11 @@ df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDcyNjczMCwtNTQ4MDUxMDE1LDIxMz
-M4OTY5MzUsMTI2ODMwODY4NSwyMTQwNzM4OTg1LC02MDc1NDcw
-MzYsLTE3MTEzNDg0OTIsLTk1MDQ1MzgxMywtMzI1MjQ0ODcsLT
-ExNTA1MjU2OTQsMTEwNDUwNDcwOSwtMjI3NzE4Miw5ODQ3MTMz
-OTcsNTYxNjgxNjY5LDkzODIyODg3MywxMzc1MTQ5OTIzLDIxMj
-k1MTE2NSwtMTQzNzU4NjEyNiwtNzkzMTM1NTI0LDU1NTgzNzUw
-N119
+eyJoaXN0b3J5IjpbNzYyNTE3OTMsMTEwMDcyNjczMCwtNTQ4MD
+UxMDE1LDIxMzM4OTY5MzUsMTI2ODMwODY4NSwyMTQwNzM4OTg1
+LC02MDc1NDcwMzYsLTE3MTEzNDg0OTIsLTk1MDQ1MzgxMywtMz
+I1MjQ0ODcsLTExNTA1MjU2OTQsMTEwNDUwNDcwOSwtMjI3NzE4
+Miw5ODQ3MTMzOTcsNTYxNjgxNjY5LDkzODIyODg3MywxMzc1MT
+Q5OTIzLDIxMjk1MTE2NSwtMTQzNzU4NjEyNiwtNzkzMTM1NTI0
+XX0=
 -->
