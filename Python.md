@@ -236,7 +236,6 @@ df['Email Service Provider'] = df.Email.apply(get_email_sp)
 ### Lambda use on a row
 ```py
 df['Price with Tax'] = df.apply(lambda  row:  row['Price'] * 1.075 if row['Is taxed?'] == 'Yes'  else  row['Price'],  axis=1 )
-
 ```
 ### Renaming columns  with ( .columns ) and (.rename)
 ```py
@@ -251,11 +250,11 @@ df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 ### Calculating Column Statistics
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzg5NjkzNSwxMjY4MzA4Njg1LDIxND
-A3Mzg5ODUsLTYwNzU0NzAzNiwtMTcxMTM0ODQ5MiwtOTUwNDUz
-ODEzLC0zMjUyNDQ4NywtMTE1MDUyNTY5NCwxMTA0NTA0NzA5LC
-0yMjc3MTgyLDk4NDcxMzM5Nyw1NjE2ODE2NjksOTM4MjI4ODcz
-LDEzNzUxNDk5MjMsMjEyOTUxMTY1LC0xNDM3NTg2MTI2LC03OT
-MxMzU1MjQsNTU1ODM3NTA3LDI0OTIyMTg3NiwtMTQ2MzczOTEx
-N119
+eyJoaXN0b3J5IjpbLTU0ODA1MTAxNSwyMTMzODk2OTM1LDEyNj
+gzMDg2ODUsMjE0MDczODk4NSwtNjA3NTQ3MDM2LC0xNzExMzQ4
+NDkyLC05NTA0NTM4MTMsLTMyNTI0NDg3LC0xMTUwNTI1Njk0LD
+ExMDQ1MDQ3MDksLTIyNzcxODIsOTg0NzEzMzk3LDU2MTY4MTY2
+OSw5MzgyMjg4NzMsMTM3NTE0OTkyMywyMTI5NTExNjUsLTE0Mz
+c1ODYxMjYsLTc5MzEzNTUyNCw1NTU4Mzc1MDcsMjQ5MjIxODc2
+XX0=
 -->
