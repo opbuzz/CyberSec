@@ -260,6 +260,7 @@ df.column_name.command()
 |`count`|Number of values in column
 |`nunique`|Number of unique values in column
 |`unique`|List of unique values in column
+|isnull| checks 
 
 
 ### Calculating aggregate functions (.gorupby)
@@ -281,11 +282,11 @@ df.pivot(columns='ColumnToPivot',index='ColumnToBeRows',  values='ColumnToBeValu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMjUyNzM0NywtMTEzMjg3NTI2MiwtMT
-k2OTg4MjQ2MSwxMzM2MTY2MjI0LDE2OTk4NDA0NDYsLTExODU4
-MTU4MDYsLTE5NDYzNDU5NzksNTIyNzgzODA2LDExMDA3MjY3Mz
-AsLTU0ODA1MTAxNSwyMTMzODk2OTM1LDEyNjgzMDg2ODUsMjE0
-MDczODk4NSwtNjA3NTQ3MDM2LC0xNzExMzQ4NDkyLC05NTA0NT
-M4MTMsLTMyNTI0NDg3LC0xMTUwNTI1Njk0LDExMDQ1MDQ3MDks
-LTIyNzcxODJdfQ==
+eyJoaXN0b3J5IjpbLTEzNzE1NzE0MywxNTAyNTI3MzQ3LC0xMT
+MyODc1MjYyLC0xOTY5ODgyNDYxLDEzMzYxNjYyMjQsMTY5OTg0
+MDQ0NiwtMTE4NTgxNTgwNiwtMTk0NjM0NTk3OSw1MjI3ODM4MD
+YsMTEwMDcyNjczMCwtNTQ4MDUxMDE1LDIxMzM4OTY5MzUsMTI2
+ODMwODY4NSwyMTQwNzM4OTg1LC02MDc1NDcwMzYsLTE3MTEzND
+g0OTIsLTk1MDQ1MzgxMywtMzI1MjQ0ODcsLTExNTA1MjU2OTQs
+MTEwNDUwNDcwOV19
 -->
