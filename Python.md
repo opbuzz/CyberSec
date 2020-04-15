@@ -249,20 +249,20 @@ df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 ```
 ### Calculating Column Statistics
 
-|Command|Description |
+|Command|Description|
 |-|:-|
-|mean	|Average of all values in column|
-|std	|Standard deviation|
-|median	|Median
-|max	|Maximum value in column
-|min	|Minimum value in column
-|count	|Number of values in column
-|nunique|Number of unique values in column
-|unique	|List of unique values in column
+|`mean`		|Average of all values in column|
+|`std`		|Standard deviation|
+|`median`|Median
+|`max`|Maximum value in column
+|`min`|Minimum value in column
+|`count`|Number of values in column
+|`nunique`|Number of unique values in column
+|`unique`|List of unique values in column
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYyNTE3OTMsMTEwMDcyNjczMCwtNTQ4MD
+eyJoaXN0b3J5IjpbLTIyMzg0NDUsMTEwMDcyNjczMCwtNTQ4MD
 UxMDE1LDIxMzM4OTY5MzUsMTI2ODMwODY4NSwyMTQwNzM4OTg1
 LC02MDc1NDcwMzYsLTE3MTEzNDg0OTIsLTk1MDQ1MzgxMywtMz
 I1MjQ0ODcsLTExNTA1MjU2OTQsMTEwNDUwNDcwOSwtMjI3NzE4
