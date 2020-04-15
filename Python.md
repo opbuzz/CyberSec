@@ -251,16 +251,21 @@ df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 
 | Command | Description |
 |- |- |
-|mean|	Average of all values in column
-|std|	Standard deviation
-|median|	Median
-|max|	Maximum value in column
-|min	Minimum value in column
-|count	Number of values in column
-|nunique	Number of unique values in column
-|unique	List of unique values in column
+|mean| Average of all values in column|
+|std	|Standard deviation|
+|median	|Median
+|max	|Maximum value in column
+|min	|Minimum value in column
+|count	|Number of values in column
+|nunique|Number of unique values in column
+|unique	|List of unique values in column
+
+|fdsf| dfs |
+|--|--|
+|  | fsd |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjkwMTM4MywtNTQ4MDUxMDE1LDIxMz
+eyJoaXN0b3J5IjpbMTUwMTc0NTY0NCwtNTQ4MDUxMDE1LDIxMz
 M4OTY5MzUsMTI2ODMwODY4NSwyMTQwNzM4OTg1LC02MDc1NDcw
 MzYsLTE3MTEzNDg0OTIsLTk1MDQ1MzgxMywtMzI1MjQ0ODcsLT
 ExNTA1MjU2OTQsMTEwNDUwNDcwOSwtMjI3NzE4Miw5ODQ3MTMz
