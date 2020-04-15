@@ -268,6 +268,8 @@ df.column_name.command()
 ### Calculating aggregate functions (.gorupby)
 ```py
 df.groupby('column1').column2.measurement()
+#Or multiple col
+df.groupby(['column1','column2']).column3.measurement()
 
 # Transform a Series into a DataFrame and move the indices into their own column.
 df.groupby('column1').column2.measurement().reset_index()
@@ -276,11 +278,11 @@ df.groupby('column1').column2.measurement().reset_index()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTg0MDQ0NiwtMTE4NTgxNTgwNiwtMT
-k0NjM0NTk3OSw1MjI3ODM4MDYsMTEwMDcyNjczMCwtNTQ4MDUx
-MDE1LDIxMzM4OTY5MzUsMTI2ODMwODY4NSwyMTQwNzM4OTg1LC
-02MDc1NDcwMzYsLTE3MTEzNDg0OTIsLTk1MDQ1MzgxMywtMzI1
-MjQ0ODcsLTExNTA1MjU2OTQsMTEwNDUwNDcwOSwtMjI3NzE4Mi
-w5ODQ3MTMzOTcsNTYxNjgxNjY5LDkzODIyODg3MywxMzc1MTQ5
-OTIzXX0=
+eyJoaXN0b3J5IjpbMTMzNjE2NjIyNCwxNjk5ODQwNDQ2LC0xMT
+g1ODE1ODA2LC0xOTQ2MzQ1OTc5LDUyMjc4MzgwNiwxMTAwNzI2
+NzMwLC01NDgwNTEwMTUsMjEzMzg5NjkzNSwxMjY4MzA4Njg1LD
+IxNDA3Mzg5ODUsLTYwNzU0NzAzNiwtMTcxMTM0ODQ5MiwtOTUw
+NDUzODEzLC0zMjUyNDQ4NywtMTE1MDUyNTY5NCwxMTA0NTA0Nz
+A5LC0yMjc3MTgyLDk4NDcxMzM5Nyw1NjE2ODE2NjksOTM4MjI4
+ODczXX0=
 -->
