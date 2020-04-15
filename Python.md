@@ -198,7 +198,7 @@ df[df.ColName.isin(['str1','st2'])]
 ```
 
 ### Setting indices
-```py
+
 rest_index(drop, inplace):
 
  - drop : 
@@ -206,9 +206,8 @@ rest_index(drop, inplace):
  - inplace :
  	 - True = Make changes on current df
  	 - False = return a new df 
-
+```py
 df.reset_index(drop = True, inplace =True)
-
 ```
 ### Add new data to df
 ```python
@@ -251,11 +250,11 @@ df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDczODk4NSwtNjA3NTQ3MDM2LC0xNz
-ExMzQ4NDkyLC05NTA0NTM4MTMsLTMyNTI0NDg3LC0xMTUwNTI1
-Njk0LDExMDQ1MDQ3MDksLTIyNzcxODIsOTg0NzEzMzk3LDU2MT
-Y4MTY2OSw5MzgyMjg4NzMsMTM3NTE0OTkyMywyMTI5NTExNjUs
-LTE0Mzc1ODYxMjYsLTc5MzEzNTUyNCw1NTU4Mzc1MDcsMjQ5Mj
-IxODc2LC0xNDYzNzM5MTE3LC0yMTczOTcxMTAsLTYwODM2NDI1
-OF19
+eyJoaXN0b3J5IjpbMTI2ODMwODY4NSwyMTQwNzM4OTg1LC02MD
+c1NDcwMzYsLTE3MTEzNDg0OTIsLTk1MDQ1MzgxMywtMzI1MjQ0
+ODcsLTExNTA1MjU2OTQsMTEwNDUwNDcwOSwtMjI3NzE4Miw5OD
+Q3MTMzOTcsNTYxNjgxNjY5LDkzODIyODg3MywxMzc1MTQ5OTIz
+LDIxMjk1MTE2NSwtMTQzNzU4NjEyNiwtNzkzMTM1NTI0LDU1NT
+gzNzUwNywyNDkyMjE4NzYsLTE0NjM3MzkxMTcsLTIxNzM5NzEx
+MF19
 -->
