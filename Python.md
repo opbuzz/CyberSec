@@ -92,12 +92,6 @@ percentage = np.mean(dataset > x)
 ```python
 percentage = np.mean(dataset == num)
 ```
-
-### Sorting and Outliers
-```python
-
-```
-
 ###  Percentiles
 ```python
 np.percentile()	
@@ -283,11 +277,11 @@ df.pivot(columns='ColumnToPivot',index='ColumnToBeRows',  values='ColumnToBeValu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI4NzUyNjIsLTE5Njk4ODI0NjEsMT
-MzNjE2NjIyNCwxNjk5ODQwNDQ2LC0xMTg1ODE1ODA2LC0xOTQ2
-MzQ1OTc5LDUyMjc4MzgwNiwxMTAwNzI2NzMwLC01NDgwNTEwMT
-UsMjEzMzg5NjkzNSwxMjY4MzA4Njg1LDIxNDA3Mzg5ODUsLTYw
-NzU0NzAzNiwtMTcxMTM0ODQ5MiwtOTUwNDUzODEzLC0zMjUyND
-Q4NywtMTE1MDUyNTY5NCwxMTA0NTA0NzA5LC0yMjc3MTgyLDk4
-NDcxMzM5N119
+eyJoaXN0b3J5IjpbMzgzMzUyNzAxLC0xMTMyODc1MjYyLC0xOT
+Y5ODgyNDYxLDEzMzYxNjYyMjQsMTY5OTg0MDQ0NiwtMTE4NTgx
+NTgwNiwtMTk0NjM0NTk3OSw1MjI3ODM4MDYsMTEwMDcyNjczMC
+wtNTQ4MDUxMDE1LDIxMzM4OTY5MzUsMTI2ODMwODY4NSwyMTQw
+NzM4OTg1LC02MDc1NDcwMzYsLTE3MTEzNDg0OTIsLTk1MDQ1Mz
+gxMywtMzI1MjQ0ODcsLTExNTA1MjU2OTQsMTEwNDUwNDcwOSwt
+MjI3NzE4Ml19
 -->
