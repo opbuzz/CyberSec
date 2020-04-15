@@ -165,12 +165,12 @@ Each key is a column name and each value is a list of column values. The columns
  df1 = pd.DataFrame(['xxx,1].['yyyy',2], columns = ['string','num'
  ```
  ### Read/write CSV
- ```python
+ ```py
 pd.read_csv('my-csv-file.csv')
 df.to_csv('new-csv-file.csv')
  ```
  ### Inspect DataFrame
- ```python
+ ```py
   # first 5 rows Default
   df.head()
   # Some stat
@@ -178,7 +178,7 @@ df.to_csv('new-csv-file.csv')
  ```
  ### Selecting columns
 #### Select by name
- ```python
+ ```py
 select_one_cpl  = df['col1']
 select_mul_col = df[ ['col1','col2'] ]
 ```
@@ -194,7 +194,6 @@ df[(df.colName == 'some String') | (df.colName2 != 4)]
 
 # Using .isin
 df[df.ColName.isin(['str1','st2'])]
-
 ```
 
 ### Setting indices
@@ -284,11 +283,11 @@ df.pivot(columns='ColumnToPivot',index='ColumnToBeRows',  values='ColumnToBeValu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njk4ODI0NjEsMTMzNjE2NjIyNCwxNj
-k5ODQwNDQ2LC0xMTg1ODE1ODA2LC0xOTQ2MzQ1OTc5LDUyMjc4
-MzgwNiwxMTAwNzI2NzMwLC01NDgwNTEwMTUsMjEzMzg5NjkzNS
-wxMjY4MzA4Njg1LDIxNDA3Mzg5ODUsLTYwNzU0NzAzNiwtMTcx
-MTM0ODQ5MiwtOTUwNDUzODEzLC0zMjUyNDQ4NywtMTE1MDUyNT
-Y5NCwxMTA0NTA0NzA5LC0yMjc3MTgyLDk4NDcxMzM5Nyw1NjE2
-ODE2NjldfQ==
+eyJoaXN0b3J5IjpbLTExMzI4NzUyNjIsLTE5Njk4ODI0NjEsMT
+MzNjE2NjIyNCwxNjk5ODQwNDQ2LC0xMTg1ODE1ODA2LC0xOTQ2
+MzQ1OTc5LDUyMjc4MzgwNiwxMTAwNzI2NzMwLC01NDgwNTEwMT
+UsMjEzMzg5NjkzNSwxMjY4MzA4Njg1LDIxNDA3Mzg5ODUsLTYw
+NzU0NzAzNiwtMTcxMTM0ODQ5MiwtOTUwNDUzODEzLC0zMjUyND
+Q4NywtMTE1MDUyNTY5NCwxMTA0NTA0NzA5LC0yMjc3MTgyLDk4
+NDcxMzM5N119
 -->
