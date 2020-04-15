@@ -249,9 +249,9 @@ df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 ```
 ### Calculating Column Statistics
 
-| Command | Description |
-|- |- |
-|mean| Average of all values in column|
+| Command|   Description |
+|-- |---|
+|mean	|Average of all values in column|
 |std	|Standard deviation|
 |median	|Median
 |max	|Maximum value in column
@@ -260,12 +260,9 @@ df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 |nunique|Number of unique values in column
 |unique	|List of unique values in column
 
-|fdsf| dfs |
-|--|--|
-|  | fsd |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTc0NTY0NCwtNTQ4MDUxMDE1LDIxMz
+eyJoaXN0b3J5IjpbMTEwMDcyNjczMCwtNTQ4MDUxMDE1LDIxMz
 M4OTY5MzUsMTI2ODMwODY4NSwyMTQwNzM4OTg1LC02MDc1NDcw
 MzYsLTE3MTEzNDg0OTIsLTk1MDQ1MzgxMywtMzI1MjQ0ODcsLT
 ExNTA1MjU2OTQsMTEwNDUwNDcwOSwtMjI3NzE4Miw5ODQ3MTMz
