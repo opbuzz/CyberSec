@@ -155,9 +155,9 @@ Each key is a column name and each value is a list of column values. The columns
 'num':[1,  2]})
 ```
 ##### Using Lists
- ```python
+ 
  df1 = pd.DataFrame(['xxx,1].['yyyy',2], columns = ['string','num'
- ```
+ 
  ### Read/write CSV
  ```py
 pd.read_csv('my-csv-file.csv')
@@ -165,21 +165,20 @@ df.to_csv('new-csv-file.csv')
  ```
  ### Inspect DataFrame
 ```py
-
+# first 5 rows Default
+df.head()
+# Some stat
+df.info()
 ```
+### Selecting columns
 
- ```py
-  # first 5 rows Default
-  df.head()
-  # Some stat
-  df.info()
- ```
- ### Selecting columns
 #### Select by name
- ```py
+
+```py
 select_one_cpl  = df['col1']
 select_mul_col = df[ ['col1','col2'] ] 
 ```
+
 #### Select by number
 ```python
 select_one = df.iloc[num]
@@ -280,7 +279,7 @@ df.pivot(columns='ColumnToPivot',index='ColumnToBeRows',  values='ColumnToBeValu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzI0Njc1MiwtMTEzMjg3NTI2MiwtMT
+eyJoaXN0b3J5IjpbMTQyNjQ1NzgyMywtMTEzMjg3NTI2MiwtMT
 k2OTg4MjQ2MSwxMzM2MTY2MjI0LDE2OTk4NDA0NDYsLTExODU4
 MTU4MDYsLTE5NDYzNDU5NzksNTIyNzgzODA2LDExMDA3MjY3Mz
 AsLTU0ODA1MTAxNSwyMTMzODk2OTM1LDEyNjgzMDg2ODUsMjE0
