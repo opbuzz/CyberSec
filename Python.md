@@ -265,7 +265,7 @@ df.column_name.command()
 |`unique`|List of unique values in column
 
 
-### Calculating aggragate functions
+### Calculating aggregate functions (.gorupby)
 ```py
 df.groupby('column1').column2.measurement()
 ```
@@ -275,7 +275,7 @@ df.groupby('column1').column2.measurement()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjA1MDk2NjYsNTIyNzgzODA2LDExMD
+eyJoaXN0b3J5IjpbLTE5NDYzNDU5NzksNTIyNzgzODA2LDExMD
 A3MjY3MzAsLTU0ODA1MTAxNSwyMTMzODk2OTM1LDEyNjgzMDg2
 ODUsMjE0MDczODk4NSwtNjA3NTQ3MDM2LC0xNzExMzQ4NDkyLC
 05NTA0NTM4MTMsLTMyNTI0NDg3LC0xMTUwNTI1Njk0LDExMDQ1
