@@ -148,7 +148,7 @@ helpful rules for normal distributions:
 -   **95%**  of our samples will fall between +/- 2 standard deviations of the mean
 -   **99.7%**  of our samples will fall between +/- 3 standard deviations of the mean
 
-### Pandas
+## Pandas
 #### Uses DataFrames which are like spreadsheets
 
 ```python
@@ -251,11 +251,11 @@ df.rename(columns={ 'name':  'First Name',  'age':  'Age'},  inplace=True)
 ### Calculating Column Statistics
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDI2ODg3NjYsMTI2ODMwODY4NSwyMT
-QwNzM4OTg1LC02MDc1NDcwMzYsLTE3MTEzNDg0OTIsLTk1MDQ1
-MzgxMywtMzI1MjQ0ODcsLTExNTA1MjU2OTQsMTEwNDUwNDcwOS
-wtMjI3NzE4Miw5ODQ3MTMzOTcsNTYxNjgxNjY5LDkzODIyODg3
-MywxMzc1MTQ5OTIzLDIxMjk1MTE2NSwtMTQzNzU4NjEyNiwtNz
-kzMTM1NTI0LDU1NTgzNzUwNywyNDkyMjE4NzYsLTE0NjM3Mzkx
-MTddfQ==
+eyJoaXN0b3J5IjpbMjEzMzg5NjkzNSwxMjY4MzA4Njg1LDIxND
+A3Mzg5ODUsLTYwNzU0NzAzNiwtMTcxMTM0ODQ5MiwtOTUwNDUz
+ODEzLC0zMjUyNDQ4NywtMTE1MDUyNTY5NCwxMTA0NTA0NzA5LC
+0yMjc3MTgyLDk4NDcxMzM5Nyw1NjE2ODE2NjksOTM4MjI4ODcz
+LDEzNzUxNDk5MjMsMjEyOTUxMTY1LC0xNDM3NTg2MTI2LC03OT
+MxMzU1MjQsNTU1ODM3NTA3LDI0OTIyMTg3NiwtMTQ2MzczOTEx
+N119
 -->
