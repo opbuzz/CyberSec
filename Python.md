@@ -275,14 +275,20 @@ df.groupby(['column1','column2']).column3.measurement()
 df.groupby('column1').column2.measurement().reset_index()
 ```
 
+### Pivot table
+
+```py
+df.pivot(columns='ColumnToPivot',index='ColumnToBeRows',  values='ColumnToBeValues')
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjE2NjIyNCwxNjk5ODQwNDQ2LC0xMT
-g1ODE1ODA2LC0xOTQ2MzQ1OTc5LDUyMjc4MzgwNiwxMTAwNzI2
-NzMwLC01NDgwNTEwMTUsMjEzMzg5NjkzNSwxMjY4MzA4Njg1LD
-IxNDA3Mzg5ODUsLTYwNzU0NzAzNiwtMTcxMTM0ODQ5MiwtOTUw
-NDUzODEzLC0zMjUyNDQ4NywtMTE1MDUyNTY5NCwxMTA0NTA0Nz
-A5LC0yMjc3MTgyLDk4NDcxMzM5Nyw1NjE2ODE2NjksOTM4MjI4
-ODczXX0=
+eyJoaXN0b3J5IjpbLTE5Njk4ODI0NjEsMTMzNjE2NjIyNCwxNj
+k5ODQwNDQ2LC0xMTg1ODE1ODA2LC0xOTQ2MzQ1OTc5LDUyMjc4
+MzgwNiwxMTAwNzI2NzMwLC01NDgwNTEwMTUsMjEzMzg5NjkzNS
+wxMjY4MzA4Njg1LDIxNDA3Mzg5ODUsLTYwNzU0NzAzNiwtMTcx
+MTM0ODQ5MiwtOTUwNDUzODEzLC0zMjUyNDQ4NywtMTE1MDUyNT
+Y5NCwxMTA0NTA0NzA5LC0yMjc3MTgyLDk4NDcxMzM5Nyw1NjE2
+ODE2NjldfQ==
 -->
