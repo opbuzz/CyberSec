@@ -269,17 +269,18 @@ df.column_name.command()
 ```py
 df.groupby('column1').column2.measurement()
 
-reset_index()
+# Transform a Series into a DataFrame and move the indices into their own column.
+df.groupby('column1').column2.measurement().reset_index()
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODU4MTU4MDYsLTE5NDYzNDU5NzksNT
-IyNzgzODA2LDExMDA3MjY3MzAsLTU0ODA1MTAxNSwyMTMzODk2
-OTM1LDEyNjgzMDg2ODUsMjE0MDczODk4NSwtNjA3NTQ3MDM2LC
-0xNzExMzQ4NDkyLC05NTA0NTM4MTMsLTMyNTI0NDg3LC0xMTUw
-NTI1Njk0LDExMDQ1MDQ3MDksLTIyNzcxODIsOTg0NzEzMzk3LD
-U2MTY4MTY2OSw5MzgyMjg4NzMsMTM3NTE0OTkyMywyMTI5NTEx
-NjVdfQ==
+eyJoaXN0b3J5IjpbMTY5OTg0MDQ0NiwtMTE4NTgxNTgwNiwtMT
+k0NjM0NTk3OSw1MjI3ODM4MDYsMTEwMDcyNjczMCwtNTQ4MDUx
+MDE1LDIxMzM4OTY5MzUsMTI2ODMwODY4NSwyMTQwNzM4OTg1LC
+02MDc1NDcwMzYsLTE3MTEzNDg0OTIsLTk1MDQ1MzgxMywtMzI1
+MjQ0ODcsLTExNTA1MjU2OTQsMTEwNDUwNDcwOSwtMjI3NzE4Mi
+w5ODQ3MTMzOTcsNTYxNjgxNjY5LDkzODIyODg3MywxMzc1MTQ5
+OTIzXX0=
 -->
