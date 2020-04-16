@@ -305,12 +305,18 @@ pd.merge( orders, customers,left_on='customer_id', right_on='id', suffixes=['_or
 ```py
 pd.merge(company_a, company_b, how='outer')
 ```
+
+### Merge (left) and (right)
+```py
+pd.merge(company_a, company_b, how='left')
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2OTczMzEsNjk1MjU4ODQ5LDE5OTc4Nz
-U4MzIsLTExODA4MjA5ODMsMTAwOTc5OTE2OCwtOTkxNjYyNDQw
-LC0xODQyNjczNzA4LC0xMzQxOTYxMDUwLDE1MDI1MjczNDcsLT
-ExMzI4NzUyNjIsLTE5Njk4ODI0NjEsMTMzNjE2NjIyNCwxNjk5
-ODQwNDQ2LC0xMTg1ODE1ODA2LC0xOTQ2MzQ1OTc5LDUyMjc4Mz
-gwNiwxMTAwNzI2NzMwLC01NDgwNTEwMTUsMjEzMzg5NjkzNSwx
-MjY4MzA4Njg1XX0=
+eyJoaXN0b3J5IjpbLTM0NjAyMzUxNSw3OTY5NzMzMSw2OTUyNT
+g4NDksMTk5Nzg3NTgzMiwtMTE4MDgyMDk4MywxMDA5Nzk5MTY4
+LC05OTE2NjI0NDAsLTE4NDI2NzM3MDgsLTEzNDE5NjEwNTAsMT
+UwMjUyNzM0NywtMTEzMjg3NTI2MiwtMTk2OTg4MjQ2MSwxMzM2
+MTY2MjI0LDE2OTk4NDA0NDYsLTExODU4MTU4MDYsLTE5NDYzND
+U5NzksNTIyNzgzODA2LDExMDA3MjY3MzAsLTU0ODA1MTAxNSwy
+MTMzODk2OTM1XX0=
 -->
