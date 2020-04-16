@@ -298,15 +298,16 @@ Start merging with the df on the left with the df on the right
  pd.merge(orders,customers,left_on='customer_id', right_on='id')
 ```
 #### Using Suffix to avoid ambiguous names for merged columns
+The default values are '_x',  '_y'  etc
 ```py
 pd.merge( orders, customers,left_on='customer_id', right_on='id', suffixes=['_order',  '_customer'] )
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjYyMzY1MCwxMDA5Nzk5MTY4LC05OT
-E2NjI0NDAsLTE4NDI2NzM3MDgsLTEzNDE5NjEwNTAsMTUwMjUy
-NzM0NywtMTEzMjg3NTI2MiwtMTk2OTg4MjQ2MSwxMzM2MTY2Mj
-I0LDE2OTk4NDA0NDYsLTExODU4MTU4MDYsLTE5NDYzNDU5Nzks
-NTIyNzgzODA2LDExMDA3MjY3MzAsLTU0ODA1MTAxNSwyMTMzOD
-k2OTM1LDEyNjgzMDg2ODUsMjE0MDczODk4NSwtNjA3NTQ3MDM2
-LC0xNzExMzQ4NDkyXX0=
+eyJoaXN0b3J5IjpbLTExODA4MjA5ODMsMTAwOTc5OTE2OCwtOT
+kxNjYyNDQwLC0xODQyNjczNzA4LC0xMzQxOTYxMDUwLDE1MDI1
+MjczNDcsLTExMzI4NzUyNjIsLTE5Njk4ODI0NjEsMTMzNjE2Nj
+IyNCwxNjk5ODQwNDQ2LC0xMTg1ODE1ODA2LC0xOTQ2MzQ1OTc5
+LDUyMjc4MzgwNiwxMTAwNzI2NzMwLC01NDgwNTEwMTUsMjEzMz
+g5NjkzNSwxMjY4MzA4Njg1LDIxNDA3Mzg5ODUsLTYwNzU0NzAz
+NiwtMTcxMTM0ODQ5Ml19
 -->
