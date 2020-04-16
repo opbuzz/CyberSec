@@ -309,14 +309,17 @@ pd.merge(company_a, company_b, how='outer')
 ```
 #### Compare data from a specific column to another (how = 'right')') OR  (how = 'left')
 ```py
+# All rows from the left df would be showen but rows with no values wuold return a NaN
 pd.merge(company_a, company_b, how='left')
 pd.merge(company_a, company_b, how='right')
 ```
+## Concatenate DataFrames (.concat)
+```py
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQxMTUyODcsNTY4NDYxMzEzLC0zND
+eyJoaXN0b3J5IjpbLTEzMzkxNDA5NjMsNTY4NDYxMzEzLC0zND
 YwMjM1MTUsNzk2OTczMzEsNjk1MjU4ODQ5LDE5OTc4NzU4MzIs
 LTExODA4MjA5ODMsMTAwOTc5OTE2OCwtOTkxNjYyNDQwLC0xOD
 QyNjczNzA4LC0xMzQxOTYxMDUwLDE1MDI1MjczNDcsLTExMzI4
