@@ -302,11 +302,11 @@ The default values are '_x',  '_y'  etc
 pd.merge( orders, customers,left_on='customer_id', right_on='id', suffixes=['_order',  '_customer'] )
 ```
 ### Merge two df with data not included in both df
-#### All data (how = 'outer')
+#### All columns (how = 'outer')
 ```py
 pd.merge(company_a, company_b, how='outer')
 ```
-
+#### from a specific coulumn (how = 'rightt')') OR  (how = 'rightt')
 ```py
 pd.merge(company_a, company_b, how='left')
 ```
@@ -314,11 +314,11 @@ pd.merge(company_a, company_b, how='left')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzM4MjMwNiw1Njg0NjEzMTMsLTM0Nj
-AyMzUxNSw3OTY5NzMzMSw2OTUyNTg4NDksMTk5Nzg3NTgzMiwt
-MTE4MDgyMDk4MywxMDA5Nzk5MTY4LC05OTE2NjI0NDAsLTE4ND
-I2NzM3MDgsLTEzNDE5NjEwNTAsMTUwMjUyNzM0NywtMTEzMjg3
-NTI2MiwtMTk2OTg4MjQ2MSwxMzM2MTY2MjI0LDE2OTk4NDA0ND
-YsLTExODU4MTU4MDYsLTE5NDYzNDU5NzksNTIyNzgzODA2LDEx
-MDA3MjY3MzBdfQ==
+eyJoaXN0b3J5IjpbLTIwMjk1NTI5ODgsNTY4NDYxMzEzLC0zND
+YwMjM1MTUsNzk2OTczMzEsNjk1MjU4ODQ5LDE5OTc4NzU4MzIs
+LTExODA4MjA5ODMsMTAwOTc5OTE2OCwtOTkxNjYyNDQwLC0xOD
+QyNjczNzA4LC0xMzQxOTYxMDUwLDE1MDI1MjczNDcsLTExMzI4
+NzUyNjIsLTE5Njk4ODI0NjEsMTMzNjE2NjIyNCwxNjk5ODQwND
+Q2LC0xMTg1ODE1ODA2LC0xOTQ2MzQ1OTc5LDUyMjc4MzgwNiwx
+MTAwNzI2NzMwXX0=
 -->
