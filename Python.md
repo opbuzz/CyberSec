@@ -292,12 +292,17 @@ new_df = DataFrame1.merge(DataFrame2),merge(DataFrame3)
 ```py
 pd.merge(df,col.rename(columns={'id': 'new_id'}))
 ```
+### Merge on Specific Columns using (left_on, right_on)
+```py
+ pd.merge(orders,customers,left_on='customer_id', right_on='id')
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTc5OTE2OCwtOTkxNjYyNDQwLC0xOD
-QyNjczNzA4LC0xMzQxOTYxMDUwLDE1MDI1MjczNDcsLTExMzI4
-NzUyNjIsLTE5Njk4ODI0NjEsMTMzNjE2NjIyNCwxNjk5ODQwND
-Q2LC0xMTg1ODE1ODA2LC0xOTQ2MzQ1OTc5LDUyMjc4MzgwNiwx
-MTAwNzI2NzMwLC01NDgwNTEwMTUsMjEzMzg5NjkzNSwxMjY4Mz
-A4Njg1LDIxNDA3Mzg5ODUsLTYwNzU0NzAzNiwtMTcxMTM0ODQ5
-MiwtOTUwNDUzODEzXX0=
+eyJoaXN0b3J5IjpbLTEwMzE1MzA4NjMsMTAwOTc5OTE2OCwtOT
+kxNjYyNDQwLC0xODQyNjczNzA4LC0xMzQxOTYxMDUwLDE1MDI1
+MjczNDcsLTExMzI4NzUyNjIsLTE5Njk4ODI0NjEsMTMzNjE2Nj
+IyNCwxNjk5ODQwNDQ2LC0xMTg1ODE1ODA2LC0xOTQ2MzQ1OTc5
+LDUyMjc4MzgwNiwxMTAwNzI2NzMwLC01NDgwNTEwMTUsMjEzMz
+g5NjkzNSwxMjY4MzA4Njg1LDIxNDA3Mzg5ODUsLTYwNzU0NzAz
+NiwtMTcxMTM0ODQ5Ml19
 -->
