@@ -281,7 +281,6 @@ df.pivot(columns='ColumnToPivot',index='ColumnToBeRows',  values='ColumnToBeValu
 
 ### Inner Merge
 ```py
-
 new_df = DataFrame1.merge(DataFrame2)
 # OR
 new_df = pd.merge(DataFrame1, DataFrame2)
@@ -307,11 +306,11 @@ pd.merge( orders, customers,left_on='customer_id', right_on='id', suffixes=['_or
 pd.merge(company_a, company_b, how='outer')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1MjU4ODQ5LDE5OTc4NzU4MzIsLTExOD
-A4MjA5ODMsMTAwOTc5OTE2OCwtOTkxNjYyNDQwLC0xODQyNjcz
-NzA4LC0xMzQxOTYxMDUwLDE1MDI1MjczNDcsLTExMzI4NzUyNj
-IsLTE5Njk4ODI0NjEsMTMzNjE2NjIyNCwxNjk5ODQwNDQ2LC0x
-MTg1ODE1ODA2LC0xOTQ2MzQ1OTc5LDUyMjc4MzgwNiwxMTAwNz
-I2NzMwLC01NDgwNTEwMTUsMjEzMzg5NjkzNSwxMjY4MzA4Njg1
-LDIxNDA3Mzg5ODVdfQ==
+eyJoaXN0b3J5IjpbNzk2OTczMzEsNjk1MjU4ODQ5LDE5OTc4Nz
+U4MzIsLTExODA4MjA5ODMsMTAwOTc5OTE2OCwtOTkxNjYyNDQw
+LC0xODQyNjczNzA4LC0xMzQxOTYxMDUwLDE1MDI1MjczNDcsLT
+ExMzI4NzUyNjIsLTE5Njk4ODI0NjEsMTMzNjE2NjIyNCwxNjk5
+ODQwNDQ2LC0xMTg1ODE1ODA2LC0xOTQ2MzQ1OTc5LDUyMjc4Mz
+gwNiwxMTAwNzI2NzMwLC01NDgwNTEwMTUsMjEzMzg5NjkzNSwx
+MjY4MzA4Njg1XX0=
 -->
