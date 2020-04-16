@@ -297,9 +297,12 @@ Start merging with the df on the left with the df on the right
 ```py
  pd.merge(orders,customers,left_on='customer_id', right_on='id')
 ```
-#### Using Suffix to avoid ambiogus name
+#### Using Suffix to avoid ambiguous names for merged columns
+```py
+pd.merge( orders, customers,left_on='customer_id', right_on='id', suffixes=['_order',  '_customer'] )
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODY1NTgyNiwxMDA5Nzk5MTY4LC05OT
+eyJoaXN0b3J5IjpbMTYyMjYyMzY1MCwxMDA5Nzk5MTY4LC05OT
 E2NjI0NDAsLTE4NDI2NzM3MDgsLTEzNDE5NjEwNTAsMTUwMjUy
 NzM0NywtMTEzMjg3NTI2MiwtMTk2OTg4MjQ2MSwxMzM2MTY2Mj
 I0LDE2OTk4NDA0NDYsLTExODU4MTU4MDYsLTE5NDYzNDU5Nzks
