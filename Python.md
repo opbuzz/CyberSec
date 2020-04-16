@@ -1,3 +1,6 @@
+
+
+
 ## Lambda
 ```py
 func = lambda x: x+1
@@ -7,8 +10,6 @@ func = lambda x: x+1
 func = lambda  x:  [OUTCOME  IF  TRUE]  if  [CONDITIONAL]  else  [OUTCOME  IF  FALSE]
 
 ```
-
-
 
 ## Tuples
 
@@ -306,15 +307,16 @@ pd.merge( orders, customers,left_on='customer_id', right_on='id', suffixes=['_or
 ```py
 pd.merge(company_a, company_b, how='outer')
 ```
-#### from a specific coulumn (how = 'rightt')') OR  (how = 'rightt')
+#### compare data only from a specific coulmn (how = 'right')') OR  (how = 'left')
 ```py
 pd.merge(company_a, company_b, how='left')
+pd.merge(company_a, company_b, how='right')
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk1NTI5ODgsNTY4NDYxMzEzLC0zND
+eyJoaXN0b3J5IjpbLTE3MTU5ODYzMzgsNTY4NDYxMzEzLC0zND
 YwMjM1MTUsNzk2OTczMzEsNjk1MjU4ODQ5LDE5OTc4NzU4MzIs
 LTExODA4MjA5ODMsMTAwOTc5OTE2OCwtOTkxNjYyNDQwLC0xOD
 QyNjczNzA4LC0xMzQxOTYxMDUwLDE1MDI1MjczNDcsLTExMzI4
