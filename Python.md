@@ -285,10 +285,11 @@ df.pivot(columns='ColumnToPivot',index='ColumnToBeRows',  values='ColumnToBeValu
 new_df = DataFrame1.merge(DataFrame2)
 # OR
 new_df = pd.merge(DataFrame1, DataFrame2)
-
+# OR
+new_df = DataFrame1.merge(DataFrame2),
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzY5NTk3OCwtMTg0MjY3MzcwOCwtMT
+eyJoaXN0b3J5IjpbLTgwNzIxNDk4MCwtMTg0MjY3MzcwOCwtMT
 M0MTk2MTA1MCwxNTAyNTI3MzQ3LC0xMTMyODc1MjYyLC0xOTY5
 ODgyNDYxLDEzMzYxNjYyMjQsMTY5OTg0MDQ0NiwtMTE4NTgxNT
 gwNiwtMTk0NjM0NTk3OSw1MjI3ODM4MDYsMTEwMDcyNjczMCwt
