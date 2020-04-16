@@ -288,13 +288,16 @@ new_df = pd.merge(DataFrame1, DataFrame2)
 # would merge df1 to df2 and then the new one to df3
 new_df = DataFrame1.merge(DataFrame2),merge(DataFrame3)
 ```
-###
+###  Merge on Specific Columns using (.rename)
+```py
+pd.merge(df,col.rename(columns={'id': 'new_id'}))
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc5MzcxOTEsLTk5MTY2MjQ0MCwtMT
-g0MjY3MzcwOCwtMTM0MTk2MTA1MCwxNTAyNTI3MzQ3LC0xMTMy
-ODc1MjYyLC0xOTY5ODgyNDYxLDEzMzYxNjYyMjQsMTY5OTg0MD
-Q0NiwtMTE4NTgxNTgwNiwtMTk0NjM0NTk3OSw1MjI3ODM4MDYs
-MTEwMDcyNjczMCwtNTQ4MDUxMDE1LDIxMzM4OTY5MzUsMTI2OD
-MwODY4NSwyMTQwNzM4OTg1LC02MDc1NDcwMzYsLTE3MTEzNDg0
-OTIsLTk1MDQ1MzgxM119
+eyJoaXN0b3J5IjpbMTAwOTc5OTE2OCwtOTkxNjYyNDQwLC0xOD
+QyNjczNzA4LC0xMzQxOTYxMDUwLDE1MDI1MjczNDcsLTExMzI4
+NzUyNjIsLTE5Njk4ODI0NjEsMTMzNjE2NjIyNCwxNjk5ODQwND
+Q2LC0xMTg1ODE1ODA2LC0xOTQ2MzQ1OTc5LDUyMjc4MzgwNiwx
+MTAwNzI2NzMwLC01NDgwNTEwMTUsMjEzMzg5NjkzNSwxMjY4Mz
+A4Njg1LDIxNDA3Mzg5ODUsLTYwNzU0NzAzNiwtMTcxMTM0ODQ5
+MiwtOTUwNDUzODEzXX0=
 -->
