@@ -144,18 +144,18 @@ helpful rules for normal distributions:
 -   **99.7%**  of our samples will fall between +/- 3 standard deviations of the mean
 
 ## Pandas
-#### Uses DataFrames which are like spreadsheets
+### Uses DataFrames which are like spreadsheets
 
 ```python
 import panda as panda
 ```
-##### Using dictionary 
+### Using dictionary 
 Each key is a column name and each value is a list of column values. The columns must all be the same length or you will get an error
 ```python
  df1  =  pd.DataFrame({'string':['xxx',  'yyy'],
 'num':[1,  2]})
 ```
-##### Using Lists
+### Using Lists
 ```py
  df1 = pd.DataFrame(['xxx,1].['yyyy',2], columns = ['string','num']
 ```
@@ -307,7 +307,7 @@ pd.merge( orders, customers,left_on='customer_id', right_on='id', suffixes=['_or
 ```py
 pd.merge(company_a, company_b, how='outer')
 ```
-#### compare data only from a specific coulmn (how = 'right')') OR  (how = 'left')
+#### Compare data from a specific column to another (how = 'right')') OR  (how = 'left')
 ```py
 pd.merge(company_a, company_b, how='left')
 pd.merge(company_a, company_b, how='right')
@@ -316,7 +316,7 @@ pd.merge(company_a, company_b, how='right')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU5ODYzMzgsNTY4NDYxMzEzLC0zND
+eyJoaXN0b3J5IjpbLTEyMzQxMTUyODcsNTY4NDYxMzEzLC0zND
 YwMjM1MTUsNzk2OTczMzEsNjk1MjU4ODQ5LDE5OTc4NzU4MzIs
 LTExODA4MjA5ODMsMTAwOTc5OTE2OCwtOTkxNjYyNDQwLC0xOD
 QyNjczNzA4LC0xMzQxOTYxMDUwLDE1MDI1MjczNDcsLTExMzI4
