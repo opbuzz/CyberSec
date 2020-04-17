@@ -35,55 +35,14 @@ print('this is {x}'
 |:-|:-|
 `\newline`|Backslash and newline ignored
 Backslash (`\`)|print("\\")
-`\'`|Single quote (`'`)|
-`\"`|Double quote (`"`)
-`\a`|ASCII Bell (BEL)
-`\b`|ASCII Backspace (BS)
-
-print("Hello \b World!")
-
-RESULT
-
-Hello  World!
-
-`\f`
-
-ASCII Formfeed (FF)
-
-print("Hello \f World!")
-
-RESULT
-
-Hello  World!
-
-`\n`
-
-ASCII Linefeed (LF)
-
-print("Hello \n World!")
-
-RESULT
-
-Hello 
- World!
-
-`\r`
-
-ASCII Carriage Return (CR)
-
-print("Hello \r World!")
-
-RESULT
-
-Hello 
- World!
-
-`\t`
-
-ASCII Horizontal Tab (TAB)
-
-print("Hello \t World!")
-
+`\'`| Single quote (`'`)|
+`\"`| Double quote (`"`)
+`\a`| ASCII Bell (BEL)
+`\b`| ASCII Backspace (BS)
+`\f`| ASCII Formfeed (FF)
+`\n`| ASCII Linefeed (LF)
+`\r`| ASCII Carriage Return (CR)
+`\t`| ASCII Horizontal Tab (TAB)
 RESULT
 
 Hello      World!
@@ -439,11 +398,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0OTM5NDY5LDMzNzIwMTAwNywtNjAzMT
-M0ODA1LC0xOTEwMjYxOTk2LDE5MjIzNTc1NzYsLTI3Njg1NjAw
-MSw1Njg0NjEzMTMsLTM0NjAyMzUxNSw3OTY5NzMzMSw2OTUyNT
-g4NDksMTk5Nzg3NTgzMiwtMTE4MDgyMDk4MywxMDA5Nzk5MTY4
-LC05OTE2NjI0NDAsLTE4NDI2NzM3MDgsLTEzNDE5NjEwNTAsMT
-UwMjUyNzM0NywtMTEzMjg3NTI2MiwtMTk2OTg4MjQ2MSwxMzM2
-MTY2MjI0XX0=
+eyJoaXN0b3J5IjpbMjAyNzAwNzYyOCw0NjQ5Mzk0NjksMzM3Mj
+AxMDA3LC02MDMxMzQ4MDUsLTE5MTAyNjE5OTYsMTkyMjM1NzU3
+NiwtMjc2ODU2MDAxLDU2ODQ2MTMxMywtMzQ2MDIzNTE1LDc5Nj
+k3MzMxLDY5NTI1ODg0OSwxOTk3ODc1ODMyLC0xMTgwODIwOTgz
+LDEwMDk3OTkxNjgsLTk5MTY2MjQ0MCwtMTg0MjY3MzcwOCwtMT
+M0MTk2MTA1MCwxNTAyNTI3MzQ3LC0xMTMyODc1MjYyLC0xOTY5
+ODgyNDYxXX0=
 -->
