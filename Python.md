@@ -22,6 +22,14 @@ print(text.format('kite')
 print(text.format(5))
 # Output -> it is a 5
 ```
+
+### Input from user
+If `end = ' '` then then `print()` 
+```py
+name = input(name, end =' ')
+print(name)
+```
+
 ### When there is only one variable 
 ```py 
 x = 5
@@ -369,11 +377,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzE2OTI2NDEsNDY0OTM5NDY5LDMzNz
-IwMTAwNywtNjAzMTM0ODA1LC0xOTEwMjYxOTk2LDE5MjIzNTc1
-NzYsLTI3Njg1NjAwMSw1Njg0NjEzMTMsLTM0NjAyMzUxNSw3OT
-Y5NzMzMSw2OTUyNTg4NDksMTk5Nzg3NTgzMiwtMTE4MDgyMDk4
-MywxMDA5Nzk5MTY4LC05OTE2NjI0NDAsLTE4NDI2NzM3MDgsLT
-EzNDE5NjEwNTAsMTUwMjUyNzM0NywtMTEzMjg3NTI2MiwtMTk2
-OTg4MjQ2MV19
+eyJoaXN0b3J5IjpbMTU3NzA3MzE4MiwtMTkzMTY5MjY0MSw0Nj
+Q5Mzk0NjksMzM3MjAxMDA3LC02MDMxMzQ4MDUsLTE5MTAyNjE5
+OTYsMTkyMjM1NzU3NiwtMjc2ODU2MDAxLDU2ODQ2MTMxMywtMz
+Q2MDIzNTE1LDc5Njk3MzMxLDY5NTI1ODg0OSwxOTk3ODc1ODMy
+LC0xMTgwODIwOTgzLDEwMDk3OTkxNjgsLTk5MTY2MjQ0MCwtMT
+g0MjY3MzcwOCwtMTM0MTk2MTA1MCwxNTAyNTI3MzQ3LC0xMTMy
+ODc1MjYyXX0=
 -->
