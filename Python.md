@@ -34,43 +34,11 @@ print('this is {x}'
 |Escape| What it does  |
 |:-|:-|
 `\newline`|Backslash and newline ignored
-ackslash (`\`)
-
-print("\\")
-
-RESULT
-
-\
-
-`\'`
-
-Single quote (`'`)
-
-print('\'')
-
-RESULT
-
-'
-
-`\"`
-
-Double quote (`"`)
-
-print("\"")
-
-RESULT
-
-"
-
-`\a`
-
-ASCII Bell (BEL)
-
-print("\a")
-
-`\b`
-
-ASCII Backspace (BS)
+Backslash (`\`)|print("\\")
+`\'`|Single quote (`'`)|
+`\"`|Double quote (`"`)
+`\a`|ASCII Bell (BEL)
+`\b`|ASCII Backspace (BS)
 
 print("Hello \b World!")
 
@@ -471,11 +439,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjI5ODk0NTMsMzM3MjAxMDA3LC02MD
-MxMzQ4MDUsLTE5MTAyNjE5OTYsMTkyMjM1NzU3NiwtMjc2ODU2
-MDAxLDU2ODQ2MTMxMywtMzQ2MDIzNTE1LDc5Njk3MzMxLDY5NT
-I1ODg0OSwxOTk3ODc1ODMyLC0xMTgwODIwOTgzLDEwMDk3OTkx
-NjgsLTk5MTY2MjQ0MCwtMTg0MjY3MzcwOCwtMTM0MTk2MTA1MC
-wxNTAyNTI3MzQ3LC0xMTMyODc1MjYyLC0xOTY5ODgyNDYxLDEz
-MzYxNjYyMjRdfQ==
+eyJoaXN0b3J5IjpbNDY0OTM5NDY5LDMzNzIwMTAwNywtNjAzMT
+M0ODA1LC0xOTEwMjYxOTk2LDE5MjIzNTc1NzYsLTI3Njg1NjAw
+MSw1Njg0NjEzMTMsLTM0NjAyMzUxNSw3OTY5NzMzMSw2OTUyNT
+g4NDksMTk5Nzg3NTgzMiwtMTE4MDgyMDk4MywxMDA5Nzk5MTY4
+LC05OTE2NjI0NDAsLTE4NDI2NzM3MDgsLTEzNDE5NjEwNTAsMT
+UwMjUyNzM0NywtMTEzMjg3NTI2MiwtMTk2OTg4MjQ2MSwxMzM2
+MTY2MjI0XX0=
 -->
