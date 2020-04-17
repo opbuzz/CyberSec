@@ -13,7 +13,12 @@ print(f'this is {x} and {y}'
 #OR
 print('this is {x} and {y}'.format(x,y)
 ```
-If you use `
+If you use `{}` in a string,  each call with .formatter would change its values
+```py
+text = "it is a {}"
+print(text.format('plane')
+print(tex
+```
 
 
 #### When there is only one variable 
@@ -345,11 +350,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTczMzE1ODAsLTYwMzEzNDgwNSwtMT
-kxMDI2MTk5NiwxOTIyMzU3NTc2LC0yNzY4NTYwMDEsNTY4NDYx
-MzEzLC0zNDYwMjM1MTUsNzk2OTczMzEsNjk1MjU4ODQ5LDE5OT
-c4NzU4MzIsLTExODA4MjA5ODMsMTAwOTc5OTE2OCwtOTkxNjYy
-NDQwLC0xODQyNjczNzA4LC0xMzQxOTYxMDUwLDE1MDI1MjczND
-csLTExMzI4NzUyNjIsLTE5Njk4ODI0NjEsMTMzNjE2NjIyNCwx
-Njk5ODQwNDQ2XX0=
+eyJoaXN0b3J5IjpbNzEzOTEzNDY4LC02MDMxMzQ4MDUsLTE5MT
+AyNjE5OTYsMTkyMjM1NzU3NiwtMjc2ODU2MDAxLDU2ODQ2MTMx
+MywtMzQ2MDIzNTE1LDc5Njk3MzMxLDY5NTI1ODg0OSwxOTk3OD
+c1ODMyLC0xMTgwODIwOTgzLDEwMDk3OTkxNjgsLTk5MTY2MjQ0
+MCwtMTg0MjY3MzcwOCwtMTM0MTk2MTA1MCwxNTAyNTI3MzQ3LC
+0xMTMyODc1MjYyLC0xOTY5ODgyNDYxLDEzMzYxNjYyMjQsMTY5
+OTg0MDQ0Nl19
 -->
