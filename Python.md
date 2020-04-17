@@ -1,8 +1,9 @@
 ## Strings
 Can print variables without using .format()
-```py
-
-print('this is {x}')
+```py 
+x = 4
+print('this is {x}'
+# Output -> this is 5
 ```
 
 
@@ -326,7 +327,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTM3MTMwMiwtMjc2ODU2MDAxLDU2OD
+eyJoaXN0b3J5IjpbMTkyMjM1NzU3NiwtMjc2ODU2MDAxLDU2OD
 Q2MTMxMywtMzQ2MDIzNTE1LDc5Njk3MzMxLDY5NTI1ODg0OSwx
 OTk3ODc1ODMyLC0xMTgwODIwOTgzLDEwMDk3OTkxNjgsLTk5MT
 Y2MjQ0MCwtMTg0MjY3MzcwOCwtMTM0MTk2MTA1MCwxNTAyNTI3
