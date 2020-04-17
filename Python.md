@@ -1,18 +1,16 @@
 ## print using (.format) and print(f'')
 ```py 
-x = 4
-print('this is {x}'
-# Output -> this is 5
+x = 5
+y = 2
+print(f'this is {x} and {y}'
+# Output -> this is 5 and 2
+#OR
+print('this is {x} and {y}'.format(x,y)
 ```
-
-
-
-
-
 
 #### When there is only one variable 
 ```py 
-x = 4
+x = 5
 print('this is {x}'
 # Output -> this is 5
 ```
@@ -339,11 +337,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MDY1OTg4NSwxOTIyMzU3NTc2LC0yNz
-Y4NTYwMDEsNTY4NDYxMzEzLC0zNDYwMjM1MTUsNzk2OTczMzEs
-Njk1MjU4ODQ5LDE5OTc4NzU4MzIsLTExODA4MjA5ODMsMTAwOT
-c5OTE2OCwtOTkxNjYyNDQwLC0xODQyNjczNzA4LC0xMzQxOTYx
-MDUwLDE1MDI1MjczNDcsLTExMzI4NzUyNjIsLTE5Njk4ODI0Nj
-EsMTMzNjE2NjIyNCwxNjk5ODQwNDQ2LC0xMTg1ODE1ODA2LC0x
-OTQ2MzQ1OTc5XX0=
+eyJoaXN0b3J5IjpbLTE5MTAyNjE5OTYsMTkyMjM1NzU3NiwtMj
+c2ODU2MDAxLDU2ODQ2MTMxMywtMzQ2MDIzNTE1LDc5Njk3MzMx
+LDY5NTI1ODg0OSwxOTk3ODc1ODMyLC0xMTgwODIwOTgzLDEwMD
+k3OTkxNjgsLTk5MTY2MjQ0MCwtMTg0MjY3MzcwOCwtMTM0MTk2
+MTA1MCwxNTAyNTI3MzQ3LC0xMTMyODc1MjYyLC0xOTY5ODgyND
+YxLDEzMzYxNjYyMjQsMTY5OTg0MDQ0NiwtMTE4NTgxNTgwNiwt
+MTk0NjM0NTk3OV19
 -->
