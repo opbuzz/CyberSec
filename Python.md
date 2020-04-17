@@ -1,10 +1,22 @@
-## Strings
-Can print variables without using .format()
+## print using (.format) and print(f'')
 ```py 
 x = 4
 print('this is {x}'
 # Output -> this is 5
 ```
+
+
+
+
+
+
+#### When there is only one variable 
+```py 
+x = 4
+print('this is {x}'
+# Output -> this is 5
+```
+
 
 
 ## Lambda
@@ -327,11 +339,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjM1NzU3NiwtMjc2ODU2MDAxLDU2OD
-Q2MTMxMywtMzQ2MDIzNTE1LDc5Njk3MzMxLDY5NTI1ODg0OSwx
-OTk3ODc1ODMyLC0xMTgwODIwOTgzLDEwMDk3OTkxNjgsLTk5MT
-Y2MjQ0MCwtMTg0MjY3MzcwOCwtMTM0MTk2MTA1MCwxNTAyNTI3
-MzQ3LC0xMTMyODc1MjYyLC0xOTY5ODgyNDYxLDEzMzYxNjYyMj
-QsMTY5OTg0MDQ0NiwtMTE4NTgxNTgwNiwtMTk0NjM0NTk3OSw1
-MjI3ODM4MDZdfQ==
+eyJoaXN0b3J5IjpbLTY5MDY1OTg4NSwxOTIyMzU3NTc2LC0yNz
+Y4NTYwMDEsNTY4NDYxMzEzLC0zNDYwMjM1MTUsNzk2OTczMzEs
+Njk1MjU4ODQ5LDE5OTc4NzU4MzIsLTExODA4MjA5ODMsMTAwOT
+c5OTE2OCwtOTkxNjYyNDQwLC0xODQyNjczNzA4LC0xMzQxOTYx
+MDUwLDE1MDI1MjczNDcsLTExMzI4NzUyNjIsLTE5Njk4ODI0Nj
+EsMTMzNjE2NjIyNCwxNjk5ODQwNDQ2LC0xMTg1ODE1ODA2LC0x
+OTQ2MzQ1OTc5XX0=
 -->
