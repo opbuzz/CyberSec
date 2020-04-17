@@ -26,11 +26,12 @@ print(text.format(5))
 ### Input from user
 If `end = ' '` then then `print()` will not end the line with a newline
 ```py
+print("Your name?") 
 name = input(name, end =' ')
-print('T
-print("Your are {name}")
-# OR
-name = input  
+print("You are called {name}")
+# OR without the end = ''
+name = input("Your name?")
+print("You are called {name}")   
 
 
 ```
@@ -384,7 +385,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzIzNzMwMywxODA1OTI5MjcwLC0xOT
+eyJoaXN0b3J5IjpbMTM4Mjc4MzA5OSwxODA1OTI5MjcwLC0xOT
 MxNjkyNjQxLDQ2NDkzOTQ2OSwzMzcyMDEwMDcsLTYwMzEzNDgw
 NSwtMTkxMDI2MTk5NiwxOTIyMzU3NTc2LC0yNzY4NTYwMDEsNT
 Y4NDYxMzEzLC0zNDYwMjM1MTUsNzk2OTczMzEsNjk1MjU4ODQ5
