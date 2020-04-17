@@ -4,7 +4,8 @@ Short strings would use a single `'`
 Long strings should use a double `"`
 
 
-## print using (.format) and print(f'')
+## print 
+### Using (.format) and print(f'')
 ```py 
 x = 5
 y = 2
@@ -20,17 +21,14 @@ print(text.format('kite')
 # Output -> it is a kite
 print(text.format(5))
 # Output -> it is a 5
-
 ```
-
-
-#### When there is only one variable 
+### When there is only one variable 
 ```py 
 x = 5
 print('this is {x}'
 # Output -> this is 5
 ```
-#### Escape charcters
+### Escape characters
 |Escape| What it does  |
 |:-|:-|
 `\newline`|Backslash and newline ignored
@@ -371,11 +369,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDYwMTc3Nyw0NjQ5Mzk0NjksMzM3Mj
-AxMDA3LC02MDMxMzQ4MDUsLTE5MTAyNjE5OTYsMTkyMjM1NzU3
-NiwtMjc2ODU2MDAxLDU2ODQ2MTMxMywtMzQ2MDIzNTE1LDc5Nj
-k3MzMxLDY5NTI1ODg0OSwxOTk3ODc1ODMyLC0xMTgwODIwOTgz
-LDEwMDk3OTkxNjgsLTk5MTY2MjQ0MCwtMTg0MjY3MzcwOCwtMT
-M0MTk2MTA1MCwxNTAyNTI3MzQ3LC0xMTMyODc1MjYyLC0xOTY5
-ODgyNDYxXX0=
+eyJoaXN0b3J5IjpbLTE5MzE2OTI2NDEsNDY0OTM5NDY5LDMzNz
+IwMTAwNywtNjAzMTM0ODA1LC0xOTEwMjYxOTk2LDE5MjIzNTc1
+NzYsLTI3Njg1NjAwMSw1Njg0NjEzMTMsLTM0NjAyMzUxNSw3OT
+Y5NzMzMSw2OTUyNTg4NDksMTk5Nzg3NTgzMiwtMTE4MDgyMDk4
+MywxMDA5Nzk5MTY4LC05OTE2NjI0NDAsLTE4NDI2NzM3MDgsLT
+EzNDE5NjEwNTAsMTUwMjUyNzM0NywtMTEzMjg3NTI2MiwtMTk2
+OTg4MjQ2MV19
 -->
