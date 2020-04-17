@@ -33,7 +33,120 @@ print('this is {x}'
 #### Escape charcters
 |Escape| What it does  |
 |:-|:-|
+`\newline`|Backslash and newline ignored
+ackslash (`\`)
 
+print("\\")
+
+RESULT
+
+\
+
+`\'`
+
+Single quote (`'`)
+
+print('\'')
+
+RESULT
+
+'
+
+`\"`
+
+Double quote (`"`)
+
+print("\"")
+
+RESULT
+
+"
+
+`\a`
+
+ASCII Bell (BEL)
+
+print("\a")
+
+`\b`
+
+ASCII Backspace (BS)
+
+print("Hello \b World!")
+
+RESULT
+
+Hello  World!
+
+`\f`
+
+ASCII Formfeed (FF)
+
+print("Hello \f World!")
+
+RESULT
+
+Hello  World!
+
+`\n`
+
+ASCII Linefeed (LF)
+
+print("Hello \n World!")
+
+RESULT
+
+Hello 
+ World!
+
+`\r`
+
+ASCII Carriage Return (CR)
+
+print("Hello \r World!")
+
+RESULT
+
+Hello 
+ World!
+
+`\t`
+
+ASCII Horizontal Tab (TAB)
+
+print("Hello \t World!")
+
+RESULT
+
+Hello      World!
+
+`\v`
+
+ASCII Vertical Tab (VT)
+
+print("Hello \v World!")
+
+RESULT
+
+Hello  World!
+
+`\ooo`
+
+Character with octal value  ooo
+
+print("\110\145\154\154\157\40\127\157\162\154\144\41")
+
+RESULT
+
+Hello World!
+
+`\xhh`
+
+Character with hex value  hh
+
+`\N{name}`|Character named  name  in the Unicode database
+`\uxxxx`|Character with 16-bit hex value  xxxx. Exactly four hexadecimal digits are required.
+`\Uxxxxxxxx`|Character with 32-bit hex value  xxxxxxxx. Exactly eight hexadecimal digits are required.
 
 
 
@@ -358,7 +471,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTUxNzQzODAsMzM3MjAxMDA3LC02MD
+eyJoaXN0b3J5IjpbLTE2MjI5ODk0NTMsMzM3MjAxMDA3LC02MD
 MxMzQ4MDUsLTE5MTAyNjE5OTYsMTkyMjM1NzU3NiwtMjc2ODU2
 MDAxLDU2ODQ2MTMxMywtMzQ2MDIzNTE1LDc5Njk3MzMxLDY5NT
 I1ODg0OSwxOTk3ODc1ODMyLC0xMTgwODIwOTgzLDEwMDk3OTkx
