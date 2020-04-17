@@ -27,8 +27,15 @@ print(text.format(5))
 If `end = ' '` then then `print()` will not end the line with a newline
 ```py
 name = input(name, end =' ')
-print(name)
+print('T
+print("Your are {name}")
+# OR
+name = input  
+
+
 ```
+
+
 
 ### When there is only one variable 
 ```py 
@@ -377,11 +384,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTkyOTI3MCwtMTkzMTY5MjY0MSw0Nj
-Q5Mzk0NjksMzM3MjAxMDA3LC02MDMxMzQ4MDUsLTE5MTAyNjE5
-OTYsMTkyMjM1NzU3NiwtMjc2ODU2MDAxLDU2ODQ2MTMxMywtMz
-Q2MDIzNTE1LDc5Njk3MzMxLDY5NTI1ODg0OSwxOTk3ODc1ODMy
-LC0xMTgwODIwOTgzLDEwMDk3OTkxNjgsLTk5MTY2MjQ0MCwtMT
-g0MjY3MzcwOCwtMTM0MTk2MTA1MCwxNTAyNTI3MzQ3LC0xMTMy
-ODc1MjYyXX0=
+eyJoaXN0b3J5IjpbLTExMzIzNzMwMywxODA1OTI5MjcwLC0xOT
+MxNjkyNjQxLDQ2NDkzOTQ2OSwzMzcyMDEwMDcsLTYwMzEzNDgw
+NSwtMTkxMDI2MTk5NiwxOTIyMzU3NTc2LC0yNzY4NTYwMDEsNT
+Y4NDYxMzEzLC0zNDYwMjM1MTUsNzk2OTczMzEsNjk1MjU4ODQ5
+LDE5OTc4NzU4MzIsLTExODA4MjA5ODMsMTAwOTc5OTE2OCwtOT
+kxNjYyNDQwLC0xODQyNjczNzA4LC0xMzQxOTYxMDUwLDE1MDI1
+MjczNDddfQ==
 -->
