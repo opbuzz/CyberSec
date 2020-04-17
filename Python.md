@@ -15,9 +15,12 @@ print('this is {x} and {y}'.format(x,y)
 ```
 If you use `{}` in a string,  each call with .formatter would change its values
 ```py
-text = "it is a {}"
-print(text.format('plane')
-print(tex
+text = "It is a {}"
+print(text.format('kite')
+# Output -> it is a kite
+print(text.format(5))
+# Output -> it is a 5
+
 ```
 
 
@@ -350,7 +353,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEzOTEzNDY4LC02MDMxMzQ4MDUsLTE5MT
+eyJoaXN0b3J5IjpbMzM3MjAxMDA3LC02MDMxMzQ4MDUsLTE5MT
 AyNjE5OTYsMTkyMjM1NzU3NiwtMjc2ODU2MDAxLDU2ODQ2MTMx
 MywtMzQ2MDIzNTE1LDc5Njk3MzMxLDY5NTI1ODg0OSwxOTk3OD
 c1ODMyLC0xMTgwODIwOTgzLDEwMDk3OTkxNjgsLTk5MTY2MjQ0
