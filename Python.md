@@ -47,10 +47,8 @@ Backslash (`\`)|print("\\")
 `\ooo`| Character with octal value ooo
 `\xhh`| Character with hex value hh
 `\N{name}`| Character named  name  in the Unicode database
-`\uxxxx`|Character with 16-bit hex value  xxxx. Exactly four hexadecimal digits are required.
-`\Uxxxxxxxx`|Character with 32-bit hex value  xxxxxxxx. Exactly eight hexadecimal digits are required.
-
-
+`\uxxxx`| Character with 16-bit hex value  xxxx. Exactly four hexadecimal digits are required.
+`\Uxxxxxxxx`| Character with 32-bit hex value  xxxxxxxx. Exactly eight hexadecimal digits are required.
 
 
 ## Lambda
@@ -373,11 +371,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2NzY2ODksNDY0OTM5NDY5LDMzNzIwMT
-AwNywtNjAzMTM0ODA1LC0xOTEwMjYxOTk2LDE5MjIzNTc1NzYs
-LTI3Njg1NjAwMSw1Njg0NjEzMTMsLTM0NjAyMzUxNSw3OTY5Nz
-MzMSw2OTUyNTg4NDksMTk5Nzg3NTgzMiwtMTE4MDgyMDk4Mywx
-MDA5Nzk5MTY4LC05OTE2NjI0NDAsLTE4NDI2NzM3MDgsLTEzND
-E5NjEwNTAsMTUwMjUyNzM0NywtMTEzMjg3NTI2MiwtMTk2OTg4
-MjQ2MV19
+eyJoaXN0b3J5IjpbLTk5MDYwMTc3Nyw0NjQ5Mzk0NjksMzM3Mj
+AxMDA3LC02MDMxMzQ4MDUsLTE5MTAyNjE5OTYsMTkyMjM1NzU3
+NiwtMjc2ODU2MDAxLDU2ODQ2MTMxMywtMzQ2MDIzNTE1LDc5Nj
+k3MzMxLDY5NTI1ODg0OSwxOTk3ODc1ODMyLC0xMTgwODIwOTgz
+LDEwMDk3OTkxNjgsLTk5MTY2MjQ0MCwtMTg0MjY3MzcwOCwtMT
+M0MTk2MTA1MCwxNTAyNTI3MzQ3LC0xMTMyODc1MjYyLC0xOTY5
+ODgyNDYxXX0=
 -->
