@@ -4,7 +4,7 @@ Short strings would use a single `'`
 Long strings should use a double `"`
 
 
-## print 
+## Print 
 ### Using (.format) and print(f'')
 ```py 
 x = 5
@@ -22,7 +22,6 @@ print(text.format('kite')
 print(text.format(5))
 # Output -> it is a 5
 ```
-
 ### Input from user
 If `end = ' '` then then `print()` will not end the line with a newline
 ```py
@@ -32,12 +31,7 @@ print("You are called {name}")
 # OR without the end = ''
 name = input("Your name?")
 print("You are called {name}")   
-
-
-
 ```
-
-
 
 ### When there is only one variable 
 ```py 
@@ -66,6 +60,8 @@ Backslash (`\`)|print("\\")
 `\Uxxxxxxxx`| Character with 32-bit hex value  xxxxxxxx. Exactly eight hexadecimal digits are required.
 
 
+###  Runing pyhton
+Any text after running  `python` would be considerd as 
 ## Lambda
 ```py
 func = lambda x: x+1
@@ -386,11 +382,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MzMwMTk2NSwxMzgyNzgzMDk5LDE4MD
-U5MjkyNzAsLTE5MzE2OTI2NDEsNDY0OTM5NDY5LDMzNzIwMTAw
-NywtNjAzMTM0ODA1LC0xOTEwMjYxOTk2LDE5MjIzNTc1NzYsLT
-I3Njg1NjAwMSw1Njg0NjEzMTMsLTM0NjAyMzUxNSw3OTY5NzMz
-MSw2OTUyNTg4NDksMTk5Nzg3NTgzMiwtMTE4MDgyMDk4MywxMD
-A5Nzk5MTY4LC05OTE2NjI0NDAsLTE4NDI2NzM3MDgsLTEzNDE5
-NjEwNTBdfQ==
+eyJoaXN0b3J5IjpbMTQ0Nzg0NTg3OCwyMDczMzAxOTY1LDEzOD
+I3ODMwOTksMTgwNTkyOTI3MCwtMTkzMTY5MjY0MSw0NjQ5Mzk0
+NjksMzM3MjAxMDA3LC02MDMxMzQ4MDUsLTE5MTAyNjE5OTYsMT
+kyMjM1NzU3NiwtMjc2ODU2MDAxLDU2ODQ2MTMxMywtMzQ2MDIz
+NTE1LDc5Njk3MzMxLDY5NTI1ODg0OSwxOTk3ODc1ODMyLC0xMT
+gwODIwOTgzLDEwMDk3OTkxNjgsLTk5MTY2MjQ0MCwtMTg0MjY3
+MzcwOF19
 -->
