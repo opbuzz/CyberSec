@@ -66,9 +66,13 @@ Any text after running  `python`in cmd would be considerd as a string
 # Runing this
 from sys import argv
 script, first, second, third = argv
-print("The script is", script)
+rint("The script is", script)
+print("First",first)
+print("Second",second)
+print("Third",third)
 
-#
+# /.pyhon file.py one two three
+# >
 
 ```
 
@@ -393,7 +397,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTcxMjE0MSwyMDczMzAxOTY1LDEzOD
+eyJoaXN0b3J5IjpbMTEyNTkwOTA5NCwyMDczMzAxOTY1LDEzOD
 I3ODMwOTksMTgwNTkyOTI3MCwtMTkzMTY5MjY0MSw0NjQ5Mzk0
 NjksMzM3MjAxMDA3LC02MDMxMzQ4MDUsLTE5MTAyNjE5OTYsMT
 kyMjM1NzU3NiwtMjc2ODU2MDAxLDU2ODQ2MTMxMywtMzQ2MDIz
