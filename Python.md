@@ -79,7 +79,8 @@ print("Third",third)
 ```
 
 ### Files (.open)
-You can open a file multiple times.
+- `close` - Closes the file
+- `open` - You can open a file multiple times.
 
 ## Lambda
 ```py
@@ -401,11 +402,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzg5NzQxODAsLTExMjk3ODA3NzcsMj
-A3MzMwMTk2NSwxMzgyNzgzMDk5LDE4MDU5MjkyNzAsLTE5MzE2
-OTI2NDEsNDY0OTM5NDY5LDMzNzIwMTAwNywtNjAzMTM0ODA1LC
-0xOTEwMjYxOTk2LDE5MjIzNTc1NzYsLTI3Njg1NjAwMSw1Njg0
-NjEzMTMsLTM0NjAyMzUxNSw3OTY5NzMzMSw2OTUyNTg4NDksMT
-k5Nzg3NTgzMiwtMTE4MDgyMDk4MywxMDA5Nzk5MTY4LC05OTE2
-NjI0NDBdfQ==
+eyJoaXN0b3J5IjpbLTgyNDk2NTgwMiwtMTEyOTc4MDc3NywyMD
+czMzAxOTY1LDEzODI3ODMwOTksMTgwNTkyOTI3MCwtMTkzMTY5
+MjY0MSw0NjQ5Mzk0NjksMzM3MjAxMDA3LC02MDMxMzQ4MDUsLT
+E5MTAyNjE5OTYsMTkyMjM1NzU3NiwtMjc2ODU2MDAxLDU2ODQ2
+MTMxMywtMzQ2MDIzNTE1LDc5Njk3MzMxLDY5NTI1ODg0OSwxOT
+k3ODc1ODMyLC0xMTgwODIwOTgzLDEwMDk3OTkxNjgsLTk5MTY2
+MjQ0MF19
 -->
