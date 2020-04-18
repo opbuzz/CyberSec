@@ -61,7 +61,18 @@ Backslash (`\`)|print("\\")
 
 
 ###  Runing pyhton
-Any text after running  `python` would be considerd as 
+Any text after running  `python`in cmd would be considerd as a string
+```py 
+# Runing this
+from sys import argv
+script, first, second, third = argv
+print("The script is", script)
+
+#
+
+```
+
+
 ## Lambda
 ```py
 func = lambda x: x+1
@@ -382,7 +393,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0Nzg0NTg3OCwyMDczMzAxOTY1LDEzOD
+eyJoaXN0b3J5IjpbLTM0OTcxMjE0MSwyMDczMzAxOTY1LDEzOD
 I3ODMwOTksMTgwNTkyOTI3MCwtMTkzMTY5MjY0MSw0NjQ5Mzk0
 NjksMzM3MjAxMDA3LC02MDMxMzQ4MDUsLTE5MTAyNjE5OTYsMT
 kyMjM1NzU3NiwtMjc2ODU2MDAxLDU2ODQ2MTMxMywtMzQ2MDIz
