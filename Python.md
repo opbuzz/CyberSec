@@ -71,9 +71,11 @@ print("First",first)
 print("Second",second)
 print("Third",third)
 
-# /.pyhon file.py one two three
-# >
-
+#  /.pyhon file.py one two three
+#  The script is file.py
+#  Fisrt one
+#  Second two
+#  Third Three 
 ```
 
 
@@ -397,11 +399,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTkwOTA5NCwyMDczMzAxOTY1LDEzOD
-I3ODMwOTksMTgwNTkyOTI3MCwtMTkzMTY5MjY0MSw0NjQ5Mzk0
-NjksMzM3MjAxMDA3LC02MDMxMzQ4MDUsLTE5MTAyNjE5OTYsMT
-kyMjM1NzU3NiwtMjc2ODU2MDAxLDU2ODQ2MTMxMywtMzQ2MDIz
-NTE1LDc5Njk3MzMxLDY5NTI1ODg0OSwxOTk3ODc1ODMyLC0xMT
-gwODIwOTgzLDEwMDk3OTkxNjgsLTk5MTY2MjQ0MCwtMTg0MjY3
-MzcwOF19
+eyJoaXN0b3J5IjpbLTExMjk3ODA3NzcsMjA3MzMwMTk2NSwxMz
+gyNzgzMDk5LDE4MDU5MjkyNzAsLTE5MzE2OTI2NDEsNDY0OTM5
+NDY5LDMzNzIwMTAwNywtNjAzMTM0ODA1LC0xOTEwMjYxOTk2LD
+E5MjIzNTc1NzYsLTI3Njg1NjAwMSw1Njg0NjEzMTMsLTM0NjAy
+MzUxNSw3OTY5NzMzMSw2OTUyNTg4NDksMTk5Nzg3NTgzMiwtMT
+E4MDgyMDk4MywxMDA5Nzk5MTY4LC05OTE2NjI0NDAsLTE4NDI2
+NzM3MDhdfQ==
 -->
