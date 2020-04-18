@@ -84,7 +84,9 @@ print("Third",third)
 - `read` - read the content of a file - returns an object
 - `readline` - Read one line
 - `truncate` - Empties the files
-- `write('somthing')` - Writes string o
+- `write('somthing')` - Writes string to the file.
+- `seek(0)` - moves read/write location to the beginning of the file.
+
 
 ## Lambda
 ```py
@@ -406,7 +408,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjkxMjQ3NiwtMTEyOTc4MDc3NywyMD
+eyJoaXN0b3J5IjpbLTM2NTM0NzQxNCwtMTEyOTc4MDc3NywyMD
 czMzAxOTY1LDEzODI3ODMwOTksMTgwNTkyOTI3MCwtMTkzMTY5
 MjY0MSw0NjQ5Mzk0NjksMzM3MjAxMDA3LC02MDMxMzQ4MDUsLT
 E5MTAyNjE5OTYsMTkyMjM1NzU3NiwtMjc2ODU2MDAxLDU2ODQ2
