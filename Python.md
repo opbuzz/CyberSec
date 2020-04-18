@@ -81,6 +81,10 @@ print("Third",third)
 ### Files (.open)
 - `close` - Closes the file
 - `open` - You can open a file multiple times.
+- `read` - read the content of a file - returns an object
+- `readline` - Read one line
+- `truncate` - Empties the files
+- `write('somthing')` - Writes string o
 
 ## Lambda
 ```py
@@ -402,7 +406,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDk2NTgwMiwtMTEyOTc4MDc3NywyMD
+eyJoaXN0b3J5IjpbLTM4NjkxMjQ3NiwtMTEyOTc4MDc3NywyMD
 czMzAxOTY1LDEzODI3ODMwOTksMTgwNTkyOTI3MCwtMTkzMTY5
 MjY0MSw0NjQ5Mzk0NjksMzM3MjAxMDA3LC02MDMxMzQ4MDUsLT
 E5MTAyNjE5OTYsMTkyMjM1NzU3NiwtMjc2ODU2MDAxLDU2ODQ2
