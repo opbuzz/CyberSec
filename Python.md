@@ -88,6 +88,13 @@ print("Third",third)
 - `seek(0)` - moves read/write location to the beginning of the file.
 
 
+#### Checking if a file exists
+```c
+
+```
+
+
+
 ## Lambda
 ```py
 func = lambda x: x+1
@@ -408,11 +415,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2ODI1Mjg5LC0zNjUzNDc0MTQsLTExMj
-k3ODA3NzcsMjA3MzMwMTk2NSwxMzgyNzgzMDk5LDE4MDU5Mjky
-NzAsLTE5MzE2OTI2NDEsNDY0OTM5NDY5LDMzNzIwMTAwNywtNj
-AzMTM0ODA1LC0xOTEwMjYxOTk2LDE5MjIzNTc1NzYsLTI3Njg1
-NjAwMSw1Njg0NjEzMTMsLTM0NjAyMzUxNSw3OTY5NzMzMSw2OT
-UyNTg4NDksMTk5Nzg3NTgzMiwtMTE4MDgyMDk4MywxMDA5Nzk5
-MTY4XX0=
+eyJoaXN0b3J5IjpbLTExNTAzNTI2ODAsMzQ2ODI1Mjg5LC0zNj
+UzNDc0MTQsLTExMjk3ODA3NzcsMjA3MzMwMTk2NSwxMzgyNzgz
+MDk5LDE4MDU5MjkyNzAsLTE5MzE2OTI2NDEsNDY0OTM5NDY5LD
+MzNzIwMTAwNywtNjAzMTM0ODA1LC0xOTEwMjYxOTk2LDE5MjIz
+NTc1NzYsLTI3Njg1NjAwMSw1Njg0NjEzMTMsLTM0NjAyMzUxNS
+w3OTY5NzMzMSw2OTUyNTg4NDksMTk5Nzg3NTgzMiwtMTE4MDgy
+MDk4M119
 -->
