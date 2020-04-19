@@ -80,7 +80,7 @@ print("Third",third)
 
 ### Files (.open)
 - `close` - Closes the file
-- `open` - You can open a file multiple times.
+- `open` - You can open a file multiple times.  if  a file is opened with a 'w'  then it will delete all the content of the file
 - `read` - read the content of a file - returns an object
 - `readline` - Read one line
 - `truncate` - Empties the files
@@ -408,11 +408,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTM0NzQxNCwtMTEyOTc4MDc3NywyMD
-czMzAxOTY1LDEzODI3ODMwOTksMTgwNTkyOTI3MCwtMTkzMTY5
-MjY0MSw0NjQ5Mzk0NjksMzM3MjAxMDA3LC02MDMxMzQ4MDUsLT
-E5MTAyNjE5OTYsMTkyMjM1NzU3NiwtMjc2ODU2MDAxLDU2ODQ2
-MTMxMywtMzQ2MDIzNTE1LDc5Njk3MzMxLDY5NTI1ODg0OSwxOT
-k3ODc1ODMyLC0xMTgwODIwOTgzLDEwMDk3OTkxNjgsLTk5MTY2
-MjQ0MF19
+eyJoaXN0b3J5IjpbMzQ2ODI1Mjg5LC0zNjUzNDc0MTQsLTExMj
+k3ODA3NzcsMjA3MzMwMTk2NSwxMzgyNzgzMDk5LDE4MDU5Mjky
+NzAsLTE5MzE2OTI2NDEsNDY0OTM5NDY5LDMzNzIwMTAwNywtNj
+AzMTM0ODA1LC0xOTEwMjYxOTk2LDE5MjIzNTc1NzYsLTI3Njg1
+NjAwMSw1Njg0NjEzMTMsLTM0NjAyMzUxNSw3OTY5NzMzMSw2OT
+UyNTg4NDksMTk5Nzg3NTgzMiwtMTE4MDgyMDk4MywxMDA5Nzk5
+MTY4XX0=
 -->
