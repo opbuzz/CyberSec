@@ -89,7 +89,13 @@ print("Third",third)
 
 
 #### Checking if a file exists
-```c
+```py
+from os.path import exists
+filename = 'text.txt'
+
+print(f"Does the output file exist? {exists(to_file)}")
+
+# Does the output file exist? {exists
 
 ```
 
@@ -415,11 +421,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTAzNTI2ODAsMzQ2ODI1Mjg5LC0zNj
-UzNDc0MTQsLTExMjk3ODA3NzcsMjA3MzMwMTk2NSwxMzgyNzgz
-MDk5LDE4MDU5MjkyNzAsLTE5MzE2OTI2NDEsNDY0OTM5NDY5LD
-MzNzIwMTAwNywtNjAzMTM0ODA1LC0xOTEwMjYxOTk2LDE5MjIz
-NTc1NzYsLTI3Njg1NjAwMSw1Njg0NjEzMTMsLTM0NjAyMzUxNS
-w3OTY5NzMzMSw2OTUyNTg4NDksMTk5Nzg3NTgzMiwtMTE4MDgy
-MDk4M119
+eyJoaXN0b3J5IjpbMTcxMTQxMzQwNCwzNDY4MjUyODksLTM2NT
+M0NzQxNCwtMTEyOTc4MDc3NywyMDczMzAxOTY1LDEzODI3ODMw
+OTksMTgwNTkyOTI3MCwtMTkzMTY5MjY0MSw0NjQ5Mzk0NjksMz
+M3MjAxMDA3LC02MDMxMzQ4MDUsLTE5MTAyNjE5OTYsMTkyMjM1
+NzU3NiwtMjc2ODU2MDAxLDU2ODQ2MTMxMywtMzQ2MDIzNTE1LD
+c5Njk3MzMxLDY5NTI1ODg0OSwxOTk3ODc1ODMyLC0xMTgwODIw
+OTgzXX0=
 -->
