@@ -85,7 +85,7 @@ print("Third",third)
 - `readline` - Read one line
 - `truncate` - Empties the files
 - `write('somthing')` - Writes string to the file.
-- `seek(offset = NUM,  whence = 0,1,2)` - `0` - moves read/write location to the beginning of the file. `1` - current position.   `2` - the end of the file
+- `seek(offset = NUM,  whence = 0,1,2)` - `0` - moves read/write location to the beginning of the file. `1` - current position _(For non text files use)_ .   `2` - the end of the file
 
 
 ### Checking if a file exists
@@ -421,11 +421,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODMxNzI1NiwtMTE3ODYyOTcwOCwtMT
-UyMzkzOTczMSwzNDY4MjUyODksLTM2NTM0NzQxNCwtMTEyOTc4
-MDc3NywyMDczMzAxOTY1LDEzODI3ODMwOTksMTgwNTkyOTI3MC
-wtMTkzMTY5MjY0MSw0NjQ5Mzk0NjksMzM3MjAxMDA3LC02MDMx
-MzQ4MDUsLTE5MTAyNjE5OTYsMTkyMjM1NzU3NiwtMjc2ODU2MD
-AxLDU2ODQ2MTMxMywtMzQ2MDIzNTE1LDc5Njk3MzMxLDY5NTI1
-ODg0OV19
+eyJoaXN0b3J5IjpbLTQ2MDEzMjI4LC0xMTc4NjI5NzA4LC0xNT
+IzOTM5NzMxLDM0NjgyNTI4OSwtMzY1MzQ3NDE0LC0xMTI5Nzgw
+Nzc3LDIwNzMzMDE5NjUsMTM4Mjc4MzA5OSwxODA1OTI5MjcwLC
+0xOTMxNjkyNjQxLDQ2NDkzOTQ2OSwzMzcyMDEwMDcsLTYwMzEz
+NDgwNSwtMTkxMDI2MTk5NiwxOTIyMzU3NTc2LC0yNzY4NTYwMD
+EsNTY4NDYxMzEzLC0zNDYwMjM1MTUsNzk2OTczMzEsNjk1MjU4
+ODQ5XX0=
 -->
