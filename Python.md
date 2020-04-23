@@ -101,7 +101,8 @@ print(f"Does the file exist? {exists(filename)}")
 
 ### Using Unicode (.encode)  (.decode)
 
-
+Decode bytes
+Encode Strings
 `str.encode()`  returns a `bytes` representation of the Unicode string, encoded in the requested _encoding_.
 
 The opposite method is `bytes.decode(decode)`
@@ -431,11 +432,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1MDA2OTYzLDcwNTY4MTY2OSw5MDI0OD
-Q1MDYsMTQ5OTg3NjIxMywtNDYwMTMyMjgsLTExNzg2Mjk3MDgs
-LTE1MjM5Mzk3MzEsMzQ2ODI1Mjg5LC0zNjUzNDc0MTQsLTExMj
-k3ODA3NzcsMjA3MzMwMTk2NSwxMzgyNzgzMDk5LDE4MDU5Mjky
-NzAsLTE5MzE2OTI2NDEsNDY0OTM5NDY5LDMzNzIwMTAwNywtNj
-AzMTM0ODA1LC0xOTEwMjYxOTk2LDE5MjIzNTc1NzYsLTI3Njg1
-NjAwMV19
+eyJoaXN0b3J5IjpbMTY1OTEwNTMyOCw3MDU2ODE2NjksOTAyND
+g0NTA2LDE0OTk4NzYyMTMsLTQ2MDEzMjI4LC0xMTc4NjI5NzA4
+LC0xNTIzOTM5NzMxLDM0NjgyNTI4OSwtMzY1MzQ3NDE0LC0xMT
+I5NzgwNzc3LDIwNzMzMDE5NjUsMTM4Mjc4MzA5OSwxODA1OTI5
+MjcwLC0xOTMxNjkyNjQxLDQ2NDkzOTQ2OSwzMzcyMDEwMDcsLT
+YwMzEzNDgwNSwtMTkxMDI2MTk5NiwxOTIyMzU3NTc2LC0yNzY4
+NTYwMDFdfQ==
 -->
