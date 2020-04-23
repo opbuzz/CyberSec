@@ -101,7 +101,7 @@ print(f"Does the file exist? {exists(filename)}")
 
 ### Using Unicode (.encode)  (.decode)
 
-The opposite method of [`bytes.decode()`](https://docs.python.org/3/library/stdtypes.html#bytes.decode "bytes.decode") is [`str.encode()`](https://docs.python.org/3/library/stdtypes.html#str.encode "str.encode"), which returns a [`bytes`](https://docs.python.org/3/library/stdtypes.html#bytes "bytes") representation of the Unicode string, encoded in the requested _encoding_.
+The opposite method of `bytes.decode()` is `str.encode()` which returns a `bytes` representation of the Unicode string, encoded in the requested _encoding_.
 
 
 
@@ -426,7 +426,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTU2NjQ3MCwtNDYwMTMyMjgsLTExNz
+eyJoaXN0b3J5IjpbMTA5ODEzNTcwOCwtNDYwMTMyMjgsLTExNz
 g2Mjk3MDgsLTE1MjM5Mzk3MzEsMzQ2ODI1Mjg5LC0zNjUzNDc0
 MTQsLTExMjk3ODA3NzcsMjA3MzMwMTk2NSwxMzgyNzgzMDk5LD
 E4MDU5MjkyNzAsLTE5MzE2OTI2NDEsNDY0OTM5NDY5LDMzNzIw
