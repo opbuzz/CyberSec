@@ -99,6 +99,11 @@ print(f"Does the file exist? {exists(filename)}")
 
 ```
 
+### Using Unicode (.encode)  (.decode)
+
+The opposite method of [`bytes.decode()`](https://docs.python.org/3/library/stdtypes.html#bytes.decode "bytes.decode") is [`str.encode()`](https://docs.python.org/3/library/stdtypes.html#str.encode "str.encode"), which returns a [`bytes`](https://docs.python.org/3/library/stdtypes.html#bytes "bytes") representation of the Unicode string, encoded in the requested _encoding_.
+
+
 
 
 ## Lambda
@@ -421,11 +426,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDEzMjI4LC0xMTc4NjI5NzA4LC0xNT
-IzOTM5NzMxLDM0NjgyNTI4OSwtMzY1MzQ3NDE0LC0xMTI5Nzgw
-Nzc3LDIwNzMzMDE5NjUsMTM4Mjc4MzA5OSwxODA1OTI5MjcwLC
-0xOTMxNjkyNjQxLDQ2NDkzOTQ2OSwzMzcyMDEwMDcsLTYwMzEz
-NDgwNSwtMTkxMDI2MTk5NiwxOTIyMzU3NTc2LC0yNzY4NTYwMD
-EsNTY4NDYxMzEzLC0zNDYwMjM1MTUsNzk2OTczMzEsNjk1MjU4
-ODQ5XX0=
+eyJoaXN0b3J5IjpbMTIxNTU2NjQ3MCwtNDYwMTMyMjgsLTExNz
+g2Mjk3MDgsLTE1MjM5Mzk3MzEsMzQ2ODI1Mjg5LC0zNjUzNDc0
+MTQsLTExMjk3ODA3NzcsMjA3MzMwMTk2NSwxMzgyNzgzMDk5LD
+E4MDU5MjkyNzAsLTE5MzE2OTI2NDEsNDY0OTM5NDY5LDMzNzIw
+MTAwNywtNjAzMTM0ODA1LC0xOTEwMjYxOTk2LDE5MjIzNTc1Nz
+YsLTI3Njg1NjAwMSw1Njg0NjEzMTMsLTM0NjAyMzUxNSw3OTY5
+NzMzMV19
 -->
