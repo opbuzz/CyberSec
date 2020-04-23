@@ -104,7 +104,9 @@ print(f"Does the file exist? {exists(filename)}")
 `str.encode()`  returns a `bytes` representation of the Unicode string, encoded in the requested _encoding_.
 
 The opposite method is `bytes.decode(decode)`
-
+```py 
+languages = open("languages.txt", encoding = "utf-8")
+```
 
 
 
@@ -428,11 +430,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyNDg0NTA2LDE0OTk4NzYyMTMsLTQ2MD
-EzMjI4LC0xMTc4NjI5NzA4LC0xNTIzOTM5NzMxLDM0NjgyNTI4
-OSwtMzY1MzQ3NDE0LC0xMTI5NzgwNzc3LDIwNzMzMDE5NjUsMT
-M4Mjc4MzA5OSwxODA1OTI5MjcwLC0xOTMxNjkyNjQxLDQ2NDkz
-OTQ2OSwzMzcyMDEwMDcsLTYwMzEzNDgwNSwtMTkxMDI2MTk5Ni
-wxOTIyMzU3NTc2LC0yNzY4NTYwMDEsNTY4NDYxMzEzLC0zNDYw
-MjM1MTVdfQ==
+eyJoaXN0b3J5IjpbNzA1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5OD
+c2MjEzLC00NjAxMzIyOCwtMTE3ODYyOTcwOCwtMTUyMzkzOTcz
+MSwzNDY4MjUyODksLTM2NTM0NzQxNCwtMTEyOTc4MDc3NywyMD
+czMzAxOTY1LDEzODI3ODMwOTksMTgwNTkyOTI3MCwtMTkzMTY5
+MjY0MSw0NjQ5Mzk0NjksMzM3MjAxMDA3LC02MDMxMzQ4MDUsLT
+E5MTAyNjE5OTYsMTkyMjM1NzU3NiwtMjc2ODU2MDAxLDU2ODQ2
+MTMxM119
 -->
