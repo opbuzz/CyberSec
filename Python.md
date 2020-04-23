@@ -112,7 +112,7 @@ languages = open("languages.txt", encoding = "utf-8")
 #### Using pointers *
 
 ```py
-formula
+formula = (10, 40, 60)
 print(f"We'd have {beans} beans, {jars} jars, and {crates}, crates.")
 ### the
 print("We'd have {} beans, {} jars, and {} crates".format(*formula))
@@ -439,7 +439,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2MjcxMjQ2LDE2NTkxMDUzMjgsNzA1Nj
+eyJoaXN0b3J5IjpbODEyNTI4Nzk5LDE2NTkxMDUzMjgsNzA1Nj
 gxNjY5LDkwMjQ4NDUwNiwxNDk5ODc2MjEzLC00NjAxMzIyOCwt
 MTE3ODYyOTcwOCwtMTUyMzkzOTczMSwzNDY4MjUyODksLTM2NT
 M0NzQxNCwtMTEyOTc4MDc3NywyMDczMzAxOTY1LDEzODI3ODMw
