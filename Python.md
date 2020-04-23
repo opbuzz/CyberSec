@@ -109,7 +109,14 @@ The opposite method is `bytes.decode(decode)`
 ```py 
 languages = open("languages.txt", encoding = "utf-8")
 ```
-\333
+#### Using pointers *
+
+```py
+formula
+print(f"We'd have {beans} beans, {jars} jars, and {crates}, crates.")
+### the
+print("We'd have {} beans, {} jars, and {} crates".format(*formula))
+```
 
 
 ## Lambda
@@ -432,11 +439,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTc2MjI0NSwxNjU5MTA1MzI4LDcwNT
-Y4MTY2OSw5MDI0ODQ1MDYsMTQ5OTg3NjIxMywtNDYwMTMyMjgs
-LTExNzg2Mjk3MDgsLTE1MjM5Mzk3MzEsMzQ2ODI1Mjg5LC0zNj
-UzNDc0MTQsLTExMjk3ODA3NzcsMjA3MzMwMTk2NSwxMzgyNzgz
-MDk5LDE4MDU5MjkyNzAsLTE5MzE2OTI2NDEsNDY0OTM5NDY5LD
-MzNzIwMTAwNywtNjAzMTM0ODA1LC0xOTEwMjYxOTk2LDE5MjIz
-NTc1NzZdfQ==
+eyJoaXN0b3J5IjpbNTA2MjcxMjQ2LDE2NTkxMDUzMjgsNzA1Nj
+gxNjY5LDkwMjQ4NDUwNiwxNDk5ODc2MjEzLC00NjAxMzIyOCwt
+MTE3ODYyOTcwOCwtMTUyMzkzOTczMSwzNDY4MjUyODksLTM2NT
+M0NzQxNCwtMTEyOTc4MDc3NywyMDczMzAxOTY1LDEzODI3ODMw
+OTksMTgwNTkyOTI3MCwtMTkzMTY5MjY0MSw0NjQ5Mzk0NjksMz
+M3MjAxMDA3LC02MDMxMzQ4MDUsLTE5MTAyNjE5OTYsMTkyMjM1
+NzU3Nl19
 -->
