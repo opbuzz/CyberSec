@@ -25,11 +25,8 @@ print(text.format(5))
 #### Using %s insted
 ```py
 text = "It is a %s"
-print(text "%s",%('kite))
-# Output -> it is a kite
-print(text.format(5))
-# Output -> it is a 5
-```
+print(text, "%s",%"kite")
+# Output -> It is a kite```
 ```
 ### Input from user
 If `end = ' '` then then `print()` will not end the line with a newline
@@ -448,7 +445,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA4MTQzNDIsODEyNTI4Nzk5LDE2NT
+eyJoaXN0b3J5IjpbLTE1ODI1ODQwNjAsODEyNTI4Nzk5LDE2NT
 kxMDUzMjgsNzA1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5ODc2MjEz
 LC00NjAxMzIyOCwtMTE3ODYyOTcwOCwtMTUyMzkzOTczMSwzND
 Y4MjUyODksLTM2NTM0NzQxNCwtMTEyOTc4MDc3NywyMDczMzAx
