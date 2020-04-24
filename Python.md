@@ -25,7 +25,7 @@ print(text.format(5))
 #### Using %s insted
 ```py
 text = "It is a %s"
-print(text %s)
+print(text "%s",%('kite))
 # Output -> it is a kite
 print(text.format(5))
 # Output -> it is a 5
@@ -448,11 +448,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzg5MzY2LDgxMjUyODc5OSwxNjU5MT
-A1MzI4LDcwNTY4MTY2OSw5MDI0ODQ1MDYsMTQ5OTg3NjIxMywt
-NDYwMTMyMjgsLTExNzg2Mjk3MDgsLTE1MjM5Mzk3MzEsMzQ2OD
-I1Mjg5LC0zNjUzNDc0MTQsLTExMjk3ODA3NzcsMjA3MzMwMTk2
-NSwxMzgyNzgzMDk5LDE4MDU5MjkyNzAsLTE5MzE2OTI2NDEsND
-Y0OTM5NDY5LDMzNzIwMTAwNywtNjAzMTM0ODA1LC0xOTEwMjYx
-OTk2XX0=
+eyJoaXN0b3J5IjpbLTE0NDA4MTQzNDIsODEyNTI4Nzk5LDE2NT
+kxMDUzMjgsNzA1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5ODc2MjEz
+LC00NjAxMzIyOCwtMTE3ODYyOTcwOCwtMTUyMzkzOTczMSwzND
+Y4MjUyODksLTM2NTM0NzQxNCwtMTEyOTc4MDc3NywyMDczMzAx
+OTY1LDEzODI3ODMwOTksMTgwNTkyOTI3MCwtMTkzMTY5MjY0MS
+w0NjQ5Mzk0NjksMzM3MjAxMDA3LC02MDMxMzQ4MDUsLTE5MTAy
+NjE5OTZdfQ==
 -->
