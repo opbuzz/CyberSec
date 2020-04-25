@@ -157,6 +157,10 @@ exec ('print("Hello")')
 assert (1 == 2), "Error!"
 # AssertionError: Error!
 ```
+`try` -  Try block, if exception go to `
+```py 
+except
+```
 
 
 ## Tuples
@@ -469,11 +473,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzMzNjk4NTYsLTE0OTMwNTMwNjIsLT
-E1ODI1ODQwNjAsODEyNTI4Nzk5LDE2NTkxMDUzMjgsNzA1Njgx
-NjY5LDkwMjQ4NDUwNiwxNDk5ODc2MjEzLC00NjAxMzIyOCwtMT
-E3ODYyOTcwOCwtMTUyMzkzOTczMSwzNDY4MjUyODksLTM2NTM0
-NzQxNCwtMTEyOTc4MDc3NywyMDczMzAxOTY1LDEzODI3ODMwOT
-ksMTgwNTkyOTI3MCwtMTkzMTY5MjY0MSw0NjQ5Mzk0NjksMzM3
-MjAxMDA3XX0=
+eyJoaXN0b3J5IjpbNjA2OTI5NTkzLC0yMDMzMzY5ODU2LC0xND
+kzMDUzMDYyLC0xNTgyNTg0MDYwLDgxMjUyODc5OSwxNjU5MTA1
+MzI4LDcwNTY4MTY2OSw5MDI0ODQ1MDYsMTQ5OTg3NjIxMywtND
+YwMTMyMjgsLTExNzg2Mjk3MDgsLTE1MjM5Mzk3MzEsMzQ2ODI1
+Mjg5LC0zNjUzNDc0MTQsLTExMjk3ODA3NzcsMjA3MzMwMTk2NS
+wxMzgyNzgzMDk5LDE4MDU5MjkyNzAsLTE5MzE2OTI2NDEsNDY0
+OTM5NDY5XX0=
 -->
