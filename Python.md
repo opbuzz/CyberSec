@@ -126,6 +126,10 @@ print("We'd have {} beans, {} jars, and {} crates".format(*formula))
 
 ### Checking if a number is in range
 ```py
+>>> num = 10
+>>> 1 < num < 20
+TRUE
+
 
 
 ```
@@ -450,7 +454,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjI5MjgwMywtMTU4MjU4NDA2MCw4MT
+eyJoaXN0b3J5IjpbMjA1MjcxMDIzOCwtMTU4MjU4NDA2MCw4MT
 I1Mjg3OTksMTY1OTEwNTMyOCw3MDU2ODE2NjksOTAyNDg0NTA2
 LDE0OTk4NzYyMTMsLTQ2MDEzMjI4LC0xMTc4NjI5NzA4LC0xNT
 IzOTM5NzMxLDM0NjgyNTI4OSwtMzY1MzQ3NDE0LC0xMTI5Nzgw
