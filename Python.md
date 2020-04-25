@@ -154,8 +154,8 @@ exec ('print("Hello")')
 ```
 `assert` -Verify if somthing is True.
 ```py
-assert (1 == 2)
-#
+assert (1 == 2), "Error!"
+# AssertionError: Error!
 ```
 
 
@@ -469,11 +469,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxMzQxMDE4LC0xNDkzMDUzMDYyLC0xNT
-gyNTg0MDYwLDgxMjUyODc5OSwxNjU5MTA1MzI4LDcwNTY4MTY2
-OSw5MDI0ODQ1MDYsMTQ5OTg3NjIxMywtNDYwMTMyMjgsLTExNz
-g2Mjk3MDgsLTE1MjM5Mzk3MzEsMzQ2ODI1Mjg5LC0zNjUzNDc0
-MTQsLTExMjk3ODA3NzcsMjA3MzMwMTk2NSwxMzgyNzgzMDk5LD
-E4MDU5MjkyNzAsLTE5MzE2OTI2NDEsNDY0OTM5NDY5LDMzNzIw
-MTAwN119
+eyJoaXN0b3J5IjpbLTIwMzMzNjk4NTYsLTE0OTMwNTMwNjIsLT
+E1ODI1ODQwNjAsODEyNTI4Nzk5LDE2NTkxMDUzMjgsNzA1Njgx
+NjY5LDkwMjQ4NDUwNiwxNDk5ODc2MjEzLC00NjAxMzIyOCwtMT
+E3ODYyOTcwOCwtMTUyMzkzOTczMSwzNDY4MjUyODksLTM2NTM0
+NzQxNCwtMTEyOTc4MDc3NywyMDczMzAxOTY1LDEzODI3ODMwOT
+ksMTgwNTkyOTI3MCwtMTkzMTY5MjY0MSw0NjQ5Mzk0NjksMzM3
+MjAxMDA3XX0=
 -->
