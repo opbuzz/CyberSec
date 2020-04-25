@@ -149,7 +149,13 @@ func = lambda  x:  [OUTCOME  IF  TRUE]  if  [CONDITIONAL]  else  [OUTCOME  IF  F
 #### Common functions
 `exec` - runs a string as python
 ```py
-exec ('print("Hello")
+exec ('print("Hello")')
+# Hello
+```
+`assert` -Verify if somthing is True.
+```py
+assert (1 == 2)
+#
 ```
 
 
@@ -463,11 +469,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTMwMTQ2NywtMTQ5MzA1MzA2MiwtMT
-U4MjU4NDA2MCw4MTI1Mjg3OTksMTY1OTEwNTMyOCw3MDU2ODE2
-NjksOTAyNDg0NTA2LDE0OTk4NzYyMTMsLTQ2MDEzMjI4LC0xMT
-c4NjI5NzA4LC0xNTIzOTM5NzMxLDM0NjgyNTI4OSwtMzY1MzQ3
-NDE0LC0xMTI5NzgwNzc3LDIwNzMzMDE5NjUsMTM4Mjc4MzA5OS
-wxODA1OTI5MjcwLC0xOTMxNjkyNjQxLDQ2NDkzOTQ2OSwzMzcy
-MDEwMDddfQ==
+eyJoaXN0b3J5IjpbOTQxMzQxMDE4LC0xNDkzMDUzMDYyLC0xNT
+gyNTg0MDYwLDgxMjUyODc5OSwxNjU5MTA1MzI4LDcwNTY4MTY2
+OSw5MDI0ODQ1MDYsMTQ5OTg3NjIxMywtNDYwMTMyMjgsLTExNz
+g2Mjk3MDgsLTE1MjM5Mzk3MzEsMzQ2ODI1Mjg5LC0zNjUzNDc0
+MTQsLTExMjk3ODA3NzcsMjA3MzMwMTk2NSwxMzgyNzgzMDk5LD
+E4MDU5MjkyNzAsLTE5MzE2OTI2NDEsNDY0OTM5NDY5LDMzNzIw
+MTAwN119
 -->
