@@ -124,7 +124,8 @@ print(f"We'd have {beans} beans, {jars} jars, and {crates}, crates.")
 print("We'd have {} beans, {} jars, and {} crates".format(*formula))
 ```
 
-### Checking if a number is in range
+## Tricks
+####  Checking if a number is in range
 ```py
 >>> num = 10
 >>> 1 < num < 20
@@ -456,11 +457,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTgzMjgzLC0xNTgyNTg0MDYwLDgxMj
-UyODc5OSwxNjU5MTA1MzI4LDcwNTY4MTY2OSw5MDI0ODQ1MDYs
-MTQ5OTg3NjIxMywtNDYwMTMyMjgsLTExNzg2Mjk3MDgsLTE1Mj
-M5Mzk3MzEsMzQ2ODI1Mjg5LC0zNjUzNDc0MTQsLTExMjk3ODA3
-NzcsMjA3MzMwMTk2NSwxMzgyNzgzMDk5LDE4MDU5MjkyNzAsLT
-E5MzE2OTI2NDEsNDY0OTM5NDY5LDMzNzIwMTAwNywtNjAzMTM0
-ODA1XX0=
+eyJoaXN0b3J5IjpbLTE0OTMwNTMwNjIsLTE1ODI1ODQwNjAsOD
+EyNTI4Nzk5LDE2NTkxMDUzMjgsNzA1NjgxNjY5LDkwMjQ4NDUw
+NiwxNDk5ODc2MjEzLC00NjAxMzIyOCwtMTE3ODYyOTcwOCwtMT
+UyMzkzOTczMSwzNDY4MjUyODksLTM2NTM0NzQxNCwtMTEyOTc4
+MDc3NywyMDczMzAxOTY1LDEzODI3ODMwOTksMTgwNTkyOTI3MC
+wtMTkzMTY5MjY0MSw0NjQ5Mzk0NjksMzM3MjAxMDA3LC02MDMx
+MzQ4MDVdfQ==
 -->
