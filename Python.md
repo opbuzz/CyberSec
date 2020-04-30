@@ -1,3 +1,5 @@
+## External re
+
 ## Writing style
 
 Short strings would use a single `'`
@@ -153,6 +155,10 @@ st = "abcdefg"
 print(st[::-1])
 # OUTPUT -> gfedcba
 ```
+
+### Formatting style guide
+pyformat.info
+
 ## Lambda
 ```py
 func = lambda x: x+1
@@ -486,11 +492,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjUxNTgwNCwxNDAxMjgxMjY0LDExMz
-EzOTkyODksLTE1NTIwODM3MzIsLTIwMzMzNjk4NTYsLTE0OTMw
-NTMwNjIsLTE1ODI1ODQwNjAsODEyNTI4Nzk5LDE2NTkxMDUzMj
-gsNzA1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5ODc2MjEzLC00NjAx
-MzIyOCwtMTE3ODYyOTcwOCwtMTUyMzkzOTczMSwzNDY4MjUyOD
-ksLTM2NTM0NzQxNCwtMTEyOTc4MDc3NywyMDczMzAxOTY1LDEz
-ODI3ODMwOTldfQ==
+eyJoaXN0b3J5IjpbLTE1NjExNzYyNzMsLTIwNjUxNTgwNCwxND
+AxMjgxMjY0LDExMzEzOTkyODksLTE1NTIwODM3MzIsLTIwMzMz
+Njk4NTYsLTE0OTMwNTMwNjIsLTE1ODI1ODQwNjAsODEyNTI4Nz
+k5LDE2NTkxMDUzMjgsNzA1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5
+ODc2MjEzLC00NjAxMzIyOCwtMTE3ODYyOTcwOCwtMTUyMzkzOT
+czMSwzNDY4MjUyODksLTM2NTM0NzQxNCwtMTEyOTc4MDc3Nywy
+MDczMzAxOTY1XX0=
 -->
