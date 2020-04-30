@@ -136,7 +136,13 @@ print("We'd have {} beans, {} jars, and {} crates".format(*formula))
 >>> num in range(20)
 # TRUE
 ```
+#### Printing a string in reverse
+```py
+st = "abcdefg"
+print(st[::-1])
+# 
 
+```
 ## Lambda
 ```py
 func = lambda x: x+1
@@ -470,11 +476,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTIwODM3MzIsLTIwMzMzNjk4NTYsLT
-E0OTMwNTMwNjIsLTE1ODI1ODQwNjAsODEyNTI4Nzk5LDE2NTkx
-MDUzMjgsNzA1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5ODc2MjEzLC
-00NjAxMzIyOCwtMTE3ODYyOTcwOCwtMTUyMzkzOTczMSwzNDY4
-MjUyODksLTM2NTM0NzQxNCwtMTEyOTc4MDc3NywyMDczMzAxOT
-Y1LDEzODI3ODMwOTksMTgwNTkyOTI3MCwtMTkzMTY5MjY0MSw0
-NjQ5Mzk0NjldfQ==
+eyJoaXN0b3J5IjpbLTE5Mjc5NDY3NTcsLTE1NTIwODM3MzIsLT
+IwMzMzNjk4NTYsLTE0OTMwNTMwNjIsLTE1ODI1ODQwNjAsODEy
+NTI4Nzk5LDE2NTkxMDUzMjgsNzA1NjgxNjY5LDkwMjQ4NDUwNi
+wxNDk5ODc2MjEzLC00NjAxMzIyOCwtMTE3ODYyOTcwOCwtMTUy
+MzkzOTczMSwzNDY4MjUyODksLTM2NTM0NzQxNCwtMTEyOTc4MD
+c3NywyMDczMzAxOTY1LDEzODI3ODMwOTksMTgwNTkyOTI3MCwt
+MTkzMTY5MjY0MV19
 -->
