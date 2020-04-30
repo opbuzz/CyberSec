@@ -22,12 +22,14 @@ print(text.format('kite')
 print(text.format(5))
 # Output -> it is a 5
 ```
-#### Using %s insted
+#### Using %s instead
 ```py
 text = "It is a %s"
 print(text, "%s",%"kite")
 # Output -> It is a kite```
 ```
+#### Using  a variable 
+
 ### Input from user
 If `end = ' '` then then `print()` will not end the line with a newline
 ```py
@@ -475,11 +477,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTM5OTI4OSwtMTU1MjA4MzczMiwtMj
-AzMzM2OTg1NiwtMTQ5MzA1MzA2MiwtMTU4MjU4NDA2MCw4MTI1
-Mjg3OTksMTY1OTEwNTMyOCw3MDU2ODE2NjksOTAyNDg0NTA2LD
-E0OTk4NzYyMTMsLTQ2MDEzMjI4LC0xMTc4NjI5NzA4LC0xNTIz
-OTM5NzMxLDM0NjgyNTI4OSwtMzY1MzQ3NDE0LC0xMTI5NzgwNz
-c3LDIwNzMzMDE5NjUsMTM4Mjc4MzA5OSwxODA1OTI5MjcwLC0x
-OTMxNjkyNjQxXX0=
+eyJoaXN0b3J5IjpbMTA3ODQ2OTI2OSwxMTMxMzk5Mjg5LC0xNT
+UyMDgzNzMyLC0yMDMzMzY5ODU2LC0xNDkzMDUzMDYyLC0xNTgy
+NTg0MDYwLDgxMjUyODc5OSwxNjU5MTA1MzI4LDcwNTY4MTY2OS
+w5MDI0ODQ1MDYsMTQ5OTg3NjIxMywtNDYwMTMyMjgsLTExNzg2
+Mjk3MDgsLTE1MjM5Mzk3MzEsMzQ2ODI1Mjg5LC0zNjUzNDc0MT
+QsLTExMjk3ODA3NzcsMjA3MzMwMTk2NSwxMzgyNzgzMDk5LDE4
+MDU5MjkyNzBdfQ==
 -->
