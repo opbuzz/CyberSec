@@ -129,7 +129,7 @@ print("We'd have {} beans, {} jars, and {} crates".format(*formula))
 ### Floating point
 Float formatting follows `{value":witdth/precision f}`
 * Width  - how much long is the string (prints blank spaces if not enough char)
-* Precision -  the precision of
+* Precision -  the precision of the number shown
 ```py
 num = 1/7 
 # num =0.14285714285714285
@@ -486,11 +486,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDc2NTYzNiwxNDAxMjgxMjY0LDExMz
-EzOTkyODksLTE1NTIwODM3MzIsLTIwMzMzNjk4NTYsLTE0OTMw
-NTMwNjIsLTE1ODI1ODQwNjAsODEyNTI4Nzk5LDE2NTkxMDUzMj
-gsNzA1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5ODc2MjEzLC00NjAx
-MzIyOCwtMTE3ODYyOTcwOCwtMTUyMzkzOTczMSwzNDY4MjUyOD
-ksLTM2NTM0NzQxNCwtMTEyOTc4MDc3NywyMDczMzAxOTY1LDEz
-ODI3ODMwOTldfQ==
+eyJoaXN0b3J5IjpbNjM3NzYyNDI5LDE0MDEyODEyNjQsMTEzMT
+M5OTI4OSwtMTU1MjA4MzczMiwtMjAzMzM2OTg1NiwtMTQ5MzA1
+MzA2MiwtMTU4MjU4NDA2MCw4MTI1Mjg3OTksMTY1OTEwNTMyOC
+w3MDU2ODE2NjksOTAyNDg0NTA2LDE0OTk4NzYyMTMsLTQ2MDEz
+MjI4LC0xMTc4NjI5NzA4LC0xNTIzOTM5NzMxLDM0NjgyNTI4OS
+wtMzY1MzQ3NDE0LC0xMTI5NzgwNzc3LDIwNzMzMDE5NjUsMTM4
+Mjc4MzA5OV19
 -->
