@@ -1,4 +1,10 @@
-## External re
+## External successors
+
+|Name|Link  |
+|:--|:--|
+|Formatting style guide   | pyformat.info |
+
+
 
 ## Writing style
 
@@ -155,9 +161,6 @@ st = "abcdefg"
 print(st[::-1])
 # OUTPUT -> gfedcba
 ```
-
-### Formatting style guide
-pyformat.info
 
 ## Lambda
 ```py
@@ -492,11 +495,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjExNzYyNzMsLTIwNjUxNTgwNCwxND
-AxMjgxMjY0LDExMzEzOTkyODksLTE1NTIwODM3MzIsLTIwMzMz
-Njk4NTYsLTE0OTMwNTMwNjIsLTE1ODI1ODQwNjAsODEyNTI4Nz
-k5LDE2NTkxMDUzMjgsNzA1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5
-ODc2MjEzLC00NjAxMzIyOCwtMTE3ODYyOTcwOCwtMTUyMzkzOT
-czMSwzNDY4MjUyODksLTM2NTM0NzQxNCwtMTEyOTc4MDc3Nywy
-MDczMzAxOTY1XX0=
+eyJoaXN0b3J5IjpbLTM3OTYyMjExMSwtMjA2NTE1ODA0LDE0MD
+EyODEyNjQsMTEzMTM5OTI4OSwtMTU1MjA4MzczMiwtMjAzMzM2
+OTg1NiwtMTQ5MzA1MzA2MiwtMTU4MjU4NDA2MCw4MTI1Mjg3OT
+ksMTY1OTEwNTMyOCw3MDU2ODE2NjksOTAyNDg0NTA2LDE0OTk4
+NzYyMTMsLTQ2MDEzMjI4LC0xMTc4NjI5NzA4LC0xNTIzOTM5Nz
+MxLDM0NjgyNTI4OSwtMzY1MzQ3NDE0LC0xMTI5NzgwNzc3LDIw
+NzMzMDE5NjVdfQ==
 -->
