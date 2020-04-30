@@ -126,7 +126,11 @@ print(f"We'd have {beans} beans, {jars} jars, and {crates}, crates.")
 ### the
 print("We'd have {} beans, {} jars, and {} crates".format(*formula))
 ```
+### Floating point
+Float formatting follows `{value":witdth/precision f}`
+```py
 
+```
 ## Tricks
 ####  Checking if a number is in range
 ```py
@@ -478,11 +482,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1OTc1MTkzLDExMzEzOTkyODksLTE1NT
-IwODM3MzIsLTIwMzMzNjk4NTYsLTE0OTMwNTMwNjIsLTE1ODI1
-ODQwNjAsODEyNTI4Nzk5LDE2NTkxMDUzMjgsNzA1NjgxNjY5LD
-kwMjQ4NDUwNiwxNDk5ODc2MjEzLC00NjAxMzIyOCwtMTE3ODYy
-OTcwOCwtMTUyMzkzOTczMSwzNDY4MjUyODksLTM2NTM0NzQxNC
-wtMTEyOTc4MDc3NywyMDczMzAxOTY1LDEzODI3ODMwOTksMTgw
-NTkyOTI3MF19
+eyJoaXN0b3J5IjpbMTQwMTI4MTI2NCwxMTMxMzk5Mjg5LC0xNT
+UyMDgzNzMyLC0yMDMzMzY5ODU2LC0xNDkzMDUzMDYyLC0xNTgy
+NTg0MDYwLDgxMjUyODc5OSwxNjU5MTA1MzI4LDcwNTY4MTY2OS
+w5MDI0ODQ1MDYsMTQ5OTg3NjIxMywtNDYwMTMyMjgsLTExNzg2
+Mjk3MDgsLTE1MjM5Mzk3MzEsMzQ2ODI1Mjg5LC0zNjUzNDc0MT
+QsLTExMjk3ODA3NzcsMjA3MzMwMTk2NSwxMzgyNzgzMDk5LDE4
+MDU5MjkyNzBdfQ==
 -->
