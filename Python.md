@@ -13,7 +13,10 @@ print(f'this is {x} and {y}'
 # Output -> this is 5 and 2
 #OR
 print('this is {x} and {y}'.format(x,y)
+#Better
+print("this is {first} and {second}".format(first= x, second = y))
 ```
+
 If you use `{}` in a string,  each call with .formatter would change its values
 ```py
 text = "It is a {}"
@@ -28,13 +31,6 @@ text = "It is a %s"
 print(text, "%s",%"kite")
 # Output -> It is a kite```
 ```
-#### Using  a variable with {}
-```py
-text = "It is a %s"
-print(text, "%s",%"kite")
-# Output -> It is a kite
-``` 
-
 ### Input from user
 If `end = ' '` then then `print()` will not end the line with a newline
 ```py
@@ -482,7 +478,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5NzI2NDc1LDExMzEzOTkyODksLTE1NT
+eyJoaXN0b3J5IjpbNTg1OTc1MTkzLDExMzEzOTkyODksLTE1NT
 IwODM3MzIsLTIwMzMzNjk4NTYsLTE0OTMwNTMwNjIsLTE1ODI1
 ODQwNjAsODEyNTI4Nzk5LDE2NTkxMDUzMjgsNzA1NjgxNjY5LD
 kwMjQ4NDUwNiwxNDk5ODc2MjEzLC00NjAxMzIyOCwtMTE3ODYy
