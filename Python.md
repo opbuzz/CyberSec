@@ -128,6 +128,8 @@ print("We'd have {} beans, {} jars, and {} crates".format(*formula))
 ```
 ### Floating point
 Float formatting follows `{value":witdth/precision f}`
+* Width  - how much long is the string (prints blank spaces if not enough char)
+* Precision -  the precision of
 ```py
 num = 1/7 
 # num =0.14285714285714285
@@ -484,7 +486,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDI4NTc0MSwxNDAxMjgxMjY0LDExMz
+eyJoaXN0b3J5IjpbMTgxMDc2NTYzNiwxNDAxMjgxMjY0LDExMz
 EzOTkyODksLTE1NTIwODM3MzIsLTIwMzMzNjk4NTYsLTE0OTMw
 NTMwNjIsLTE1ODI1ODQwNjAsODEyNTI4Nzk5LDE2NTkxMDUzMj
 gsNzA1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5ODc2MjEzLC00NjAx
