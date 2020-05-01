@@ -144,9 +144,10 @@ num = 1/7
 print("{val:0.2f}".format(val= num))
 ```
 ### Files 
-Use the `with` statement 
+Use the `with` statement so the file would close automatically 
 ```py
-with open('fileName.t
+with open('fileName.txt') as my_file:
+	# Some commands
 ```
 ## Tricks
 ####  Checking if a number is in range
@@ -520,11 +521,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDQ2NDA4NCw1NjU0NzM2MjIsMzYwNz
-gxODQ2LDE0MDc5MTI4LC0zNzk2MjIxMTEsLTIwNjUxNTgwNCwx
-NDAxMjgxMjY0LDExMzEzOTkyODksLTE1NTIwODM3MzIsLTIwMz
-MzNjk4NTYsLTE0OTMwNTMwNjIsLTE1ODI1ODQwNjAsODEyNTI4
-Nzk5LDE2NTkxMDUzMjgsNzA1NjgxNjY5LDkwMjQ4NDUwNiwxND
-k5ODc2MjEzLC00NjAxMzIyOCwtMTE3ODYyOTcwOCwtMTUyMzkz
-OTczMV19
+eyJoaXN0b3J5IjpbNDc3NzgyMTgzLDU2NTQ3MzYyMiwzNjA3OD
+E4NDYsMTQwNzkxMjgsLTM3OTYyMjExMSwtMjA2NTE1ODA0LDE0
+MDEyODEyNjQsMTEzMTM5OTI4OSwtMTU1MjA4MzczMiwtMjAzMz
+M2OTg1NiwtMTQ5MzA1MzA2MiwtMTU4MjU4NDA2MCw4MTI1Mjg3
+OTksMTY1OTEwNTMyOCw3MDU2ODE2NjksOTAyNDg0NTA2LDE0OT
+k4NzYyMTMsLTQ2MDEzMjI4LC0xMTc4NjI5NzA4LC0xNTIzOTM5
+NzMxXX0=
 -->
