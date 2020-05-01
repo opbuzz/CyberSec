@@ -203,12 +203,17 @@ second_x, second_y = second_coord
 ```python
 total  =  sum([1  for  n  in  list  if  n  ==  foo])
 ```
-### .pop
+### .pop (s
 ```py
-my_lst = ['a','b','c']
+my_lst = ['a','b','c','d']
 lst.pop()
-# >>> c
-lst.pop 
+# >>> 'd'
+lst
+# >>> ['a','b','c']
+lst.pop(0)
+# >>> 'a'
+lst
+# >>> ['a','b'] 
 ```
 
 ## NumPy
@@ -501,7 +506,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODUzODI4NCwtMzc5NjIyMTExLC0yMD
+eyJoaXN0b3J5IjpbMTg1OTAyODYzMCwtMzc5NjIyMTExLC0yMD
 Y1MTU4MDQsMTQwMTI4MTI2NCwxMTMxMzk5Mjg5LC0xNTUyMDgz
 NzMyLC0yMDMzMzY5ODU2LC0xNDkzMDUzMDYyLC0xNTgyNTg0MD
 YwLDgxMjUyODc5OSwxNjU5MTA1MzI4LDcwNTY4MTY2OSw5MDI0
