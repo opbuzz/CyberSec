@@ -203,7 +203,7 @@ second_x, second_y = second_coord
 ```python
 total  =  sum([1  for  n  in  list  if  n  ==  foo])
 ```
-### .pop (s
+### .pop (Num)
 ```py
 my_lst = ['a','b','c','d']
 lst.pop()
@@ -506,11 +506,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1OTAyODYzMCwtMzc5NjIyMTExLC0yMD
-Y1MTU4MDQsMTQwMTI4MTI2NCwxMTMxMzk5Mjg5LC0xNTUyMDgz
-NzMyLC0yMDMzMzY5ODU2LC0xNDkzMDUzMDYyLC0xNTgyNTg0MD
-YwLDgxMjUyODc5OSwxNjU5MTA1MzI4LDcwNTY4MTY2OSw5MDI0
-ODQ1MDYsMTQ5OTg3NjIxMywtNDYwMTMyMjgsLTExNzg2Mjk3MD
-gsLTE1MjM5Mzk3MzEsMzQ2ODI1Mjg5LC0zNjUzNDc0MTQsLTEx
-Mjk3ODA3NzddfQ==
+eyJoaXN0b3J5IjpbMTQwNzkxMjgsLTM3OTYyMjExMSwtMjA2NT
+E1ODA0LDE0MDEyODEyNjQsMTEzMTM5OTI4OSwtMTU1MjA4Mzcz
+MiwtMjAzMzM2OTg1NiwtMTQ5MzA1MzA2MiwtMTU4MjU4NDA2MC
+w4MTI1Mjg3OTksMTY1OTEwNTMyOCw3MDU2ODE2NjksOTAyNDg0
+NTA2LDE0OTk4NzYyMTMsLTQ2MDEzMjI4LC0xMTc4NjI5NzA4LC
+0xNTIzOTM5NzMxLDM0NjgyNTI4OSwtMzY1MzQ3NDE0LC0xMTI5
+NzgwNzc3XX0=
 -->
