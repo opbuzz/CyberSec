@@ -221,6 +221,11 @@ lst.pop(0)
 lst
 # >>> ['a','b'] 
 ```
+### .sort() and sorted()
+`.sort()` - will sort the current list changing it.
+`sorted(myList)`
+
+ 
 ## Sets
 - They don't have a particular order
 - Only store unique values
@@ -521,11 +526,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3NzgyMTgzLDU2NTQ3MzYyMiwzNjA3OD
-E4NDYsMTQwNzkxMjgsLTM3OTYyMjExMSwtMjA2NTE1ODA0LDE0
-MDEyODEyNjQsMTEzMTM5OTI4OSwtMTU1MjA4MzczMiwtMjAzMz
-M2OTg1NiwtMTQ5MzA1MzA2MiwtMTU4MjU4NDA2MCw4MTI1Mjg3
-OTksMTY1OTEwNTMyOCw3MDU2ODE2NjksOTAyNDg0NTA2LDE0OT
-k4NzYyMTMsLTQ2MDEzMjI4LC0xMTc4NjI5NzA4LC0xNTIzOTM5
-NzMxXX0=
+eyJoaXN0b3J5IjpbNTc1Mzk2NDA4LDQ3Nzc4MjE4Myw1NjU0Nz
+M2MjIsMzYwNzgxODQ2LDE0MDc5MTI4LC0zNzk2MjIxMTEsLTIw
+NjUxNTgwNCwxNDAxMjgxMjY0LDExMzEzOTkyODksLTE1NTIwOD
+M3MzIsLTIwMzMzNjk4NTYsLTE0OTMwNTMwNjIsLTE1ODI1ODQw
+NjAsODEyNTI4Nzk5LDE2NTkxMDUzMjgsNzA1NjgxNjY5LDkwMj
+Q4NDUwNiwxNDk5ODc2MjEzLC00NjAxMzIyOCwtMTE3ODYyOTcw
+OF19
 -->
