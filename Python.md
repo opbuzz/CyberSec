@@ -222,8 +222,8 @@ lst
 # >>> ['a','b'] 
 ```
 ### .sort() and sorted()
-`.sort()` - will sort the current list changing it.
-`sorted(myList)`
+`my_list.sort()` - will sort the current list changing it.
+`sorted(my_list)` - returns a sorted list
 
  
 ## Sets
@@ -526,7 +526,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1Mzk2NDA4LDQ3Nzc4MjE4Myw1NjU0Nz
+eyJoaXN0b3J5IjpbLTI1OTk4NDcwLDQ3Nzc4MjE4Myw1NjU0Nz
 M2MjIsMzYwNzgxODQ2LDE0MDc5MTI4LC0zNzk2MjIxMTEsLTIw
 NjUxNTgwNCwxNDAxMjgxMjY0LDExMzEzOTkyODksLTE1NTIwOD
 M3MzIsLTIwMzMzNjk4NTYsLTE0OTMwNTMwNjIsLTE1ODI1ODQw
