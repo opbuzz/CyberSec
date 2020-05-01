@@ -143,6 +143,11 @@ num = 1/7
 # num =0.14285714285714285
 print("{val:0.2f}".format(val= num))
 ```
+### Files 
+Use the `with` statement 
+```py
+with open('fileName.t
+```
 ## Tricks
 ####  Checking if a number is in range
 ```py
@@ -515,11 +520,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1NDczNjIyLDM2MDc4MTg0NiwxNDA3OT
-EyOCwtMzc5NjIyMTExLC0yMDY1MTU4MDQsMTQwMTI4MTI2NCwx
-MTMxMzk5Mjg5LC0xNTUyMDgzNzMyLC0yMDMzMzY5ODU2LC0xND
-kzMDUzMDYyLC0xNTgyNTg0MDYwLDgxMjUyODc5OSwxNjU5MTA1
-MzI4LDcwNTY4MTY2OSw5MDI0ODQ1MDYsMTQ5OTg3NjIxMywtND
-YwMTMyMjgsLTExNzg2Mjk3MDgsLTE1MjM5Mzk3MzEsMzQ2ODI1
-Mjg5XX0=
+eyJoaXN0b3J5IjpbMTc2NDQ2NDA4NCw1NjU0NzM2MjIsMzYwNz
+gxODQ2LDE0MDc5MTI4LC0zNzk2MjIxMTEsLTIwNjUxNTgwNCwx
+NDAxMjgxMjY0LDExMzEzOTkyODksLTE1NTIwODM3MzIsLTIwMz
+MzNjk4NTYsLTE0OTMwNTMwNjIsLTE1ODI1ODQwNjAsODEyNTI4
+Nzk5LDE2NTkxMDUzMjgsNzA1NjgxNjY5LDkwMjQ4NDUwNiwxND
+k5ODc2MjEzLC00NjAxMzIyOCwtMTE3ODYyOTcwOCwtMTUyMzkz
+OTczMV19
 -->
