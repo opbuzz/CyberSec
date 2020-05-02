@@ -256,7 +256,7 @@ num = [num**2 for num in range(10)]
 ```
 #### Add an `if` statement
 ```py
-# Get only even numbers in a range of 0 -10
+# Get only even numbers in a range of 0 -10	
 num = [num for num in range(11) if num % 2 == 0]
 ```
 #### Add an `if-else` statement
@@ -581,11 +581,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTg1MDY0MTgsLTE1MDIxNDg1MDUsLT
-I1OTk4NDcwLDQ3Nzc4MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2
-LDE0MDc5MTI4LC0zNzk2MjIxMTEsLTIwNjUxNTgwNCwxNDAxMj
-gxMjY0LDExMzEzOTkyODksLTE1NTIwODM3MzIsLTIwMzMzNjk4
-NTYsLTE0OTMwNTMwNjIsLTE1ODI1ODQwNjAsODEyNTI4Nzk5LD
-E2NTkxMDUzMjgsNzA1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5ODc2
-MjEzXX0=
+eyJoaXN0b3J5IjpbLTIwNjExMjcyNTgsLTEyNTg1MDY0MTgsLT
+E1MDIxNDg1MDUsLTI1OTk4NDcwLDQ3Nzc4MjE4Myw1NjU0NzM2
+MjIsMzYwNzgxODQ2LDE0MDc5MTI4LC0zNzk2MjIxMTEsLTIwNj
+UxNTgwNCwxNDAxMjgxMjY0LDExMzEzOTkyODksLTE1NTIwODM3
+MzIsLTIwMzMzNjk4NTYsLTE0OTMwNTMwNjIsLTE1ODI1ODQwNj
+AsODEyNTI4Nzk5LDE2NTkxMDUzMjgsNzA1NjgxNjY5LDkwMjQ4
+NDUwNl19
 -->
