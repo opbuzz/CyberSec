@@ -259,7 +259,11 @@ num = [num**2 for num in range(10)]
 # Get only even numbers in a range
 num = [num for num in range(10) if num % 2 == 0]
 ```
-#### Add an `if-else` stateme
+#### Add an `if-else` statement
+```py
+# Get  even numbers in a range print 'ODD\
+num = [num if num % 2 == 0 else 'ODD' num for num in range(10) ]
+```
 
 
 ### Enumerate
@@ -575,7 +579,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODAwMzI0NCwtMTUwMjE0ODUwNSwtMj
+eyJoaXN0b3J5IjpbLTI5OTEyMTkxMiwtMTUwMjE0ODUwNSwtMj
 U5OTg0NzAsNDc3NzgyMTgzLDU2NTQ3MzYyMiwzNjA3ODE4NDYs
 MTQwNzkxMjgsLTM3OTYyMjExMSwtMjA2NTE1ODA0LDE0MDEyOD
 EyNjQsMTEzMTM5OTI4OSwtMTU1MjA4MzczMiwtMjAzMzM2OTg1
