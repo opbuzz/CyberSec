@@ -259,6 +259,7 @@ num = [num**2 for num in range(10)]
 # Get only even numbers in a range
 num = [num for num in range(10) if num % 2 == 0]
 ```
+#### Add an `if-else` stateme
 
 
 ### Enumerate
@@ -574,11 +575,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTgzMDczMTgsLTE1MDIxNDg1MDUsLT
-I1OTk4NDcwLDQ3Nzc4MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2
-LDE0MDc5MTI4LC0zNzk2MjIxMTEsLTIwNjUxNTgwNCwxNDAxMj
-gxMjY0LDExMzEzOTkyODksLTE1NTIwODM3MzIsLTIwMzMzNjk4
-NTYsLTE0OTMwNTMwNjIsLTE1ODI1ODQwNjAsODEyNTI4Nzk5LD
-E2NTkxMDUzMjgsNzA1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5ODc2
-MjEzXX0=
+eyJoaXN0b3J5IjpbMTU4ODAwMzI0NCwtMTUwMjE0ODUwNSwtMj
+U5OTg0NzAsNDc3NzgyMTgzLDU2NTQ3MzYyMiwzNjA3ODE4NDYs
+MTQwNzkxMjgsLTM3OTYyMjExMSwtMjA2NTE1ODA0LDE0MDEyOD
+EyNjQsMTEzMTM5OTI4OSwtMTU1MjA4MzczMiwtMjAzMzM2OTg1
+NiwtMTQ5MzA1MzA2MiwtMTU4MjU4NDA2MCw4MTI1Mjg3OTksMT
+Y1OTEwNTMyOCw3MDU2ODE2NjksOTAyNDg0NTA2LDE0OTk4NzYy
+MTNdfQ==
 -->
