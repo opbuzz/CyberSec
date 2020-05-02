@@ -239,6 +239,17 @@ print(set('Mississippi'))
 
 ## Loops
 
+### Flatting the `for` loop
+```py
+mystring = 'abcde'
+mylist = []
+for letter in mystring:
+    mylist
+
+
+ 
+```
+
 ### Enumerate
 Returns a `tuple` with an index
 ```py
@@ -552,11 +563,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDIxNDg1MDUsLTI1OTk4NDcwLDQ3Nz
-c4MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2LDE0MDc5MTI4LC0z
-Nzk2MjIxMTEsLTIwNjUxNTgwNCwxNDAxMjgxMjY0LDExMzEzOT
-kyODksLTE1NTIwODM3MzIsLTIwMzMzNjk4NTYsLTE0OTMwNTMw
-NjIsLTE1ODI1ODQwNjAsODEyNTI4Nzk5LDE2NTkxMDUzMjgsNz
-A1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5ODc2MjEzLC00NjAxMzIy
-OF19
+eyJoaXN0b3J5IjpbNzc1MDAxMzksLTE1MDIxNDg1MDUsLTI1OT
+k4NDcwLDQ3Nzc4MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2LDE0
+MDc5MTI4LC0zNzk2MjIxMTEsLTIwNjUxNTgwNCwxNDAxMjgxMj
+Y0LDExMzEzOTkyODksLTE1NTIwODM3MzIsLTIwMzMzNjk4NTYs
+LTE0OTMwNTMwNjIsLTE1ODI1ODQwNjAsODEyNTI4Nzk5LDE2NT
+kxMDUzMjgsNzA1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5ODc2MjEz
+XX0=
 -->
