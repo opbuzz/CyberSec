@@ -244,7 +244,13 @@ print(set('Mississippi'))
 mystring = 'abcde'
 mylist = []
 for letter in mystring:
-    mylist
+    mylist.append(letter)
+# Can be chagned to ..
+mystring = 'abcde'
+mylist = [letter for letter in mystring]
+# Can also perform any kind of calulation on
+
+
 
 
  
@@ -563,11 +569,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1MDAxMzksLTE1MDIxNDg1MDUsLTI1OT
-k4NDcwLDQ3Nzc4MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2LDE0
-MDc5MTI4LC0zNzk2MjIxMTEsLTIwNjUxNTgwNCwxNDAxMjgxMj
-Y0LDExMzEzOTkyODksLTE1NTIwODM3MzIsLTIwMzMzNjk4NTYs
-LTE0OTMwNTMwNjIsLTE1ODI1ODQwNjAsODEyNTI4Nzk5LDE2NT
-kxMDUzMjgsNzA1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5ODc2MjEz
-XX0=
+eyJoaXN0b3J5IjpbNjQxNTQ3NzQ3LC0xNTAyMTQ4NTA1LC0yNT
+k5ODQ3MCw0Nzc3ODIxODMsNTY1NDczNjIyLDM2MDc4MTg0Niwx
+NDA3OTEyOCwtMzc5NjIyMTExLC0yMDY1MTU4MDQsMTQwMTI4MT
+I2NCwxMTMxMzk5Mjg5LC0xNTUyMDgzNzMyLC0yMDMzMzY5ODU2
+LC0xNDkzMDUzMDYyLC0xNTgyNTg0MDYwLDgxMjUyODc5OSwxNj
+U5MTA1MzI4LDcwNTY4MTY2OSw5MDI0ODQ1MDYsMTQ5OTg3NjIx
+M119
 -->
