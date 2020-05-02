@@ -248,14 +248,14 @@ for letter in mystring:
 # Can be chagned to ..
 mystring = 'abcde'
 mylist = [letter for letter in mystring]
-# Can also perform any kind of calulation.
+```
+Perform any kind of calculation
+```py
+
+
+# .
 # EXAMPLE - the range of 1 - 10 squared
-num = [num**2 for ran
-
-
-
-
- 
+num = [num**2 for num in range(10)]
 ```
 
 ### Enumerate
@@ -571,7 +571,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDgwNjYzNTcsLTE1MDIxNDg1MDUsLT
+eyJoaXN0b3J5IjpbLTE2MDg0Nzg2OTQsLTE1MDIxNDg1MDUsLT
 I1OTk4NDcwLDQ3Nzc4MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2
 LDE0MDc5MTI4LC0zNzk2MjIxMTEsLTIwNjUxNTgwNCwxNDAxMj
 gxMjY0LDExMzEzOTkyODksLTE1NTIwODM3MzIsLTIwMzMzNjk4
