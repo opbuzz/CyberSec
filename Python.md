@@ -240,17 +240,14 @@ print(set('Mississippi'))
 ## Loops
 
 ### Enumerate
+Returns a `tuple` with an index
 ```py
 st = 'abc'
 for index, letter in enumerate(st):
     print(index, ' ' , letter)
  # >>> 1 a
- # >
-
-
-
-
-
+ #     2 b
+ #     3 c
 ```
 
 
@@ -545,11 +542,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjQ4NDMxNywtMjU5OTg0NzAsNDc3Nz
-gyMTgzLDU2NTQ3MzYyMiwzNjA3ODE4NDYsMTQwNzkxMjgsLTM3
-OTYyMjExMSwtMjA2NTE1ODA0LDE0MDEyODEyNjQsMTEzMTM5OT
-I4OSwtMTU1MjA4MzczMiwtMjAzMzM2OTg1NiwtMTQ5MzA1MzA2
-MiwtMTU4MjU4NDA2MCw4MTI1Mjg3OTksMTY1OTEwNTMyOCw3MD
-U2ODE2NjksOTAyNDg0NTA2LDE0OTk4NzYyMTMsLTQ2MDEzMjI4
-XX0=
+eyJoaXN0b3J5IjpbLTE3MjA3NTg1MzcsLTI1OTk4NDcwLDQ3Nz
+c4MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2LDE0MDc5MTI4LC0z
+Nzk2MjIxMTEsLTIwNjUxNTgwNCwxNDAxMjgxMjY0LDExMzEzOT
+kyODksLTE1NTIwODM3MzIsLTIwMzMzNjk4NTYsLTE0OTMwNTMw
+NjIsLTE1ODI1ODQwNjAsODEyNTI4Nzk5LDE2NTkxMDUzMjgsNz
+A1NjgxNjY5LDkwMjQ4NDUwNiwxNDk5ODc2MjEzLC00NjAxMzIy
+OF19
 -->
