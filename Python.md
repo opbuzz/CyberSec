@@ -225,7 +225,15 @@ lst
 `my_list.sort()` - will sort the current list changing it.
 `sorted(my_list)` - returns a sorted list
 
- 
+```mermaid 
+ graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+    E-->A;
+    cq-->A;
+```
 ## Sets
 - They don't have a particular order
 - Only store unique values
@@ -581,11 +589,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjExMjcyNTgsLTEyNTg1MDY0MTgsLT
-E1MDIxNDg1MDUsLTI1OTk4NDcwLDQ3Nzc4MjE4Myw1NjU0NzM2
-MjIsMzYwNzgxODQ2LDE0MDc5MTI4LC0zNzk2MjIxMTEsLTIwNj
-UxNTgwNCwxNDAxMjgxMjY0LDExMzEzOTkyODksLTE1NTIwODM3
-MzIsLTIwMzMzNjk4NTYsLTE0OTMwNTMwNjIsLTE1ODI1ODQwNj
-AsODEyNTI4Nzk5LDE2NTkxMDUzMjgsNzA1NjgxNjY5LDkwMjQ4
-NDUwNl19
+eyJoaXN0b3J5IjpbMTgwNzEwNDAxNywtMjA2MTEyNzI1OCwtMT
+I1ODUwNjQxOCwtMTUwMjE0ODUwNSwtMjU5OTg0NzAsNDc3Nzgy
+MTgzLDU2NTQ3MzYyMiwzNjA3ODE4NDYsMTQwNzkxMjgsLTM3OT
+YyMjExMSwtMjA2NTE1ODA0LDE0MDEyODEyNjQsMTEzMTM5OTI4
+OSwtMTU1MjA4MzczMiwtMjAzMzM2OTg1NiwtMTQ5MzA1MzA2Mi
+wtMTU4MjU4NDA2MCw4MTI1Mjg3OTksMTY1OTEwNTMyOCw3MDU2
+ODE2NjldfQ==
 -->
