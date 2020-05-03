@@ -182,7 +182,15 @@ func = lambda  x:  [OUTCOME  IF  TRUE]  if  [CONDITIONAL]  else  [OUTCOME  IF  F
 ```py
 def square(num):
     return num **2
- nums = [1, 2,
+ nums = [1, 2, 3, 4]
+ for item in map(square,nums):
+     print(item)
+ # 1
+ # 4
+ # 6
+ # 16
+
+
 
 
 ```
@@ -591,11 +599,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzczNzk3OTMsLTE3MjYxNTYwNTcsLT
-IwNjExMjcyNTgsLTEyNTg1MDY0MTgsLTE1MDIxNDg1MDUsLTI1
-OTk4NDcwLDQ3Nzc4MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2LD
-E0MDc5MTI4LC0zNzk2MjIxMTEsLTIwNjUxNTgwNCwxNDAxMjgx
-MjY0LDExMzEzOTkyODksLTE1NTIwODM3MzIsLTIwMzMzNjk4NT
-YsLTE0OTMwNTMwNjIsLTE1ODI1ODQwNjAsODEyNTI4Nzk5LDE2
-NTkxMDUzMjhdfQ==
+eyJoaXN0b3J5IjpbLTYyNDAwOTI2MiwtMTcyNjE1NjA1NywtMj
+A2MTEyNzI1OCwtMTI1ODUwNjQxOCwtMTUwMjE0ODUwNSwtMjU5
+OTg0NzAsNDc3NzgyMTgzLDU2NTQ3MzYyMiwzNjA3ODE4NDYsMT
+QwNzkxMjgsLTM3OTYyMjExMSwtMjA2NTE1ODA0LDE0MDEyODEy
+NjQsMTEzMTM5OTI4OSwtMTU1MjA4MzczMiwtMjAzMzM2OTg1Ni
+wtMTQ5MzA1MzA2MiwtMTU4MjU4NDA2MCw4MTI1Mjg3OTksMTY1
+OTEwNTMyOF19
 -->
