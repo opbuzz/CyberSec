@@ -189,10 +189,6 @@ def square(num):
  # 4
  # 6
  # 16
-
-
-
-
 ```
 
 
@@ -599,7 +595,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDAwOTI2MiwtMTcyNjE1NjA1NywtMj
+eyJoaXN0b3J5IjpbLTczOTI3NTg5NCwtMTcyNjE1NjA1NywtMj
 A2MTEyNzI1OCwtMTI1ODUwNjQxOCwtMTUwMjE0ODUwNSwtMjU5
 OTg0NzAsNDc3NzgyMTgzLDU2NTQ3MzYyMiwzNjA3ODE4NDYsMT
 QwNzkxMjgsLTM3OTYyMjExMSwtMjA2NTE1ODA0LDE0MDEyODEy
