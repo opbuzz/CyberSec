@@ -177,6 +177,17 @@ func = lambda x: x+1
 func = lambda  x:  [OUTCOME  IF  TRUE]  if  [CONDITIONAL]  else  [OUTCOME  IF  FALSE]
 
 ```
+
+## Map
+```py
+def square(num):
+    return num **2
+ nums = [1, 2,
+
+
+```
+
+
 #### Common functions
 `exec` - runs a string as python
 ```py
@@ -580,11 +591,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjYxNTYwNTcsLTIwNjExMjcyNTgsLT
-EyNTg1MDY0MTgsLTE1MDIxNDg1MDUsLTI1OTk4NDcwLDQ3Nzc4
-MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2LDE0MDc5MTI4LC0zNz
-k2MjIxMTEsLTIwNjUxNTgwNCwxNDAxMjgxMjY0LDExMzEzOTky
-ODksLTE1NTIwODM3MzIsLTIwMzMzNjk4NTYsLTE0OTMwNTMwNj
-IsLTE1ODI1ODQwNjAsODEyNTI4Nzk5LDE2NTkxMDUzMjgsNzA1
-NjgxNjY5XX0=
+eyJoaXN0b3J5IjpbLTExMzczNzk3OTMsLTE3MjYxNTYwNTcsLT
+IwNjExMjcyNTgsLTEyNTg1MDY0MTgsLTE1MDIxNDg1MDUsLTI1
+OTk4NDcwLDQ3Nzc4MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2LD
+E0MDc5MTI4LC0zNzk2MjIxMTEsLTIwNjUxNTgwNCwxNDAxMjgx
+MjY0LDExMzEzOTkyODksLTE1NTIwODM3MzIsLTIwMzMzNjk4NT
+YsLTE0OTMwNTMwNjIsLTE1ODI1ODQwNjAsODEyNTI4Nzk5LDE2
+NTkxMDUzMjhdfQ==
 -->
