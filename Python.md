@@ -309,6 +309,13 @@ for item in zip(ls,st):
  #     (2, 'b')
  #     (3, 'c')
 ```
+## Class
+```py
+__init__ #crater class
+__str__ #string
+__del__ # Delete object
+
+```
 
 ## NumPy
 
@@ -600,11 +607,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgwMzkwMjE4LC03MzkyNzU4OTQsLTE3Mj
-YxNTYwNTcsLTIwNjExMjcyNTgsLTEyNTg1MDY0MTgsLTE1MDIx
-NDg1MDUsLTI1OTk4NDcwLDQ3Nzc4MjE4Myw1NjU0NzM2MjIsMz
-YwNzgxODQ2LDE0MDc5MTI4LC0zNzk2MjIxMTEsLTIwNjUxNTgw
-NCwxNDAxMjgxMjY0LDExMzEzOTkyODksLTE1NTIwODM3MzIsLT
-IwMzMzNjk4NTYsLTE0OTMwNTMwNjIsLTE1ODI1ODQwNjAsODEy
-NTI4Nzk5XX0=
+eyJoaXN0b3J5IjpbMTY2MTM5OTYyMCw3ODAzOTAyMTgsLTczOT
+I3NTg5NCwtMTcyNjE1NjA1NywtMjA2MTEyNzI1OCwtMTI1ODUw
+NjQxOCwtMTUwMjE0ODUwNSwtMjU5OTg0NzAsNDc3NzgyMTgzLD
+U2NTQ3MzYyMiwzNjA3ODE4NDYsMTQwNzkxMjgsLTM3OTYyMjEx
+MSwtMjA2NTE1ODA0LDE0MDEyODEyNjQsMTEzMTM5OTI4OSwtMT
+U1MjA4MzczMiwtMjAzMzM2OTg1NiwtMTQ5MzA1MzA2MiwtMTU4
+MjU4NDA2MF19
 -->
