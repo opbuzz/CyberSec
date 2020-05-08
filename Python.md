@@ -345,19 +345,14 @@ would be `True`
 ```py
 try:
     # Some code to try
- except
+except
     # Some error accord
     # run this code block
- else: 
+else: 
     # No error
     # Run this code
- finally
-     
-
- 
-
-
-
+finally:
+    # Run this code ALWAYS
 ```
 
 ## NumPy
@@ -650,11 +645,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzUyODgyLC0xNjkzNzgxMzYzLDE2Nj
-EzOTk2MjAsNzgwMzkwMjE4LC03MzkyNzU4OTQsLTE3MjYxNTYw
-NTcsLTIwNjExMjcyNTgsLTEyNTg1MDY0MTgsLTE1MDIxNDg1MD
-UsLTI1OTk4NDcwLDQ3Nzc4MjE4Myw1NjU0NzM2MjIsMzYwNzgx
-ODQ2LDE0MDc5MTI4LC0zNzk2MjIxMTEsLTIwNjUxNTgwNCwxND
-AxMjgxMjY0LDExMzEzOTkyODksLTE1NTIwODM3MzIsLTIwMzMz
-Njk4NTZdfQ==
+eyJoaXN0b3J5IjpbLTM5NDIzMzMzNCwtMTY5Mzc4MTM2MywxNj
+YxMzk5NjIwLDc4MDM5MDIxOCwtNzM5Mjc1ODk0LC0xNzI2MTU2
+MDU3LC0yMDYxMTI3MjU4LC0xMjU4NTA2NDE4LC0xNTAyMTQ4NT
+A1LC0yNTk5ODQ3MCw0Nzc3ODIxODMsNTY1NDczNjIyLDM2MDc4
+MTg0NiwxNDA3OTEyOCwtMzc5NjIyMTExLC0yMDY1MTU4MDQsMT
+QwMTI4MTI2NCwxMTMxMzk5Mjg5LC0xNTUyMDgzNzMyLC0yMDMz
+MzY5ODU2XX0=
 -->
