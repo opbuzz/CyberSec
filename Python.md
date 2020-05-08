@@ -339,7 +339,22 @@ would be `True`
 
 * `try` - Block of code to be attempted
 * `except` -  Block of code will execute in case there is an error in `try` block
+* `else` - No error in code block
 * `finally` - A final block of code to be executed, regardless of an error
+
+```py
+try:
+    # Some code
+ except
+    # Some error accord run code
+
+ else: 
+    # No error
+ 
+
+
+
+```
 
 ## NumPy
 
@@ -631,11 +646,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTM3ODEzNjMsMTY2MTM5OTYyMCw3OD
-AzOTAyMTgsLTczOTI3NTg5NCwtMTcyNjE1NjA1NywtMjA2MTEy
-NzI1OCwtMTI1ODUwNjQxOCwtMTUwMjE0ODUwNSwtMjU5OTg0Nz
-AsNDc3NzgyMTgzLDU2NTQ3MzYyMiwzNjA3ODE4NDYsMTQwNzkx
-MjgsLTM3OTYyMjExMSwtMjA2NTE1ODA0LDE0MDEyODEyNjQsMT
-EzMTM5OTI4OSwtMTU1MjA4MzczMiwtMjAzMzM2OTg1NiwtMTQ5
-MzA1MzA2Ml19
+eyJoaXN0b3J5IjpbLTg1MzQ0NDA4NiwtMTY5Mzc4MTM2MywxNj
+YxMzk5NjIwLDc4MDM5MDIxOCwtNzM5Mjc1ODk0LC0xNzI2MTU2
+MDU3LC0yMDYxMTI3MjU4LC0xMjU4NTA2NDE4LC0xNTAyMTQ4NT
+A1LC0yNTk5ODQ3MCw0Nzc3ODIxODMsNTY1NDczNjIyLDM2MDc4
+MTg0NiwxNDA3OTEyOCwtMzc5NjIyMTExLC0yMDY1MTU4MDQsMT
+QwMTI4MTI2NCwxMTMxMzk5Mjg5LC0xNTUyMDgzNzMyLC0yMDMz
+MzY5ODU2XX0=
 -->
