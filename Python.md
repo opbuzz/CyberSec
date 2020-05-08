@@ -320,15 +320,17 @@ __del__ # Delete object
 ####  Working with packages
 To set a directory to work as a package an empty `__init__.py` must be define in each directory
 ```
-_> code
-|--->Package
----->__intit.py
+|_> code
+---> PackageFolder
+ |------> __intit.py
+ |------> pacakgeName.py
+```
 
 
 
 
+####To know if you run a package directil
 
-If the actual file is run then 
 ```py
 __name__ == '__main__'
 ``` 
@@ -627,11 +629,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNjYxMjQ0OCwxNjYxMzk5NjIwLDc4MD
-M5MDIxOCwtNzM5Mjc1ODk0LC0xNzI2MTU2MDU3LC0yMDYxMTI3
-MjU4LC0xMjU4NTA2NDE4LC0xNTAyMTQ4NTA1LC0yNTk5ODQ3MC
-w0Nzc3ODIxODMsNTY1NDczNjIyLDM2MDc4MTg0NiwxNDA3OTEy
-OCwtMzc5NjIyMTExLC0yMDY1MTU4MDQsMTQwMTI4MTI2NCwxMT
-MxMzk5Mjg5LC0xNTUyMDgzNzMyLC0yMDMzMzY5ODU2LC0xNDkz
-MDUzMDYyXX0=
+eyJoaXN0b3J5IjpbNTE3MjYxODE4LDE2NjEzOTk2MjAsNzgwMz
+kwMjE4LC03MzkyNzU4OTQsLTE3MjYxNTYwNTcsLTIwNjExMjcy
+NTgsLTEyNTg1MDY0MTgsLTE1MDIxNDg1MDUsLTI1OTk4NDcwLD
+Q3Nzc4MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2LDE0MDc5MTI4
+LC0zNzk2MjIxMTEsLTIwNjUxNTgwNCwxNDAxMjgxMjY0LDExMz
+EzOTkyODksLTE1NTIwODM3MzIsLTIwMzMzNjk4NTYsLTE0OTMw
+NTMwNjJdfQ==
 -->
