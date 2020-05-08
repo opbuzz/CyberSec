@@ -317,8 +317,15 @@ __del__ # Delete object
 
 ```
 
-## Working with packages
-If the actual file is run then `__name__ =
+####  Working with packages
+If the actual file is run then 
+```py
+__name__ == '__main__'
+``` 
+would be `True`
+
+
+
 
 
 ## NumPy
@@ -611,11 +618,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxODk4NzQ0LDE2NjEzOTk2MjAsNzgwMz
-kwMjE4LC03MzkyNzU4OTQsLTE3MjYxNTYwNTcsLTIwNjExMjcy
-NTgsLTEyNTg1MDY0MTgsLTE1MDIxNDg1MDUsLTI1OTk4NDcwLD
-Q3Nzc4MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2LDE0MDc5MTI4
-LC0zNzk2MjIxMTEsLTIwNjUxNTgwNCwxNDAxMjgxMjY0LDExMz
-EzOTkyODksLTE1NTIwODM3MzIsLTIwMzMzNjk4NTYsLTE0OTMw
-NTMwNjJdfQ==
+eyJoaXN0b3J5IjpbLTYxNTYyNjE0MywxNjYxMzk5NjIwLDc4MD
+M5MDIxOCwtNzM5Mjc1ODk0LC0xNzI2MTU2MDU3LC0yMDYxMTI3
+MjU4LC0xMjU4NTA2NDE4LC0xNTAyMTQ4NTA1LC0yNTk5ODQ3MC
+w0Nzc3ODIxODMsNTY1NDczNjIyLDM2MDc4MTg0NiwxNDA3OTEy
+OCwtMzc5NjIyMTExLC0yMDY1MTU4MDQsMTQwMTI4MTI2NCwxMT
+MxMzk5Mjg5LC0xNTUyMDgzNzMyLC0yMDMzMzY5ODU2LC0xNDkz
+MDUzMDYyXX0=
 -->
