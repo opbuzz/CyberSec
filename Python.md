@@ -338,7 +338,8 @@ would be `True`
 ## Error hangelin
 
 * `try` - Block of code to be attempted
-* `except` -  finally
+* `except` -  Block of code will execute in case there is an error in `try` block
+* `finally` - A final block of code to be executed, regardless of an error
 
 ## NumPy
 
@@ -630,11 +631,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzY4OTczNiwxNjYxMzk5NjIwLDc4MD
-M5MDIxOCwtNzM5Mjc1ODk0LC0xNzI2MTU2MDU3LC0yMDYxMTI3
-MjU4LC0xMjU4NTA2NDE4LC0xNTAyMTQ4NTA1LC0yNTk5ODQ3MC
-w0Nzc3ODIxODMsNTY1NDczNjIyLDM2MDc4MTg0NiwxNDA3OTEy
-OCwtMzc5NjIyMTExLC0yMDY1MTU4MDQsMTQwMTI4MTI2NCwxMT
-MxMzk5Mjg5LC0xNTUyMDgzNzMyLC0yMDMzMzY5ODU2LC0xNDkz
-MDUzMDYyXX0=
+eyJoaXN0b3J5IjpbLTE2OTM3ODEzNjMsMTY2MTM5OTYyMCw3OD
+AzOTAyMTgsLTczOTI3NTg5NCwtMTcyNjE1NjA1NywtMjA2MTEy
+NzI1OCwtMTI1ODUwNjQxOCwtMTUwMjE0ODUwNSwtMjU5OTg0Nz
+AsNDc3NzgyMTgzLDU2NTQ3MzYyMiwzNjA3ODE4NDYsMTQwNzkx
+MjgsLTM3OTYyMjExMSwtMjA2NTE1ODA0LDE0MDEyODEyNjQsMT
+EzMTM5OTI4OSwtMTU1MjA4MzczMiwtMjAzMzM2OTg1NiwtMTQ5
+MzA1MzA2Ml19
 -->
