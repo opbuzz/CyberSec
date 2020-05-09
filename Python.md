@@ -366,13 +366,6 @@ class  TestCap(unittest.TestCase):
         self.assetEqual(result,somthing)
     #  Can add as many tests as needed
     #  By what they check and/or numbered
-
-text = 'python'
-
-result = lec75_cap.func(text)
-
-self.assertEqual(result, 'Python')
-
 ```
 
 
@@ -666,11 +659,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM1MzkyOTEsLTE2NzIwMDIxNTAsLT
-M5NDIzMzMzNCwtMTY5Mzc4MTM2MywxNjYxMzk5NjIwLDc4MDM5
-MDIxOCwtNzM5Mjc1ODk0LC0xNzI2MTU2MDU3LC0yMDYxMTI3Mj
-U4LC0xMjU4NTA2NDE4LC0xNTAyMTQ4NTA1LC0yNTk5ODQ3MCw0
-Nzc3ODIxODMsNTY1NDczNjIyLDM2MDc4MTg0NiwxNDA3OTEyOC
-wtMzc5NjIyMTExLC0yMDY1MTU4MDQsMTQwMTI4MTI2NCwxMTMx
-Mzk5Mjg5XX0=
+eyJoaXN0b3J5IjpbLTY5OTg5NjE5MiwtMTY3MjAwMjE1MCwtMz
+k0MjMzMzM0LC0xNjkzNzgxMzYzLDE2NjEzOTk2MjAsNzgwMzkw
+MjE4LC03MzkyNzU4OTQsLTE3MjYxNTYwNTcsLTIwNjExMjcyNT
+gsLTEyNTg1MDY0MTgsLTE1MDIxNDg1MDUsLTI1OTk4NDcwLDQ3
+Nzc4MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2LDE0MDc5MTI4LC
+0zNzk2MjIxMTEsLTIwNjUxNTgwNCwxNDAxMjgxMjY0LDExMzEz
+OTkyODldfQ==
 -->
