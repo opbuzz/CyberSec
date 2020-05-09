@@ -354,20 +354,16 @@ else:
 finally:
     # Run this code ALWAYS
 ```
-### Pylint 
+### Unittest 
 
 ```py
 import unittest
-
-import lec75_cap
-
-  
-
+import name_of_script
+ 
 class  TestCap(unittest.TestCase):
-
-  
-
-def  test_one_word(self):
+    def  firsttest(self):
+        # Check somthing
+        self.asset
 
 text = 'python'
 
@@ -668,7 +664,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzIzODQ2NDksLTE2NzIwMDIxNTAsLT
+eyJoaXN0b3J5IjpbLTE2NjgwODg2MTEsLTE2NzIwMDIxNTAsLT
 M5NDIzMzMzNCwtMTY5Mzc4MTM2MywxNjYxMzk5NjIwLDc4MDM5
 MDIxOCwtNzM5Mjc1ODk0LC0xNzI2MTU2MDU3LC0yMDYxMTI3Mj
 U4LC0xMjU4NTA2NDE4LC0xNTAyMTQ4NTA1LC0yNTk5ODQ3MCw0
