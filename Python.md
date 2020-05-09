@@ -357,7 +357,23 @@ finally:
 ### Pylint 
 
 ```py
+import unittest
 
+import lec75_cap
+
+  
+
+class  TestCap(unittest.TestCase):
+
+  
+
+def  test_one_word(self):
+
+text = 'python'
+
+result = lec75_cap.func(text)
+
+self.assertEqual(result, 'Python')
 
 ```
 
@@ -652,11 +668,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzIwMDIxNTAsLTM5NDIzMzMzNCwtMT
-Y5Mzc4MTM2MywxNjYxMzk5NjIwLDc4MDM5MDIxOCwtNzM5Mjc1
-ODk0LC0xNzI2MTU2MDU3LC0yMDYxMTI3MjU4LC0xMjU4NTA2ND
-E4LC0xNTAyMTQ4NTA1LC0yNTk5ODQ3MCw0Nzc3ODIxODMsNTY1
-NDczNjIyLDM2MDc4MTg0NiwxNDA3OTEyOCwtMzc5NjIyMTExLC
-0yMDY1MTU4MDQsMTQwMTI4MTI2NCwxMTMxMzk5Mjg5LC0xNTUy
-MDgzNzMyXX0=
+eyJoaXN0b3J5IjpbLTE3MzIzODQ2NDksLTE2NzIwMDIxNTAsLT
+M5NDIzMzMzNCwtMTY5Mzc4MTM2MywxNjYxMzk5NjIwLDc4MDM5
+MDIxOCwtNzM5Mjc1ODk0LC0xNzI2MTU2MDU3LC0yMDYxMTI3Mj
+U4LC0xMjU4NTA2NDE4LC0xNTAyMTQ4NTA1LC0yNTk5ODQ3MCw0
+Nzc3ODIxODMsNTY1NDczNjIyLDM2MDc4MTg0NiwxNDA3OTEyOC
+wtMzc5NjIyMTExLC0yMDY1MTU4MDQsMTQwMTI4MTI2NCwxMTMx
+Mzk5Mjg5XX0=
 -->
