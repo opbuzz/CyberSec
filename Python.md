@@ -335,7 +335,7 @@ would be `True`
 
 
 
-## Error hangelin
+## Error handling
 
 * `try` - Block of code to be attempted
 * `except` -  Block of code will execute in case there is an error in `try` block
@@ -659,11 +659,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTg5NjE5MiwtMTY3MjAwMjE1MCwtMz
-k0MjMzMzM0LC0xNjkzNzgxMzYzLDE2NjEzOTk2MjAsNzgwMzkw
-MjE4LC03MzkyNzU4OTQsLTE3MjYxNTYwNTcsLTIwNjExMjcyNT
-gsLTEyNTg1MDY0MTgsLTE1MDIxNDg1MDUsLTI1OTk4NDcwLDQ3
-Nzc4MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2LDE0MDc5MTI4LC
-0zNzk2MjIxMTEsLTIwNjUxNTgwNCwxNDAxMjgxMjY0LDExMzEz
-OTkyODldfQ==
+eyJoaXN0b3J5IjpbLTQ2Mjk1MjcxMSwtNjk5ODk2MTkyLC0xNj
+cyMDAyMTUwLC0zOTQyMzMzMzQsLTE2OTM3ODEzNjMsMTY2MTM5
+OTYyMCw3ODAzOTAyMTgsLTczOTI3NTg5NCwtMTcyNjE1NjA1Ny
+wtMjA2MTEyNzI1OCwtMTI1ODUwNjQxOCwtMTUwMjE0ODUwNSwt
+MjU5OTg0NzAsNDc3NzgyMTgzLDU2NTQ3MzYyMiwzNjA3ODE4ND
+YsMTQwNzkxMjgsLTM3OTYyMjExMSwtMjA2NTE1ODA0LDE0MDEy
+ODEyNjRdfQ==
 -->
