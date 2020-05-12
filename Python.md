@@ -307,10 +307,21 @@ for item in zip(ls,st):
  #     (3, 'c')
 ```
 ## Generators
+### `yield`
+
 ```py
-def func(
-for x in range(n)
-    yield x +1
+def time_two(n):
+    for x in range(n):
+        yield x * 2
+ 
+print(func(5))
+#  OUPUT
+#  2
+#  4
+#  6
+#  8
+#  10
+
 
     
 ```
@@ -670,11 +681,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDczNDMyNiwtNDYyOTUyNzExLC02OT
-k4OTYxOTIsLTE2NzIwMDIxNTAsLTM5NDIzMzMzNCwtMTY5Mzc4
-MTM2MywxNjYxMzk5NjIwLDc4MDM5MDIxOCwtNzM5Mjc1ODk0LC
-0xNzI2MTU2MDU3LC0yMDYxMTI3MjU4LC0xMjU4NTA2NDE4LC0x
-NTAyMTQ4NTA1LC0yNTk5ODQ3MCw0Nzc3ODIxODMsNTY1NDczNj
-IyLDM2MDc4MTg0NiwxNDA3OTEyOCwtMzc5NjIyMTExLC0yMDY1
-MTU4MDRdfQ==
+eyJoaXN0b3J5IjpbLTEyMjA2MDQxODUsLTQ2Mjk1MjcxMSwtNj
+k5ODk2MTkyLC0xNjcyMDAyMTUwLC0zOTQyMzMzMzQsLTE2OTM3
+ODEzNjMsMTY2MTM5OTYyMCw3ODAzOTAyMTgsLTczOTI3NTg5NC
+wtMTcyNjE1NjA1NywtMjA2MTEyNzI1OCwtMTI1ODUwNjQxOCwt
+MTUwMjE0ODUwNSwtMjU5OTg0NzAsNDc3NzgyMTgzLDU2NTQ3Mz
+YyMiwzNjA3ODE4NDYsMTQwNzkxMjgsLTM3OTYyMjExMSwtMjA2
+NTE1ODA0XX0=
 -->
