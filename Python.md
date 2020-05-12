@@ -203,11 +203,8 @@ list(filter(lambda n:n % 2 = 0, num))
 exec ('print("Hello")')
 # Hello
 ```
-`assert` -Verify if somthing is True.
-```py
-assert (1 == 2), "Error!"
-# AssertionError: Error!
-```
+
+
 `try` -  Try block, if exception go to `except`
 
 
@@ -309,6 +306,15 @@ for item in zip(ls,st):
  #     (2, 'b')
  #     (3, 'c')
 ```
+## Generators
+```py
+def func(
+for x in range(n)
+    yield x +1
+
+    
+```
+
 ## Class
 ```py
 __init__ #crater class
@@ -352,6 +358,12 @@ else:
     # Run this code
 finally:
     # Run this code ALWAYS
+```
+
+`assert` -Verify if somthing is True.
+```py
+assert (1 == 2), "Error!"
+# AssertionError: Error!
 ```
 ### Unittest 
 
@@ -658,7 +670,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDYzNjA1NywtNDYyOTUyNzExLC02OT
+eyJoaXN0b3J5IjpbMTEzNDczNDMyNiwtNDYyOTUyNzExLC02OT
 k4OTYxOTIsLTE2NzIwMDIxNTAsLTM5NDIzMzMzNCwtMTY5Mzc4
 MTM2MywxNjYxMzk5NjIwLDc4MDM5MDIxOCwtNzM5Mjc1ODk0LC
 0xNzI2MTU2MDU3LC0yMDYxMTI3MjU4LC0xMjU4NTA2NDE4LC0x
