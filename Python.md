@@ -355,7 +355,9 @@ print(next(g))
 # OUTPUT
 # <ERROR>
 ```
-### `iter(_generator)`
+### `iter(object)`
+Transform an object to an 
+
 ```py
 
 
@@ -716,7 +718,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjIwMTkxMiwtMTY5ODcwODMyNCwtOD
+eyJoaXN0b3J5IjpbMTQxNzUyMDI0OSwtMTY5ODcwODMyNCwtOD
 U5OTIzNjMyLC00NjI5NTI3MTEsLTY5OTg5NjE5MiwtMTY3MjAw
 MjE1MCwtMzk0MjMzMzM0LC0xNjkzNzgxMzYzLDE2NjEzOTk2Mj
 AsNzgwMzkwMjE4LC03MzkyNzU4OTQsLTE3MjYxNTYwNTcsLTIw
