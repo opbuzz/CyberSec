@@ -309,10 +309,13 @@ for item in zip(ls,st):
 ## Generators
 ### `yield`
 
+Once called stores last value and stops the function.
+
 ```py
 def time_two(n):
-    for x in range(n):
-        yield x * 2
+	for x in range(n):
+	    yield x * 2
+	print("this is it")
  
 print(func(5))
 #  OUPUT
@@ -321,9 +324,7 @@ print(func(5))
 #  6
 #  8
 #  10
-
-
-    
+#  This is it  
 ```
 
 ## Class
@@ -681,11 +682,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjA2MDQxODUsLTQ2Mjk1MjcxMSwtNj
-k5ODk2MTkyLC0xNjcyMDAyMTUwLC0zOTQyMzMzMzQsLTE2OTM3
-ODEzNjMsMTY2MTM5OTYyMCw3ODAzOTAyMTgsLTczOTI3NTg5NC
-wtMTcyNjE1NjA1NywtMjA2MTEyNzI1OCwtMTI1ODUwNjQxOCwt
-MTUwMjE0ODUwNSwtMjU5OTg0NzAsNDc3NzgyMTgzLDU2NTQ3Mz
-YyMiwzNjA3ODE4NDYsMTQwNzkxMjgsLTM3OTYyMjExMSwtMjA2
-NTE1ODA0XX0=
+eyJoaXN0b3J5IjpbNTM5MzA4NjA0LC00NjI5NTI3MTEsLTY5OT
+g5NjE5MiwtMTY3MjAwMjE1MCwtMzk0MjMzMzM0LC0xNjkzNzgx
+MzYzLDE2NjEzOTk2MjAsNzgwMzkwMjE4LC03MzkyNzU4OTQsLT
+E3MjYxNTYwNTcsLTIwNjExMjcyNTgsLTEyNTg1MDY0MTgsLTE1
+MDIxNDg1MDUsLTI1OTk4NDcwLDQ3Nzc4MjE4Myw1NjU0NzM2Mj
+IsMzYwNzgxODQ2LDE0MDc5MTI4LC0zNzk2MjIxMTEsLTIwNjUx
+NTgwNF19
 -->
