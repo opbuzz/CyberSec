@@ -360,9 +360,9 @@ Transform an object to an `iterator` object
 ```py
 st = 'somthing'
 st_itr = iter(st)
-print(st_it
-
-
+print(s_itr)
+# OUTPUT
+# s
 ```
 
 ## Class
@@ -720,7 +720,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzMwNTYzNTksLTE2OTg3MDgzMjQsLT
+eyJoaXN0b3J5IjpbLTE2NDMzNTE2MzAsLTE2OTg3MDgzMjQsLT
 g1OTkyMzYzMiwtNDYyOTUyNzExLC02OTk4OTYxOTIsLTE2NzIw
 MDIxNTAsLTM5NDIzMzMzNCwtMTY5Mzc4MTM2MywxNjYxMzk5Nj
 IwLDc4MDM5MDIxOCwtNzM5Mjc1ODk0LC0xNzI2MTU2MDU3LC0y
