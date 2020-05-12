@@ -328,8 +328,8 @@ for i in times_two(5):
 #  This is it  
 ```
 ### `next(_generator)`
-Get next value stored in generator
-does not stop by itself
+Iterates the generator 
+Does not stop by itself
 ```py
 def foo():
 	for i in range(3):
@@ -343,6 +343,21 @@ for num in foo():
 
 gen = foo()
 print(next(g))
+# OUTPUT
+# 0
+gen = foo()
+print(next(g))
+# OUTPUT
+# 0
+gen = foo()
+print(next(g))
+# OUTPUT
+# 0
+gen = foo()
+print(next(g))
+# OUTPUT
+# 0
+
 
 
 ```
@@ -701,7 +716,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzgzNjcyNzUsLTE2OTg3MDgzMjQsLT
+eyJoaXN0b3J5IjpbLTE0MzU1NTEwNDQsLTE2OTg3MDgzMjQsLT
 g1OTkyMzYzMiwtNDYyOTUyNzExLC02OTk4OTYxOTIsLTE2NzIw
 MDIxNTAsLTM5NDIzMzMzNCwtMTY5Mzc4MTM2MywxNjYxMzk5Nj
 IwLDc4MDM5MDIxOCwtNzM5Mjc1ODk0LC0xNzI2MTU2MDU3LC0y
