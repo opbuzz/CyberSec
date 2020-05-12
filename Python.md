@@ -329,7 +329,15 @@ for i in times_two(5):
 ```
 ### `next`
 Get next value stored in generator
-does not stop 
+does not stop by itself
+```py
+def foo():
+	for i in range(3):
+		yield(i)
+
+for num in 
+
+```
 ## Class
 ```py
 __init__ #crater class
@@ -685,11 +693,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTkxNDQ5NTksLTE2OTg3MDgzMjQsLT
-g1OTkyMzYzMiwtNDYyOTUyNzExLC02OTk4OTYxOTIsLTE2NzIw
-MDIxNTAsLTM5NDIzMzMzNCwtMTY5Mzc4MTM2MywxNjYxMzk5Nj
-IwLDc4MDM5MDIxOCwtNzM5Mjc1ODk0LC0xNzI2MTU2MDU3LC0y
-MDYxMTI3MjU4LC0xMjU4NTA2NDE4LC0xNTAyMTQ4NTA1LC0yNT
-k5ODQ3MCw0Nzc3ODIxODMsNTY1NDczNjIyLDM2MDc4MTg0Niwx
-NDA3OTEyOF19
+eyJoaXN0b3J5IjpbLTQwMTQyODcwMywtMTY5ODcwODMyNCwtOD
+U5OTIzNjMyLC00NjI5NTI3MTEsLTY5OTg5NjE5MiwtMTY3MjAw
+MjE1MCwtMzk0MjMzMzM0LC0xNjkzNzgxMzYzLDE2NjEzOTk2Mj
+AsNzgwMzkwMjE4LC03MzkyNzU4OTQsLTE3MjYxNTYwNTcsLTIw
+NjExMjcyNTgsLTEyNTg1MDY0MTgsLTE1MDIxNDg1MDUsLTI1OT
+k4NDcwLDQ3Nzc4MjE4Myw1NjU0NzM2MjIsMzYwNzgxODQ2LDE0
+MDc5MTI4XX0=
 -->
