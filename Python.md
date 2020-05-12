@@ -345,21 +345,15 @@ gen = foo()
 print(next(g))
 # OUTPUT
 # 0
-gen = foo()
 print(next(g))
 # OUTPUT
-# 0
-gen = foo()
+# 1
 print(next(g))
 # OUTPUT
-# 0
-gen = foo()
+# 2
 print(next(g))
 # OUTPUT
-# 0
-
-
-
+# <ERROR>
 ```
 ## Class
 ```py
@@ -716,7 +710,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU1NTEwNDQsLTE2OTg3MDgzMjQsLT
+eyJoaXN0b3J5IjpbLTE5Njc1NTgzOTMsLTE2OTg3MDgzMjQsLT
 g1OTkyMzYzMiwtNDYyOTUyNzExLC02OTk4OTYxOTIsLTE2NzIw
 MDIxNTAsLTM5NDIzMzMzNCwtMTY5Mzc4MTM2MywxNjYxMzk5Nj
 IwLDc4MDM5MDIxOCwtNzM5Mjc1ODk0LC0xNzI2MTU2MDU3LC0y
