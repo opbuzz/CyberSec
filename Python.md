@@ -309,7 +309,7 @@ for item in zip(ls,st):
 ## Generators
 ### `yield`
 
-Once called stores last value 
+Once called stores last value returns it and continue with calculation saving memory 
 
 ```py
 def time_two(n):
@@ -683,11 +683,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTkyMzYzMiwtNDYyOTUyNzExLC02OT
-k4OTYxOTIsLTE2NzIwMDIxNTAsLTM5NDIzMzMzNCwtMTY5Mzc4
-MTM2MywxNjYxMzk5NjIwLDc4MDM5MDIxOCwtNzM5Mjc1ODk0LC
-0xNzI2MTU2MDU3LC0yMDYxMTI3MjU4LC0xMjU4NTA2NDE4LC0x
-NTAyMTQ4NTA1LC0yNTk5ODQ3MCw0Nzc3ODIxODMsNTY1NDczNj
-IyLDM2MDc4MTg0NiwxNDA3OTEyOCwtMzc5NjIyMTExLC0yMDY1
-MTU4MDRdfQ==
+eyJoaXN0b3J5IjpbLTE2OTg3MDgzMjQsLTg1OTkyMzYzMiwtND
+YyOTUyNzExLC02OTk4OTYxOTIsLTE2NzIwMDIxNTAsLTM5NDIz
+MzMzNCwtMTY5Mzc4MTM2MywxNjYxMzk5NjIwLDc4MDM5MDIxOC
+wtNzM5Mjc1ODk0LC0xNzI2MTU2MDU3LC0yMDYxMTI3MjU4LC0x
+MjU4NTA2NDE4LC0xNTAyMTQ4NTA1LC0yNTk5ODQ3MCw0Nzc3OD
+IxODMsNTY1NDczNjIyLDM2MDc4MTg0NiwxNDA3OTEyOCwtMzc5
+NjIyMTExXX0=
 -->
