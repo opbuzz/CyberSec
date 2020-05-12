@@ -309,7 +309,7 @@ for item in zip(ls,st):
 ## Generators
 ### `yield`
 
-Once called stores last value and stops the function.
+Once called stores last value 
 
 ```py
 def time_two(n):
@@ -317,7 +317,7 @@ def time_two(n):
 	    yield x * 2
 	print("this is it")
  
-for i in range(times_two(5)):
+for i in times_two(5):
 	print(i)
 #  OUPUT
 #  2
@@ -683,7 +683,7 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzEyNDg5OSwtNDYyOTUyNzExLC02OT
+eyJoaXN0b3J5IjpbLTg1OTkyMzYzMiwtNDYyOTUyNzExLC02OT
 k4OTYxOTIsLTE2NzIwMDIxNTAsLTM5NDIzMzMzNCwtMTY5Mzc4
 MTM2MywxNjYxMzk5NjIwLDc4MDM5MDIxOCwtNzM5Mjc1ODk0LC
 0xNzI2MTU2MDU3LC0yMDYxMTI3MjU4LC0xMjU4NTA2NDE4LC0x
