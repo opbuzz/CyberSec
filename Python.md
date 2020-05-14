@@ -433,10 +433,10 @@ print(Counter(ls))
 print(Counter("some text".split()))
 # OUTPUT Counter({'some':1,'text:2})
 ```
-### `.most_common(num`
-Get the most common element
+### `.most_common(num)`
+Get the most  common element `num` in  a counter `dict`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTEyNDM4NiwtOTc5NjM0NTk3LC0xNj
+eyJoaXN0b3J5IjpbMTExOTgxMzQyMSwtOTc5NjM0NTk3LC0xNj
 QzMzUxNjMwLC0xNjk4NzA4MzI0LC04NTk5MjM2MzIsLTQ2Mjk1
 MjcxMSwtNjk5ODk2MTkyLC0xNjcyMDAyMTUwLC0zOTQyMzMzMz
 QsLTE2OTM3ODEzNjMsMTY2MTM5OTYyMCw3ODAzOTAyMTgsLTcz
