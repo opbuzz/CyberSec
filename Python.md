@@ -430,6 +430,12 @@ class  TestCap(unittest.TestCase):
     #  By what they check and/or numbered
 ```
 
+## Collections
+
+### `Counter`
+Creates a `dict` from a list were the keys are is the values and the values are the count of that value
+
+
 
 ## NumPy
 
@@ -721,11 +727,11 @@ dp.concat([df1, df2])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTYzNDU5NywtMTY0MzM1MTYzMCwtMT
-Y5ODcwODMyNCwtODU5OTIzNjMyLC00NjI5NTI3MTEsLTY5OTg5
-NjE5MiwtMTY3MjAwMjE1MCwtMzk0MjMzMzM0LC0xNjkzNzgxMz
-YzLDE2NjEzOTk2MjAsNzgwMzkwMjE4LC03MzkyNzU4OTQsLTE3
-MjYxNTYwNTcsLTIwNjExMjcyNTgsLTEyNTg1MDY0MTgsLTE1MD
-IxNDg1MDUsLTI1OTk4NDcwLDQ3Nzc4MjE4Myw1NjU0NzM2MjIs
-MzYwNzgxODQ2XX0=
+eyJoaXN0b3J5IjpbMzIxNDI5NTYwLC05Nzk2MzQ1OTcsLTE2ND
+MzNTE2MzAsLTE2OTg3MDgzMjQsLTg1OTkyMzYzMiwtNDYyOTUy
+NzExLC02OTk4OTYxOTIsLTE2NzIwMDIxNTAsLTM5NDIzMzMzNC
+wtMTY5Mzc4MTM2MywxNjYxMzk5NjIwLDc4MDM5MDIxOCwtNzM5
+Mjc1ODk0LC0xNzI2MTU2MDU3LC0yMDYxMTI3MjU4LC0xMjU4NT
+A2NDE4LC0xNTAyMTQ4NTA1LC0yNTk5ODQ3MCw0Nzc3ODIxODMs
+NTY1NDczNjIyXX0=
 -->
