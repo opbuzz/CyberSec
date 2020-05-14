@@ -116,7 +116,7 @@ print(f"Does the file exist? {exists(filename)}")
 
 ```
 
-### Using Unicode `.encode`  (`.decode)
+### Using Unicode `.encode`  and `.decode`
 
 Decode bytes
 Encode Strings
@@ -178,7 +178,7 @@ func = lambda  x:  [OUTCOME  IF  TRUE]  if  [CONDITIONAL]  else  [OUTCOME  IF  F
 
 ```
 
-## Map
+## `map`
 ```py
 def square(num):
     return num **2
@@ -190,31 +190,24 @@ def square(num):
  # 6
  # 16
 ```
-## Filter
+## `filter`
 ```py
 num = [1, 2, 3, 4]
 list(filter(lambda n:n % 2 = 0, num))
 # [2, 4]
 ```
 
-#### Common functions
-`exec` - runs a string as python
+#### `exec` - runs a string as python
 ```py
 exec ('print("Hello")')
 # Hello
 ```
 
-
-`try` -  Try block, if exception go to `except`
-
-
 ## Tuples
-
 ```python
 # if you have two tuples in variables
 first_coord  = (0, 1)
 second_coord = (2, 3)
-
 
 # you can unpack them with commas
 first_x, first_y   = first_coord
@@ -226,7 +219,7 @@ second_x, second_y = second_coord
 ```python
 total  =  sum([1  for  n  in  list  if  n  ==  foo])
 ```
-### .pop (Num)
+### `.pop(num)`
 ```py
 my_lst = ['a','b','c','d']
 lst.pop()
@@ -238,7 +231,7 @@ lst.pop(0)
 lst
 # >>> ['a','b'] 
 ```
-### .sort() and sorted()
+### `.sort()` and `sorted()`
 `my_list.sort()` - will sort the current list changing it.
 `sorted(my_list)` - returns a sorted list
 
@@ -443,7 +436,7 @@ print(Counter("some text".split()))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTA1MDk5LC05Nzk2MzQ1OTcsLTE2ND
+eyJoaXN0b3J5IjpbNTA4MzEzOTY3LC05Nzk2MzQ1OTcsLTE2ND
 MzNTE2MzAsLTE2OTg3MDgzMjQsLTg1OTkyMzYzMiwtNDYyOTUy
 NzExLC02OTk4OTYxOTIsLTE2NzIwMDIxNTAsLTM5NDIzMzMzNC
 wtMTY5Mzc4MTM2MywxNjYxMzk5NjIwLDc4MDM5MDIxOCwtNzM5
