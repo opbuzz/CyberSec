@@ -288,7 +288,7 @@ for index, letter in enumerate(st):
  #     3 c
 ```
 
-### zip
+### `zip`
 Merge two or more `lists` together into a single `tuple`   would merge to the shortest list.
 ```py
 ls = [1,2,3]
@@ -358,7 +358,6 @@ print(s_itr)
 # OUTPUT
 # s
 ```
-
 ## Class
 ```py
 __init__ #crater class
@@ -436,7 +435,7 @@ print(Counter("some text".split()))
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4MzEzOTY3LC05Nzk2MzQ1OTcsLTE2ND
+eyJoaXN0b3J5IjpbOTczOTc3NzU5LC05Nzk2MzQ1OTcsLTE2ND
 MzNTE2MzAsLTE2OTg3MDgzMjQsLTg1OTkyMzYzMiwtNDYyOTUy
 NzExLC02OTk4OTYxOTIsLTE2NzIwMDIxNTAsLTM5NDIzMzMzNC
 wtMTY5Mzc4MTM2MywxNjYxMzk5NjIwLDc4MDM5MDIxOCwtNzM5
