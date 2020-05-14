@@ -435,12 +435,26 @@ print(Counter("some text".split()))
 ```
 ### `.most_common(num)`
 Get the most  common element `num` in  a counter `dict`
+
+### Common patterns when using the `Counter()` object
+```py
+
+sum(c.values())                 # total of all counts
+c.clear()                       # reset all counts
+list(c)                         # list unique elements
+set(c)                          # convert to a set
+dict(c)                         # convert to a regular dictionary
+c.items()                       # convert to a list of (elem, cnt) pairs
+Counter(dict(list_of_pairs))    # convert from a list of (elem, cnt) pairs
+c.most_common()[:-n-1:-1]       # n least common elements
+c += Counter()                  # remove zero and negative counts
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTgxMzQyMSwtOTc5NjM0NTk3LC0xNj
-QzMzUxNjMwLC0xNjk4NzA4MzI0LC04NTk5MjM2MzIsLTQ2Mjk1
-MjcxMSwtNjk5ODk2MTkyLC0xNjcyMDAyMTUwLC0zOTQyMzMzMz
-QsLTE2OTM3ODEzNjMsMTY2MTM5OTYyMCw3ODAzOTAyMTgsLTcz
-OTI3NTg5NCwtMTcyNjE1NjA1NywtMjA2MTEyNzI1OCwtMTI1OD
-UwNjQxOCwtMTUwMjE0ODUwNSwtMjU5OTg0NzAsNDc3NzgyMTgz
-LDU2NTQ3MzYyMl19
+eyJoaXN0b3J5IjpbODY5NTI5MjIsMTExOTgxMzQyMSwtOTc5Nj
+M0NTk3LC0xNjQzMzUxNjMwLC0xNjk4NzA4MzI0LC04NTk5MjM2
+MzIsLTQ2Mjk1MjcxMSwtNjk5ODk2MTkyLC0xNjcyMDAyMTUwLC
+0zOTQyMzMzMzQsLTE2OTM3ODEzNjMsMTY2MTM5OTYyMCw3ODAz
+OTAyMTgsLTczOTI3NTg5NCwtMTcyNjE1NjA1NywtMjA2MTEyNz
+I1OCwtMTI1ODUwNjQxOCwtMTUwMjE0ODUwNSwtMjU5OTg0NzAs
+NDc3NzgyMTgzXX0=
 -->
