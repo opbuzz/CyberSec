@@ -465,13 +465,13 @@ dic = defualtdict(lambda: 0)
 
 Just like a normal Tuple only with named index.
 Structure  
-NAME_OF_T
+NAME_OF_TUPLE = namedtuple('Name_of_tuple', 'Atr1  At2 Atr3')
 ```py
 Dog = nametuple('Dog','age breed name'
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTgzNjA1MjEsMzM3MjA2MzU1LC0xOD
+eyJoaXN0b3J5IjpbLTE2NTg1OTg5OTcsMzM3MjA2MzU1LC0xOD
 M4OTM4ODkzLDg2OTUyOTIyLDExMTk4MTM0MjEsLTk3OTYzNDU5
 NywtMTY0MzM1MTYzMCwtMTY5ODcwODMyNCwtODU5OTIzNjMyLC
 00NjI5NTI3MTEsLTY5OTg5NjE5MiwtMTY3MjAwMjE1MCwtMzk0
