@@ -249,7 +249,14 @@ print(my_set('Mississippi'))
 #### `.difference(SET)`
 Get the difference between two `sets`
 #### `.difference_update(SET)`
-Update a set with
+Update a set with the different items in another `set`
+```py
+s1 = {1,2,3}
+s2 = {1,4,5}
+s1.difference_update(s2)
+s1
+# OUPTUT {2,3}
+```
 ## Loops
 
 ### Flatting the `for` loop
@@ -511,11 +518,11 @@ import re
 ### `StringIO`
 Makes a file object in memory
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTUzNTc4MjYsLTE5MjMxMjI5NzcsLT
-E0ODk2Njc0MCwtMTU1ODU0MTE4OSwzMzcyMDYzNTUsLTE4Mzg5
-Mzg4OTMsODY5NTI5MjIsMTExOTgxMzQyMSwtOTc5NjM0NTk3LC
-0xNjQzMzUxNjMwLC0xNjk4NzA4MzI0LC04NTk5MjM2MzIsLTQ2
-Mjk1MjcxMSwtNjk5ODk2MTkyLC0xNjcyMDAyMTUwLC0zOTQyMz
-MzMzQsLTE2OTM3ODEzNjMsMTY2MTM5OTYyMCw3ODAzOTAyMTgs
-LTczOTI3NTg5NF19
+eyJoaXN0b3J5IjpbMTUzMzk5MDk3OCwtMTkyMzEyMjk3NywtMT
+Q4OTY2NzQwLC0xNTU4NTQxMTg5LDMzNzIwNjM1NSwtMTgzODkz
+ODg5Myw4Njk1MjkyMiwxMTE5ODEzNDIxLC05Nzk2MzQ1OTcsLT
+E2NDMzNTE2MzAsLTE2OTg3MDgzMjQsLTg1OTkyMzYzMiwtNDYy
+OTUyNzExLC02OTk4OTYxOTIsLTE2NzIwMDIxNTAsLTM5NDIzMz
+MzNCwtMTY5Mzc4MTM2MywxNjYxMzk5NjIwLDc4MDM5MDIxOCwt
+NzM5Mjc1ODk0XX0=
 -->
