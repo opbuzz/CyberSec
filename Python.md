@@ -231,7 +231,8 @@ lst.pop(0)
 lst
 # >>> ['a','b'] 
 ```
-### `.sort()` and `sorted()`
+### `sets`
+#### `.sort()` and `sorted()`
 `my_list.sort()` - will sort the current list changing it.
 `sorted(my_list)` - returns a sorted list
 
@@ -242,9 +243,11 @@ lst
 ```py
 my_set = set()
 my_set.add('Val')
-print(set('Mississippi'))
+print(my_set('Mississippi'))
 # >>> {'i', 'p', 's', 'M'}
 ```
+#### `.difference`
+Get the differe
 
 ## Loops
 
@@ -507,11 +510,11 @@ import re
 ### `StringIO`
 Makes a file object in memory
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjMxMjI5NzcsLTE0ODk2Njc0MCwtMT
-U1ODU0MTE4OSwzMzcyMDYzNTUsLTE4Mzg5Mzg4OTMsODY5NTI5
-MjIsMTExOTgxMzQyMSwtOTc5NjM0NTk3LC0xNjQzMzUxNjMwLC
-0xNjk4NzA4MzI0LC04NTk5MjM2MzIsLTQ2Mjk1MjcxMSwtNjk5
-ODk2MTkyLC0xNjcyMDAyMTUwLC0zOTQyMzMzMzQsLTE2OTM3OD
-EzNjMsMTY2MTM5OTYyMCw3ODAzOTAyMTgsLTczOTI3NTg5NCwt
-MTcyNjE1NjA1N119
+eyJoaXN0b3J5IjpbLTE0OTA5OTc1MTgsLTE5MjMxMjI5NzcsLT
+E0ODk2Njc0MCwtMTU1ODU0MTE4OSwzMzcyMDYzNTUsLTE4Mzg5
+Mzg4OTMsODY5NTI5MjIsMTExOTgxMzQyMSwtOTc5NjM0NTk3LC
+0xNjQzMzUxNjMwLC0xNjk4NzA4MzI0LC04NTk5MjM2MzIsLTQ2
+Mjk1MjcxMSwtNjk5ODk2MTkyLC0xNjcyMDAyMTUwLC0zOTQyMz
+MzMzQsLTE2OTM3ODEzNjMsMTY2MTM5OTYyMCw3ODAzOTAyMTgs
+LTczOTI3NTg5NF19
 -->
