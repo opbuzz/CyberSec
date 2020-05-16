@@ -463,13 +463,19 @@ dic = defualtdict(lambda: 0)
 
 ### `namedtuple`
 
-Just like a normal Tuple only with named 
+Just like a normal Tuple only with named index.
+Structure  
+NAME_OF_T
+```py
+Dog = nametuple('Dog','age breed name'
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2NTYzMTAzLDMzNzIwNjM1NSwtMTgzOD
-kzODg5Myw4Njk1MjkyMiwxMTE5ODEzNDIxLC05Nzk2MzQ1OTcs
-LTE2NDMzNTE2MzAsLTE2OTg3MDgzMjQsLTg1OTkyMzYzMiwtND
-YyOTUyNzExLC02OTk4OTYxOTIsLTE2NzIwMDIxNTAsLTM5NDIz
-MzMzNCwtMTY5Mzc4MTM2MywxNjYxMzk5NjIwLDc4MDM5MDIxOC
-wtNzM5Mjc1ODk0LC0xNzI2MTU2MDU3LC0yMDYxMTI3MjU4LC0x
-MjU4NTA2NDE4XX0=
+eyJoaXN0b3J5IjpbLTE2MTgzNjA1MjEsMzM3MjA2MzU1LC0xOD
+M4OTM4ODkzLDg2OTUyOTIyLDExMTk4MTM0MjEsLTk3OTYzNDU5
+NywtMTY0MzM1MTYzMCwtMTY5ODcwODMyNCwtODU5OTIzNjMyLC
+00NjI5NTI3MTEsLTY5OTg5NjE5MiwtMTY3MjAwMjE1MCwtMzk0
+MjMzMzM0LC0xNjkzNzgxMzYzLDE2NjEzOTk2MjAsNzgwMzkwMj
+E4LC03MzkyNzU4OTQsLTE3MjYxNTYwNTcsLTIwNjExMjcyNTgs
+LTEyNTg1MDY0MThdfQ==
 -->
