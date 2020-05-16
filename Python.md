@@ -474,13 +474,17 @@ wolfee = Dog(age =2, breed ='Lab', name = 'Wolfee')
 ```
 
 ### `datetime`
+
+#### `datetime.date`
 ```py
 dt = datetime.date(2020,3,10)
 # can also holdes hour, min,sec
 ```
+#### `datetime.time`
+To work with a time stamp
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTkwODc2NzEsLTE1NTg1NDExODksMz
+eyJoaXN0b3J5IjpbLTEwNjYwMjgzNjksLTE1NTg1NDExODksMz
 M3MjA2MzU1LC0xODM4OTM4ODkzLDg2OTUyOTIyLDExMTk4MTM0
 MjEsLTk3OTYzNDU5NywtMTY0MzM1MTYzMCwtMTY5ODcwODMyNC
 wtODU5OTIzNjMyLC00NjI5NTI3MTEsLTY5OTg5NjE5MiwtMTY3
