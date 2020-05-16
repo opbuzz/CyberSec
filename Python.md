@@ -449,12 +449,17 @@ Counter(dict(list_of_pairs))    # convert from a list of (elem, cnt) pairs
 c.most_common()[:-n-1:-1]       # n least common elements
 c += Counter()                  # remove zero and negative counts
 ```
+
+### Collections module
+
+### `defaultdict`
+Does not rise a `key error` flag if a key is not 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5NTI5MjIsMTExOTgxMzQyMSwtOTc5Nj
-M0NTk3LC0xNjQzMzUxNjMwLC0xNjk4NzA4MzI0LC04NTk5MjM2
-MzIsLTQ2Mjk1MjcxMSwtNjk5ODk2MTkyLC0xNjcyMDAyMTUwLC
-0zOTQyMzMzMzQsLTE2OTM3ODEzNjMsMTY2MTM5OTYyMCw3ODAz
-OTAyMTgsLTczOTI3NTg5NCwtMTcyNjE1NjA1NywtMjA2MTEyNz
-I1OCwtMTI1ODUwNjQxOCwtMTUwMjE0ODUwNSwtMjU5OTg0NzAs
-NDc3NzgyMTgzXX0=
+eyJoaXN0b3J5IjpbNDk1ODYxNjQ5LDg2OTUyOTIyLDExMTk4MT
+M0MjEsLTk3OTYzNDU5NywtMTY0MzM1MTYzMCwtMTY5ODcwODMy
+NCwtODU5OTIzNjMyLC00NjI5NTI3MTEsLTY5OTg5NjE5MiwtMT
+Y3MjAwMjE1MCwtMzk0MjMzMzM0LC0xNjkzNzgxMzYzLDE2NjEz
+OTk2MjAsNzgwMzkwMjE4LC03MzkyNzU4OTQsLTE3MjYxNTYwNT
+csLTIwNjExMjcyNTgsLTEyNTg1MDY0MTgsLTE1MDIxNDg1MDUs
+LTI1OTk4NDcwXX0=
 -->
