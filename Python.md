@@ -231,6 +231,16 @@ lst.pop(0)
 lst
 # >>> ['a','b'] 
 ```
+#### `.extend` and `.append`
+```py
+ls = [1,2,3]
+ls.append([4,5])
+print(ls)
+# OUTPUT [1, 2, 3, 
+
+
+```
+
 ### `sets`
 #### `.sort()` and `sorted()`
 `my_list.sort()` - will sort the current list changing it.
@@ -524,11 +534,11 @@ import re
 ### `StringIO`
 Makes a file object in memory
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTI2Mjk2NywxNTMzOTkwOTc4LC0xOT
-IzMTIyOTc3LC0xNDg5NjY3NDAsLTE1NTg1NDExODksMzM3MjA2
-MzU1LC0xODM4OTM4ODkzLDg2OTUyOTIyLDExMTk4MTM0MjEsLT
-k3OTYzNDU5NywtMTY0MzM1MTYzMCwtMTY5ODcwODMyNCwtODU5
-OTIzNjMyLC00NjI5NTI3MTEsLTY5OTg5NjE5MiwtMTY3MjAwMj
-E1MCwtMzk0MjMzMzM0LC0xNjkzNzgxMzYzLDE2NjEzOTk2MjAs
-NzgwMzkwMjE4XX0=
+eyJoaXN0b3J5IjpbLTExODQ4OTQ4MDYsLTMwOTI2Mjk2NywxNT
+MzOTkwOTc4LC0xOTIzMTIyOTc3LC0xNDg5NjY3NDAsLTE1NTg1
+NDExODksMzM3MjA2MzU1LC0xODM4OTM4ODkzLDg2OTUyOTIyLD
+ExMTk4MTM0MjEsLTk3OTYzNDU5NywtMTY0MzM1MTYzMCwtMTY5
+ODcwODMyNCwtODU5OTIzNjMyLC00NjI5NTI3MTEsLTY5OTg5Nj
+E5MiwtMTY3MjAwMjE1MCwtMzk0MjMzMzM0LC0xNjkzNzgxMzYz
+LDE2NjEzOTk2MjBdfQ==
 -->
