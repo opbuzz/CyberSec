@@ -244,7 +244,7 @@ print(ls)
 # OUTPUT [1, 2, 3, 4, 5]
 ```
 #### .insert()
-
+Add an item after a specific item
 
 ### `sets`
 #### `.sort()` and `sorted()`
@@ -539,11 +539,11 @@ import re
 ### `StringIO`
 Makes a file object in memory
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE3MDgxOTUzLC0zMDkyNjI5NjcsMTUzMz
-k5MDk3OCwtMTkyMzEyMjk3NywtMTQ4OTY2NzQwLC0xNTU4NTQx
-MTg5LDMzNzIwNjM1NSwtMTgzODkzODg5Myw4Njk1MjkyMiwxMT
-E5ODEzNDIxLC05Nzk2MzQ1OTcsLTE2NDMzNTE2MzAsLTE2OTg3
-MDgzMjQsLTg1OTkyMzYzMiwtNDYyOTUyNzExLC02OTk4OTYxOT
-IsLTE2NzIwMDIxNTAsLTM5NDIzMzMzNCwtMTY5Mzc4MTM2Mywx
-NjYxMzk5NjIwXX0=
+eyJoaXN0b3J5IjpbMjEyMzY2MzE5OCwtMzA5MjYyOTY3LDE1Mz
+M5OTA5NzgsLTE5MjMxMjI5NzcsLTE0ODk2Njc0MCwtMTU1ODU0
+MTE4OSwzMzcyMDYzNTUsLTE4Mzg5Mzg4OTMsODY5NTI5MjIsMT
+ExOTgxMzQyMSwtOTc5NjM0NTk3LC0xNjQzMzUxNjMwLC0xNjk4
+NzA4MzI0LC04NTk5MjM2MzIsLTQ2Mjk1MjcxMSwtNjk5ODk2MT
+kyLC0xNjcyMDAyMTUwLC0zOTQyMzMzMzQsLTE2OTM3ODEzNjMs
+MTY2MTM5OTYyMF19
 -->
