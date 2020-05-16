@@ -257,7 +257,12 @@ s1.difference_update(s2)
 s1
 # OUPTUT {2,3}
 ```
-####
+#### `isdisjoint(SET)`
+Are the two sets different
+
+#### `.issubset(SET)`
+Is a set a subset of another
+
 ## Loops
 
 ### Flatting the `for` loop
@@ -519,7 +524,7 @@ import re
 ### `StringIO`
 Makes a file object in memory
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTM3NjM0MCwxNTMzOTkwOTc4LC0xOT
+eyJoaXN0b3J5IjpbLTMwOTI2Mjk2NywxNTMzOTkwOTc4LC0xOT
 IzMTIyOTc3LC0xNDg5NjY3NDAsLTE1NTg1NDExODksMzM3MjA2
 MzU1LC0xODM4OTM4ODkzLDg2OTUyOTIyLDExMTk4MTM0MjEsLT
 k3OTYzNDU5NywtMTY0MzM1MTYzMCwtMTY5ODcwODMyNCwtODU5
