@@ -236,10 +236,15 @@ lst
 ls = [1,2,3]
 ls.append([4,5])
 print(ls)
-# OUTPUT [1, 2, 3, 
-
-
+# OUTPUT [1, 2, 3, [4, 5]]
+##### OR
+ls = [1,2,3]
+ls.extend([4,5])
+print(ls)
+# OUTPUT [1, 2, 3, 4, 5]
 ```
+#### .insert()
+
 
 ### `sets`
 #### `.sort()` and `sorted()`
@@ -534,11 +539,11 @@ import re
 ### `StringIO`
 Makes a file object in memory
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ4OTQ4MDYsLTMwOTI2Mjk2NywxNT
-MzOTkwOTc4LC0xOTIzMTIyOTc3LC0xNDg5NjY3NDAsLTE1NTg1
-NDExODksMzM3MjA2MzU1LC0xODM4OTM4ODkzLDg2OTUyOTIyLD
-ExMTk4MTM0MjEsLTk3OTYzNDU5NywtMTY0MzM1MTYzMCwtMTY5
-ODcwODMyNCwtODU5OTIzNjMyLC00NjI5NTI3MTEsLTY5OTg5Nj
-E5MiwtMTY3MjAwMjE1MCwtMzk0MjMzMzM0LC0xNjkzNzgxMzYz
-LDE2NjEzOTk2MjBdfQ==
+eyJoaXN0b3J5IjpbMjE3MDgxOTUzLC0zMDkyNjI5NjcsMTUzMz
+k5MDk3OCwtMTkyMzEyMjk3NywtMTQ4OTY2NzQwLC0xNTU4NTQx
+MTg5LDMzNzIwNjM1NSwtMTgzODkzODg5Myw4Njk1MjkyMiwxMT
+E5ODEzNDIxLC05Nzk2MzQ1OTcsLTE2NDMzNTE2MzAsLTE2OTg3
+MDgzMjQsLTg1OTkyMzYzMiwtNDYyOTUyNzExLC02OTk4OTYxOT
+IsLTE2NzIwMDIxNTAsLTM5NDIzMzMzNCwtMTY5Mzc4MTM2Mywx
+NjYxMzk5NjIwXX0=
 -->
