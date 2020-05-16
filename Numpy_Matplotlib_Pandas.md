@@ -3,7 +3,7 @@
 ## NumPy
 
 
- ```python
+```py
 import numpy as np
 for i in fdfd:
 ```
@@ -286,9 +286,6 @@ pd.merge(company_a, company_b, how='right')
 ```py
 dp.concat([df1, df2])
 ```
-
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTU3NjY3NF19
+eyJoaXN0b3J5IjpbMTk5ODg4NzQ0OV19
 -->
