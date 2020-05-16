@@ -469,11 +469,11 @@ Structure
 ```py
 Dog = nametuple('Dog','age breed name')
 wolfee = Dog(age =2, breed ='Lab', name = 'Wolfee')
-Wol
+# Can then access wolfee.age, wolfee.breed and wolfee.name
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODY0OTU3MDQsMzM3MjA2MzU1LC0xOD
+eyJoaXN0b3J5IjpbLTE1NTg1NDExODksMzM3MjA2MzU1LC0xOD
 M4OTM4ODkzLDg2OTUyOTIyLDExMTk4MTM0MjEsLTk3OTYzNDU5
 NywtMTY0MzM1MTYzMCwtMTY5ODcwODMyNCwtODU5OTIzNjMyLC
 00NjI5NTI3MTEsLTY5OTg5NjE5MiwtMTY3MjAwMjE1MCwtMzk0
