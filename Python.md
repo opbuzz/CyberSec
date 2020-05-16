@@ -453,9 +453,12 @@ c += Counter()                  # remove zero and negative counts
 ### Collections module
 
 ### `defaultdict`
-Does not rise a `key error` flag if a key is not 
+Does not rise a `key error` flag if a key is not found
+```py
+dic = defualtdict(lambda 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk1ODYxNjQ5LDg2OTUyOTIyLDExMTk4MT
+eyJoaXN0b3J5IjpbNzc3NzkwNjc5LDg2OTUyOTIyLDExMTk4MT
 M0MjEsLTk3OTYzNDU5NywtMTY0MzM1MTYzMCwtMTY5ODcwODMy
 NCwtODU5OTIzNjMyLC00NjI5NTI3MTEsLTY5OTg5NjE5MiwtMT
 Y3MjAwMjE1MCwtMzk0MjMzMzM0LC0xNjkzNzgxMzYzLDE2NjEz
