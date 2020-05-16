@@ -493,9 +493,18 @@ pdb.se_trace()
 ```
 
 ### `timeit`
+To test runinng time
+```py
+#timeit,timeit(
+```
 
+### Regular expressions
+```py
+import re
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzI0Mjc4MCwtMTU1ODU0MTE4OSwzMz
+eyJoaXN0b3J5IjpbLTE0ODk2Njc0MCwtMTU1ODU0MTE4OSwzMz
 cyMDYzNTUsLTE4Mzg5Mzg4OTMsODY5NTI5MjIsMTExOTgxMzQy
 MSwtOTc5NjM0NTk3LC0xNjQzMzUxNjMwLC0xNjk4NzA4MzI0LC
 04NTk5MjM2MzIsLTQ2Mjk1MjcxMSwtNjk5ODk2MTkyLC0xNjcy
