@@ -455,14 +455,15 @@ c += Counter()                  # remove zero and negative counts
 ### `defaultdict`
 Does not rise a `key error` flag if a key is not found
 ```py
-dic = defualtdict(lambda 
+dic = defualtdict(lambda: 0)
+# returns 0 if no key is found 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3NzkwNjc5LDg2OTUyOTIyLDExMTk4MT
-M0MjEsLTk3OTYzNDU5NywtMTY0MzM1MTYzMCwtMTY5ODcwODMy
-NCwtODU5OTIzNjMyLC00NjI5NTI3MTEsLTY5OTg5NjE5MiwtMT
-Y3MjAwMjE1MCwtMzk0MjMzMzM0LC0xNjkzNzgxMzYzLDE2NjEz
-OTk2MjAsNzgwMzkwMjE4LC03MzkyNzU4OTQsLTE3MjYxNTYwNT
-csLTIwNjExMjcyNTgsLTEyNTg1MDY0MTgsLTE1MDIxNDg1MDUs
-LTI1OTk4NDcwXX0=
+eyJoaXN0b3J5IjpbLTE4Mzg5Mzg4OTMsODY5NTI5MjIsMTExOT
+gxMzQyMSwtOTc5NjM0NTk3LC0xNjQzMzUxNjMwLC0xNjk4NzA4
+MzI0LC04NTk5MjM2MzIsLTQ2Mjk1MjcxMSwtNjk5ODk2MTkyLC
+0xNjcyMDAyMTUwLC0zOTQyMzMzMzQsLTE2OTM3ODEzNjMsMTY2
+MTM5OTYyMCw3ODAzOTAyMTgsLTczOTI3NTg5NCwtMTcyNjE1Nj
+A1NywtMjA2MTEyNzI1OCwtMTI1ODUwNjQxOCwtMTUwMjE0ODUw
+NSwtMjU5OTg0NzBdfQ==
 -->
