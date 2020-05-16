@@ -246,9 +246,10 @@ my_set.add('Val')
 print(my_set('Mississippi'))
 # >>> {'i', 'p', 's', 'M'}
 ```
-#### `.difference`
-Get the differe
-
+#### `.difference(SET)`
+Get the difference between two `sets`
+#### `.difference_update(SET)`
+Update a set with
 ## Loops
 
 ### Flatting the `for` loop
@@ -510,7 +511,7 @@ import re
 ### `StringIO`
 Makes a file object in memory
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA5OTc1MTgsLTE5MjMxMjI5NzcsLT
+eyJoaXN0b3J5IjpbLTE3OTUzNTc4MjYsLTE5MjMxMjI5NzcsLT
 E0ODk2Njc0MCwtMTU1ODU0MTE4OSwzMzcyMDYzNTUsLTE4Mzg5
 Mzg4OTMsODY5NTI5MjIsMTExOTgxMzQyMSwtOTc5NjM0NTk3LC
 0xNjQzMzUxNjMwLC0xNjk4NzA4MzI0LC04NTk5MjM2MzIsLTQ2
