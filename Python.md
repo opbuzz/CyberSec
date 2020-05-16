@@ -472,12 +472,19 @@ wolfee = Dog(age =2, breed ='Lab', name = 'Wolfee')
 # Can then access wolfee.age, wolfee.breed and wolfee.name
 
 ```
+
+### `datetime`
+```py
+dt = datetime.date(2020,3,10)
+# can also holdes hour, min,sec
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTg1NDExODksMzM3MjA2MzU1LC0xOD
-M4OTM4ODkzLDg2OTUyOTIyLDExMTk4MTM0MjEsLTk3OTYzNDU5
-NywtMTY0MzM1MTYzMCwtMTY5ODcwODMyNCwtODU5OTIzNjMyLC
-00NjI5NTI3MTEsLTY5OTg5NjE5MiwtMTY3MjAwMjE1MCwtMzk0
-MjMzMzM0LC0xNjkzNzgxMzYzLDE2NjEzOTk2MjAsNzgwMzkwMj
-E4LC03MzkyNzU4OTQsLTE3MjYxNTYwNTcsLTIwNjExMjcyNTgs
-LTEyNTg1MDY0MThdfQ==
+eyJoaXN0b3J5IjpbLTE1NTkwODc2NzEsLTE1NTg1NDExODksMz
+M3MjA2MzU1LC0xODM4OTM4ODkzLDg2OTUyOTIyLDExMTk4MTM0
+MjEsLTk3OTYzNDU5NywtMTY0MzM1MTYzMCwtMTY5ODcwODMyNC
+wtODU5OTIzNjMyLC00NjI5NTI3MTEsLTY5OTg5NjE5MiwtMTY3
+MjAwMjE1MCwtMzk0MjMzMzM0LC0xNjkzNzgxMzYzLDE2NjEzOT
+k2MjAsNzgwMzkwMjE4LC03MzkyNzU4OTQsLTE3MjYxNTYwNTcs
+LTIwNjExMjcyNThdfQ==
 -->
