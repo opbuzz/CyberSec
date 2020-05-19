@@ -63,6 +63,8 @@ Evenly spaced points
 ### `.arrange(formX,toY,step)`
 Create an array like using `range()`
 
+### `eye(num)`
+Create a matrix with a diagonal of ones
 
 
 ### NumPy and Mean
@@ -304,5 +306,6 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzA1NTM2NSwxOTk4ODg3NDQ5XX0=
+eyJoaXN0b3J5IjpbMTYyMTcxNjUwOCwxMTc3MDU1MzY1LDE5OT
+g4ODc0NDldfQ==
 -->
