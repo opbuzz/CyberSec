@@ -69,7 +69,11 @@ Create a matrix with a diagonal of ones
 Changes an array to a diffrent shape (from 2d to 3d for example)
 
 ### `argmin()` and `argmax()`
-The location of the min/max value 
+The location of the min/max value in the array
+### `.shape()`
+Returns the shape of the array
+### `dtype()`
+Returns the data type in the array
 
 ### NumPy and Mean
 ```python
@@ -310,6 +314,6 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk4NDIzMTgsLTE0MDAwMzA3MzYsMT
-E3NzA1NTM2NSwxOTk4ODg3NDQ5XX0=
+eyJoaXN0b3J5IjpbNjMwODM5MTgxLC0xNDAwMDMwNzM2LDExNz
+cwNTUzNjUsMTk5ODg4NzQ0OV19
 -->
