@@ -47,17 +47,17 @@ array([10, 9, 8, 9, 7])
 array([10, 9, 8, 9, 7])
 ```
 
-### `.zeros`
-Set an array with zeros
+### `.zeros()` or `.ones()`
+Set an array with zeros or ones
 ```py
 np.zeros(3)
 # array([0. ,0. ,0.])
 
 np.zeros((2,3))
 # array([0. ,0. ,0.],
-#		[0. ,0. ,0.]
+#		[0. ,0. ,0.]])
 ```
-
+### `.lintspace(
 
 ### `.arrange(formX,toY,step)`
 Create an array like using `range()`
@@ -303,5 +303,5 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDI0MDUwNiwxOTk4ODg3NDQ5XX0=
+eyJoaXN0b3J5IjpbLTEyMjMxMzYwMTgsMTk5ODg4NzQ0OV19
 -->
