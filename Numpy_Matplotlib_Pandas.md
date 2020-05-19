@@ -5,7 +5,6 @@
 
 ```py
 import numpy as np
-for i in fdfd:
 ```
 
 #### Creating an Array from a CSV
@@ -47,6 +46,11 @@ array([10, 9, 8, 9, 7])
 >>> a[(a > 5) | (a < 2)]
 array([10, 9, 8, 9, 7])
 ```
+
+### `.zero`
+Set an array with zeros
+
+### `.arrange(list_of_items)`
 
 ### NumPy and Mean
 ```python
@@ -287,5 +291,5 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODg4NzQ0OV19
+eyJoaXN0b3J5IjpbMTQ0MTU4MzMxOSwxOTk4ODg3NDQ5XX0=
 -->
