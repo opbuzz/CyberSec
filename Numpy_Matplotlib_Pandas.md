@@ -57,7 +57,7 @@ np.zeros((2,3))
 # array([0. ,0. ,0.],
 #		[0. ,0. ,0.]])
 ```
-### `.lintspace(num1, num2, )`
+### `.lintspace(num1, num2, number_of_points)`
 Evenly spaced points
 
 ### `.arrange(formX,toY,step)`
@@ -304,5 +304,5 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODUxODgxMDIsMTk5ODg4NzQ0OV19
+eyJoaXN0b3J5IjpbMTE3NzA1NTM2NSwxOTk4ODg3NDQ5XX0=
 -->
