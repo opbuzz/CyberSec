@@ -47,11 +47,22 @@ array([10, 9, 8, 9, 7])
 array([10, 9, 8, 9, 7])
 ```
 
-### `.zero`
+### `.zeros`
 Set an array with zeros
+```py
+np.zeros(3)
+# array([0. ,0. ,0.])
+
+np.zeros((2,3))
+# array([0. ,0. ,0.],
+#		[0. ,0. ,0.]
+```
+
 
 ### `.arrange(formX,toY,step)`
 Create an array like using `range()`
+
+
 
 ### NumPy and Mean
 ```python
@@ -292,5 +303,5 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwMjkxODU3LDE5OTg4ODc0NDldfQ==
+eyJoaXN0b3J5IjpbMTY5MDI0MDUwNiwxOTk4ODg3NDQ5XX0=
 -->
