@@ -65,7 +65,7 @@ Create an array like using `range()`
 
 ### `eye(num)`
 Create a matrix with a diagonal of ones
-
+### `.re
 
 
 ### NumPy and Mean
@@ -307,6 +307,6 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTI3NzU3OCwxMTc3MDU1MzY1LDE5OT
+eyJoaXN0b3J5IjpbLTUwNzc2NDcyNCwxMTc3MDU1MzY1LDE5OT
 g4ODc0NDldfQ==
 -->
