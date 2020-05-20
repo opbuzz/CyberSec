@@ -164,6 +164,9 @@ helpful rules for normal distributions:
 ```python
 import panda as panda
 ```
+
+### Series
+
 ### Using dictionary 
 Each key is a column name and each value is a list of column values. The columns must all be the same length or you will get an error
 ```python
@@ -181,7 +184,7 @@ pd.read_csv('my-csv-file.csv')
 df.to_csv('new-csv-file.csv')
 ```
 
- ### Inspect DataFrame
+### Inspect DataFrame
 ```py
 # first 5 rows Default
 df.head()
@@ -333,7 +336,7 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NDM4MjE5LC0xNDkzNDY3MzQxLDYzMD
-gzOTE4MSwtMTQwMDAzMDczNiwxMTc3MDU1MzY1LDE5OTg4ODc0
-NDldfQ==
+eyJoaXN0b3J5IjpbLTIwNjc3ODg0NzcsMTU2NDM4MjE5LC0xND
+kzNDY3MzQxLDYzMDgzOTE4MSwtMTQwMDAzMDczNiwxMTc3MDU1
+MzY1LDE5OTg4ODc0NDldfQ==
 -->
