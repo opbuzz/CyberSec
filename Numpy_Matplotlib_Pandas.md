@@ -211,7 +211,6 @@ select_mul = df.iloc[num:num2]
 select_row = df.loc[row_name]
 ```
 
-
 #### with Logic
 ```python
 df[(df.colName == 'some String') | (df.colName2 != 4)]
@@ -219,6 +218,11 @@ df[(df.colName == 'some String') | (df.colName2 != 4)]
 # Using .isin
 df[df.ColName.isin(['str1','st2'])]
 ```
+### Select cell
+```py
+df.loc[row,column]
+```
+
 
 ### Setting indices
 
@@ -343,7 +347,7 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjkyMjcwNDIsMTMxNjI1MDc5NCwyOT
+eyJoaXN0b3J5IjpbLTIwMzA1ODc0MjIsMTMxNjI1MDc5NCwyOT
 A2NTc4MTgsLTgyNjE5Mjg2NiwxNTY0MzgyMTksLTE0OTM0Njcz
 NDEsNjMwODM5MTgxLC0xNDAwMDMwNzM2LDExNzcwNTUzNjUsMT
 k5ODg4NzQ0OV19
