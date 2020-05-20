@@ -168,7 +168,7 @@ import panda as panda
 ### Series
 Works likes an array + dict
 Can work in any 
-
+ 
 ### Using dictionary 
 Each key is a column name and each value is a list of column values. The columns must all be the same length or you will get an error
 ```python
@@ -338,7 +338,7 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjE5Mjg2NiwxNTY0MzgyMTksLTE0OT
-M0NjczNDEsNjMwODM5MTgxLC0xNDAwMDMwNzM2LDExNzcwNTUz
-NjUsMTk5ODg4NzQ0OV19
+eyJoaXN0b3J5IjpbMjkwNjU3ODE4LC04MjYxOTI4NjYsMTU2ND
+M4MjE5LC0xNDkzNDY3MzQxLDYzMDgzOTE4MSwtMTQwMDAzMDcz
+NiwxMTc3MDU1MzY1LDE5OTg4ODc0NDldfQ==
 -->
