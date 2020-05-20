@@ -205,7 +205,14 @@ select_mul_col = df[ ['col1','col2'] ]
 select_one = df.iloc[num]
 select_mul = df.iloc[num:num2]
 ```
-### Select Rows with Logic
+### Select Rows 
+####  Select by name
+```python
+select_row = df.loc[row_name]
+```
+
+
+#### with Logic
 ```python
 df[(df.colName == 'some String') | (df.colName2 != 4)]
 
@@ -336,7 +343,8 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjI1MDc5NCwyOTA2NTc4MTgsLTgyNj
-E5Mjg2NiwxNTY0MzgyMTksLTE0OTM0NjczNDEsNjMwODM5MTgx
-LC0xNDAwMDMwNzM2LDExNzcwNTUzNjUsMTk5ODg4NzQ0OV19
+eyJoaXN0b3J5IjpbLTEwMjkyMjcwNDIsMTMxNjI1MDc5NCwyOT
+A2NTc4MTgsLTgyNjE5Mjg2NiwxNTY0MzgyMTksLTE0OTM0Njcz
+NDEsNjMwODM5MTgxLC0xNDAwMDMwNzM2LDExNzcwNTUzNjUsMT
+k5ODg4NzQ0OV19
 -->
