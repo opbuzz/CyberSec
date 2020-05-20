@@ -80,17 +80,20 @@ Returns the data type in the array
 ```py
 arr[0:5] = 100
 ```
-####  Changing a slice of an array will change the original array
+####  Array slices are just links to the original, change the slice 
 ```py
 arr= np.array([1,2,3,4])
 arr_slice = arr[:3]
 arr_slice[:] = 0
 arr_slice
-# OUTPUT arr_slice[0, 0, 0]
+# OUTPUT 
+# arr_slice[0, 0, 0]
 arr
 # OUTPUT 
-
+# arr[0, 0, 0, 4]
 ```
+### .copy()
+Copies  the array
 ### NumPy and Mean
 ```python
 np.mean (axis = num)  #Defulat is 0 by rows, 1 by colunms
@@ -330,6 +333,6 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjAxODAwMyw2MzA4MzkxODEsLTE0MD
-AwMzA3MzYsMTE3NzA1NTM2NSwxOTk4ODg3NDQ5XX0=
+eyJoaXN0b3J5IjpbLTE0OTM0NjczNDEsNjMwODM5MTgxLC0xND
+AwMDMwNzM2LDExNzcwNTUzNjUsMTk5ODg4NzQ0OV19
 -->
