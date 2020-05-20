@@ -82,7 +82,13 @@ arr[0:5] = 100
 ```
 ####  Changing a slice of an array will change the original array
 ```py
-arr= 
+arr= np.array([1,2,3,4])
+arr_slice = arr[:3]
+arr_slice[:] = 0
+arr_slice
+# OUTPUT arr_slice[0, 0, 0]
+arr
+# OUTPUT 
 
 ```
 ### NumPy and Mean
@@ -324,6 +330,6 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTQxOTI0OCw2MzA4MzkxODEsLTE0MD
+eyJoaXN0b3J5IjpbMTAyMjAxODAwMyw2MzA4MzkxODEsLTE0MD
 AwMzA3MzYsMTE3NzA1NTM2NSwxOTk4ODg3NDQ5XX0=
 -->
