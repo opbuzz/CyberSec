@@ -76,11 +76,15 @@ Returns the shape of the array
 Returns the data type in the array
 
 ### Array
-Can set in bulk
+#### Can set in bulk
 ```py
 arr[0:5] = 100
 ```
-Chaging a slice of an array will change the original 
+####  Changing a slice of an array will change the original array
+```py
+arr= 
+
+```
 ### NumPy and Mean
 ```python
 np.mean (axis = num)  #Defulat is 0 by rows, 1 by colunms
@@ -320,6 +324,6 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTAwMTM1MCw2MzA4MzkxODEsLTE0MD
+eyJoaXN0b3J5IjpbMTE1OTQxOTI0OCw2MzA4MzkxODEsLTE0MD
 AwMzA3MzYsMTE3NzA1NTM2NSwxOTk4ODg3NDQ5XX0=
 -->
