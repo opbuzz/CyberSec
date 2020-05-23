@@ -247,7 +247,7 @@ df(col_name) = df[col_name_other] * 2
 
 ```
 
-### `.xs()
+### `.xs(indexnum , level = )`
 
 
 ### Using Functions on a column with ( .apply )
@@ -350,7 +350,7 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTA0NjE3NSwtMjAzMDU4NzQyMiwxMz
+eyJoaXN0b3J5IjpbMTMwNzA3ODM0OCwtMjAzMDU4NzQyMiwxMz
 E2MjUwNzk0LDI5MDY1NzgxOCwtODI2MTkyODY2LDE1NjQzODIx
 OSwtMTQ5MzQ2NzM0MSw2MzA4MzkxODEsLTE0MDAwMzA3MzYsMT
 E3NzA1NTM2NSwxOTk4ODg3NDQ5XX0=
