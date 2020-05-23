@@ -250,8 +250,8 @@ df(col_name) = df[col_name_other] * 2
 ### `.xs(indexnum , level = )`
 
 ### Dealing with missing data
-`.dropna(axis = 0/1, the)`
-
+`.dropna(axis = 0/1, thersh)`
+`.fillna(value = anyvalue)`
 ### Using Functions on a column with ( .apply )
 ```python
 df[col_name] = df.col_name.apply(upper)  
@@ -352,8 +352,8 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTE3NzI3OTUsLTIwMzA1ODc0MjIsMT
-MxNjI1MDc5NCwyOTA2NTc4MTgsLTgyNjE5Mjg2NiwxNTY0Mzgy
-MTksLTE0OTM0NjczNDEsNjMwODM5MTgxLC0xNDAwMDMwNzM2LD
-ExNzcwNTUzNjUsMTk5ODg4NzQ0OV19
+eyJoaXN0b3J5IjpbMTY1ODIxMzA1NCwtMjAzMDU4NzQyMiwxMz
+E2MjUwNzk0LDI5MDY1NzgxOCwtODI2MTkyODY2LDE1NjQzODIx
+OSwtMTQ5MzQ2NzM0MSw2MzA4MzkxODEsLTE0MDAwMzA3MzYsMT
+E3NzA1NTM2NSwxOTk4ODg3NDQ5XX0=
 -->
