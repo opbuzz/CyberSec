@@ -247,6 +247,9 @@ df(col_name) = df[col_name_other] * 2
 
 ```
 
+### `.xs()
+
+
 ### Using Functions on a column with ( .apply )
 ```python
 df[col_name] = df.col_name.apply(upper)  
@@ -347,8 +350,8 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzA1ODc0MjIsMTMxNjI1MDc5NCwyOT
-A2NTc4MTgsLTgyNjE5Mjg2NiwxNTY0MzgyMTksLTE0OTM0Njcz
-NDEsNjMwODM5MTgxLC0xNDAwMDMwNzM2LDExNzcwNTUzNjUsMT
-k5ODg4NzQ0OV19
+eyJoaXN0b3J5IjpbMTYyMTA0NjE3NSwtMjAzMDU4NzQyMiwxMz
+E2MjUwNzk0LDI5MDY1NzgxOCwtODI2MTkyODY2LDE1NjQzODIx
+OSwtMTQ5MzQ2NzM0MSw2MzA4MzkxODEsLTE0MDAwMzA3MzYsMT
+E3NzA1NTM2NSwxOTk4ODg3NDQ5XX0=
 -->
