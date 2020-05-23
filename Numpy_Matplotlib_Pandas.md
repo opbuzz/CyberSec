@@ -247,6 +247,8 @@ df(col_name) = df[col_name_other] * 2
 
 ```
 
+
+
 ### `.xs(indexnum , level = )`
 
 ### Dealing with missing data
@@ -352,8 +354,8 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODIxMzA1NCwtMjAzMDU4NzQyMiwxMz
-E2MjUwNzk0LDI5MDY1NzgxOCwtODI2MTkyODY2LDE1NjQzODIx
-OSwtMTQ5MzQ2NzM0MSw2MzA4MzkxODEsLTE0MDAwMzA3MzYsMT
-E3NzA1NTM2NSwxOTk4ODg3NDQ5XX0=
+eyJoaXN0b3J5IjpbNzIzMDY1NjI2LDE2NTgyMTMwNTQsLTIwMz
+A1ODc0MjIsMTMxNjI1MDc5NCwyOTA2NTc4MTgsLTgyNjE5Mjg2
+NiwxNTY0MzgyMTksLTE0OTM0NjczNDEsNjMwODM5MTgxLC0xND
+AwMDMwNzM2LDExNzcwNTUzNjUsMTk5ODg4NzQ0OV19
 -->
