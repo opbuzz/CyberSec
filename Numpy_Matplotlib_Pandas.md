@@ -247,7 +247,8 @@ df(col_name) = df[col_name_other] * 2
 
 ```
 
-
+### `.value_counts()`
+Count the number of unique values
 
 ### `.xs(indexnum , level = )`
 
@@ -354,8 +355,8 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIzMDY1NjI2LDE2NTgyMTMwNTQsLTIwMz
-A1ODc0MjIsMTMxNjI1MDc5NCwyOTA2NTc4MTgsLTgyNjE5Mjg2
-NiwxNTY0MzgyMTksLTE0OTM0NjczNDEsNjMwODM5MTgxLC0xND
-AwMDMwNzM2LDExNzcwNTUzNjUsMTk5ODg4NzQ0OV19
+eyJoaXN0b3J5IjpbMjE0MTc0NzUwMywxNjU4MjEzMDU0LC0yMD
+MwNTg3NDIyLDEzMTYyNTA3OTQsMjkwNjU3ODE4LC04MjYxOTI4
+NjYsMTU2NDM4MjE5LC0xNDkzNDY3MzQxLDYzMDgzOTE4MSwtMT
+QwMDAzMDczNiwxMTc3MDU1MzY1LDE5OTg4ODc0NDldfQ==
 -->
