@@ -150,7 +150,7 @@ plt.hist(data, bins =5, range(2,20))
 # This displays the histogram  
 plt.show()
 ```
-### Me
+### Methods to create rows
 ```py
 plt.subplots(nrows = 1,ncols= num)
 
@@ -361,9 +361,9 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MzY1NDE5NSwyMTQxNzQ3NTAzLDE2NT
-gyMTMwNTQsLTIwMzA1ODc0MjIsMTMxNjI1MDc5NCwyOTA2NTc4
-MTgsLTgyNjE5Mjg2NiwxNTY0MzgyMTksLTE0OTM0NjczNDEsNj
-MwODM5MTgxLC0xNDAwMDMwNzM2LDExNzcwNTUzNjUsMTk5ODg4
-NzQ0OV19
+eyJoaXN0b3J5IjpbLTIwMTkwMjg2MDMsMjE0MTc0NzUwMywxNj
+U4MjEzMDU0LC0yMDMwNTg3NDIyLDEzMTYyNTA3OTQsMjkwNjU3
+ODE4LC04MjYxOTI4NjYsMTU2NDM4MjE5LC0xNDkzNDY3MzQxLD
+YzMDgzOTE4MSwtMTQwMDAzMDczNiwxMTc3MDU1MzY1LDE5OTg4
+ODc0NDldfQ==
 -->
