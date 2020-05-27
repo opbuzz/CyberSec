@@ -150,6 +150,12 @@ plt.hist(data, bins =5, range(2,20))
 # This displays the histogram  
 plt.show()
 ```
+### Me
+```py
+plt.subplots(nrows = 1,ncols= num)
+
+```
+
 ## Math rules
 
 helpful rules for normal distributions:
@@ -355,8 +361,9 @@ pd.merge(company_a, company_b, how='right')
 dp.concat([df1, df2])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTc0NzUwMywxNjU4MjEzMDU0LC0yMD
-MwNTg3NDIyLDEzMTYyNTA3OTQsMjkwNjU3ODE4LC04MjYxOTI4
-NjYsMTU2NDM4MjE5LC0xNDkzNDY3MzQxLDYzMDgzOTE4MSwtMT
-QwMDAzMDczNiwxMTc3MDU1MzY1LDE5OTg4ODc0NDldfQ==
+eyJoaXN0b3J5IjpbMTc1MzY1NDE5NSwyMTQxNzQ3NTAzLDE2NT
+gyMTMwNTQsLTIwMzA1ODc0MjIsMTMxNjI1MDc5NCwyOTA2NTc4
+MTgsLTgyNjE5Mjg2NiwxNTY0MzgyMTksLTE0OTM0NjczNDEsNj
+MwODM5MTgxLC0xNDAwMDMwNzM2LDExNzcwNTUzNjUsMTk5ODg4
+NzQ0OV19
 -->
