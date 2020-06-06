@@ -309,6 +309,8 @@ df.column_name.command()
 |`unique`|List of unique values in column
 |`isnull`| Returns true if value stored is null
 
+### `pct_change()` 
+Percentage change between the current and a prior element.
 
 ### Calculating aggregate functions (.gorupby)
 ```py
@@ -368,9 +370,10 @@ dp.concat([df1, df2])
 `import seaborn as sns`
 `tips` - An example data set
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDkyMjc1NSwxNzc3Nzc2NDI1LC0yMD
-E5MDI4NjAzLDIxNDE3NDc1MDMsMTY1ODIxMzA1NCwtMjAzMDU4
-NzQyMiwxMzE2MjUwNzk0LDI5MDY1NzgxOCwtODI2MTkyODY2LD
-E1NjQzODIxOSwtMTQ5MzQ2NzM0MSw2MzA4MzkxODEsLTE0MDAw
-MzA3MzYsMTE3NzA1NTM2NSwxOTk4ODg3NDQ5XX0=
+eyJoaXN0b3J5IjpbNzY0MDA5OTA1LDIxMjQ5MjI3NTUsMTc3Nz
+c3NjQyNSwtMjAxOTAyODYwMywyMTQxNzQ3NTAzLDE2NTgyMTMw
+NTQsLTIwMzA1ODc0MjIsMTMxNjI1MDc5NCwyOTA2NTc4MTgsLT
+gyNjE5Mjg2NiwxNTY0MzgyMTksLTE0OTM0NjczNDEsNjMwODM5
+MTgxLC0xNDAwMDMwNzM2LDExNzcwNTUzNjUsMTk5ODg4NzQ0OV
+19
 -->
